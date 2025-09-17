@@ -29,9 +29,9 @@ yarn
 pnpm install
 ```
 
-```bash
 Crie um arquivo .env.local na raiz do projeto com suas credenciais do Firebase:
 
+```bash
 NEXT_PUBLIC_FIREBASE_API_KEY=your_api_key
 NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_project_id.firebaseapp.com
 NEXT_PUBLIC_FIREBASE_DATABASE_URL=https://your_project_id-default-rtdb.firebaseio.com
