@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { database } from "@/lib/firebase";
-import { ref, set, get, update } from "firebase/database";
+import { ref, set, get } from "firebase/database";
 import { v4 as uuidv4 } from "uuid";
 import Link from "next/link";
 import songsInternal from "@/lib/songsInternal.json";
