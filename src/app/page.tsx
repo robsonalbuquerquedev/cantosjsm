@@ -31,7 +31,10 @@ export default function Home() {
     const unsubscribe = onValue(songsRef, (snapshot) => {
       const data = snapshot.val() || {};
 
-      const uniqueSongs = Object.entries(data).reduce((acc: Song[], [id, song]: any) => {
+      // Tipa o objeto do Firebase
+      const songsObj = data as Record<string, Song>;
+
+      const uniqueSongs = Object.entries(songsObj).reduce((acc: Song[], [id, song]) => {
         if (!acc.some((s) => s.title.toLowerCase() === song.title.toLowerCase())) {
           acc.push({ id, ...song });
         }

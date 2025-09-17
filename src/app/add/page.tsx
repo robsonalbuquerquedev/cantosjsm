@@ -16,6 +16,13 @@ function searchInternalSong(title: string) {
     );
 }
 
+interface Song {
+    title: string;
+    tone: string;
+    lyrics: string;
+    source?: string;
+}
+
 export default function AddSongPage() {
     const [title, setTitle] = useState("");
     const [tone, setTone] = useState("");
@@ -34,8 +41,8 @@ export default function AddSongPage() {
         try {
             const snapshot = await get(ref(database, "songs"));
             const songs = snapshot.val() || {};
-            const exists = Object.values(songs).some(
-                (song: any) => song.title.toLowerCase() === title.toLowerCase()
+            const exists = Object.values(songs as Record<string, Song>).some(
+                (song) => song.title.toLowerCase() === title.toLowerCase()
             );
 
             if (exists) {
