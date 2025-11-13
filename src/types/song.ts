@@ -4,7 +4,9 @@ export interface Song {
     description?: string;
     lyrics: string;
     key?: string;
-    chords?: string;
+    copyright?: string;
+    fullLyricsUrl?: string;
+    isPublicDomain?: boolean;
     category:
     | "entrada"
     | "ato-penitencial"
