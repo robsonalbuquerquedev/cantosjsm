@@ -9,5 +9,16 @@
         "copyright": "© CNBB – Conferência Nacional dos Bispos do Brasil.",
         "fullLyricsUrl": "https://musicasparamissa.com.br/musica/alegres-vamos-a-casa-do-pai/",
         "isPublicDomain": false
+    },
+    {
+        "id": "2",
+        "name": "Senhor Que Vieste Salvar",
+        "description": "Ato Penitencial para celebrações do Tempo Comum.",
+        "lyrics": "  C          G       C\nSenhor que vieste salvar\n      F           G    C  C7\nOs corações arrependi..idos\n   F Fm     C Am     Dm   G     C   C7\nPiedade, piedade, pieda...de de nós\n   F  Fm    C Am       Dm   G     C   G7\nPiedade, piedade, pieda...de de nós",
+        "key": "C",
+        "category": "ato-penitencial",
+        "copyright": "© Padre Zeca",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/p/padre-zeca/senhor-que-vieste-salvar",
+        "isPublicDomain": false
     }
 ]
