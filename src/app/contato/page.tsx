@@ -30,28 +30,28 @@ export default function ContatoPage() {
     }
 
     return (
-        <main className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 py-20 gap-10 text-white">
+        <main className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 py-20 gap-10">
 
             {/* 🎨 Lado esquerdo – Mensagem + Ícones litúrgicos */}
             <motion.div
                 initial={{ opacity: 0, x: -30 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8 }}
-                className="md:w-1/2 flex flex-col space-y-6"
+                className="md:w-1/2 flex flex-col space-y-6 text-white"
             >
                 <h1 className="text-4xl font-bold text-amber-300">
                     Entre em contato com a JSM
                 </h1>
 
-                <p className="text-lg text-gray-100 leading-relaxed">
+                <p className="text-lg leading-relaxed">
                     Este espaço foi criado especialmente para receber suas{" "}
                     <span className="text-amber-200 font-semibold">sugestões de músicas</span>,
                     letras que ainda não foram adicionadas e também{" "}
-                    <span className="text-amber-200 font-semibold">feedbacks</span>
-                    sobre o projeto CantosJSM.
+                    <span className="text-amber-200 font-semibold">feedbacks</span> sobre o
+                    projeto CantosJSM.
                 </p>
 
-                <p className="text-lg text-gray-100 leading-relaxed">
+                <p className="text-lg leading-relaxed">
                     A JSM faz parte do carisma das Irmãs de Santa Maria — uma congregação
                     presente no mundo todo — e este site nasceu da nossa vivência real:
                     sentimos diariamente a dificuldade de buscar cantos para ensaios e
@@ -93,20 +93,20 @@ export default function ContatoPage() {
                 </div>
             </motion.div>
 
-            {/* 📝 Lado direito – Formulário */}
+            {/* 📝 Lado direito – Formulário estilizado no padrão sólido */}
             <motion.div
                 initial={{ opacity: 0, x: 30 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8 }}
-                className="md:w-1/2 w-full bg-white/10 backdrop-blur-md border border-white/20 shadow-lg rounded-2xl p-8"
+                className="md:w-1/2 w-full bg-white text-black rounded-2xl p-8 md:p-10 shadow-xl border-l-4 border-amber-400"
             >
-                <h2 className="text-2xl font-semibold mb-4 text-amber-300">
+                <h2 className="text-2xl font-bold mb-4 text-amber-700">
                     Envie sua mensagem
                 </h2>
 
                 {/* Feedback de sucesso */}
                 {sent && (
-                    <div className="mb-4 text-green-300 font-semibold">
+                    <div className="mb-4 text-green-600 font-semibold">
                         Sua mensagem foi enviada com sucesso! Obrigado! 🌟
                     </div>
                 )}
@@ -117,7 +117,7 @@ export default function ContatoPage() {
                         name="nome"
                         required
                         placeholder="Seu nome"
-                        className="w-full bg-white/20 border border-white/30 rounded-xl px-4 py-3 text-white placeholder-gray-300 focus:ring-2 focus:ring-amber-400 outline-none"
+                        className="w-full border border-gray-300 rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-amber-500"
                     />
 
                     <input
@@ -125,7 +125,7 @@ export default function ContatoPage() {
                         name="email"
                         required
                         placeholder="Seu e-mail"
-                        className="w-full bg-white/20 border border-white/30 rounded-xl px-4 py-3 text-white placeholder-gray-300 focus:ring-2 focus:ring-amber-400 outline-none"
+                        className="w-full border border-gray-300 rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-amber-500"
                     />
 
                     <textarea
@@ -133,7 +133,7 @@ export default function ContatoPage() {
                         rows={6}
                         required
                         placeholder="Sugestões de músicas, letras novas, mensagens..."
-                        className="w-full bg-white/20 border border-white/30 rounded-xl px-4 py-3 text-white placeholder-gray-300 focus:ring-2 focus:ring-amber-400 outline-none"
+                        className="w-full border border-gray-300 rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-amber-500"
                     ></textarea>
 
                     <button

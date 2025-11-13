@@ -1,73 +1,92 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
 import Link from "next/link";
-import { Music, BookOpen, Mic2 } from "lucide-react";
+import {
+  BookOpen,
+  Music,
+  Mic2,
+  Sparkles,
+  Star,
+  HeartHandshake,
+} from "lucide-react";
 
 export default function Home() {
+  const sections = [
+    { label: "Entrada", path: "/entrada", icon: Music },
+    { label: "Ato Penitencial", path: "/ato-penitencial", icon: Star },
+    { label: "Glória", path: "/gloria", icon: Sparkles },
+    { label: "Salmo", path: "/salmo", icon: BookOpen },
+    { label: "Aclamação", path: "/aclamacao", icon: Mic2 },
+    { label: "Ofertório", path: "/ofertorio", icon: HeartHandshake },
+    { label: "Santo", path: "/santo", icon: Star },
+    { label: "Amém", path: "/amem", icon: Music },
+    { label: "Cordeiro", path: "/cordeiro", icon: Mic2 },
+    { label: "Comunhão", path: "/comunhao", icon: BookOpen },
+    { label: "Final", path: "/final", icon: Sparkles },
+  ];
+
   return (
-    <main className="min-h-screen flex flex-col md:flex-row items-center justify-center px-8 py-16 text-white relative">
-      {/* 🎵 Lado esquerdo: Mensagem e logo */}
-      <motion.div
+    <main className="min-h-screen flex flex-col md:flex-row items-center justify-center px-8 py-20 gap-10">
+
+      {/* 🟨 Lado Esquerdo — Apresentação Detalhada */}
+      <motion.article
         initial={{ opacity: 0, x: -40 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8 }}
-        className="flex flex-col items-center md:items-start md:w-1/2 text-center md:text-left space-y-6"
+        className="md:w-1/2 w-full bg-white text-black rounded-2xl p-10 shadow-xl border-l-4 border-amber-400 space-y-6 relative"
       >
-        <Image
-          src="/logo.png"
-          alt="Logo CantosJSM"
-          width={100}
-          height={100}
-          className="rounded-full border-4 border-white/30 shadow-md"
-        />
+        {/* Faixa decorativa litúrgica */}
+        <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-300 rounded-t-2xl" />
 
-        <h1 className="text-4xl md:text-5xl font-bold">
-          Bem-vindo ao <span className="text-yellow-300">CantosJSM</span>
-        </h1>
-        <p className="text-lg text-gray-200 max-w-md">
-          Encontre facilmente todos os cantos litúrgicos da missa —
-          organizados por momento, com letra, tom e cifras. Uma ferramenta feita
-          para ajudar seu ministério de música a louvar com mais harmonia.
-        </p>
+        <div className="flex flex-col items-center md:items-start space-y-4">
 
-        <div className="flex flex-wrap gap-4 mt-6">
-          <Link
-            href="/entrada"
-            className="bg-yellow-400 text-black px-5 py-2 rounded-xl font-semibold hover:bg-yellow-300 transition"
-          >
-            Começar Agora
-          </Link>
+          {/* Título aprimorado */}
+          <h1 className="text-4xl md:text-5xl font-extrabold text-center md:text-left text-amber-700 drop-shadow-sm">
+            Bem-vindo ao
+            <br />
+            <span className="bg-gradient-to-r from-amber-700 to-yellow-600 bg-clip-text text-transparent">
+              CantosJSM
+            </span>
+          </h1>
+
+          {/* Texto elegante */}
+          <p className="text-lg leading-relaxed text-gray-700 max-w-md">
+            Um espaço criado com carinho para ajudar ministérios de música a
+            encontrarem cantos litúrgicos com mais facilidade — organizados por
+            momento da missa, com trechos permitidos, tom e cifras opcionais.
+          </p>
         </div>
-      </motion.div>
+      </motion.article>
 
-      {/* 🎶 Lado direito: Hero Cards com seções */}
+      {/* 🟦 Lado Direito — Cards litúrgicos elegantes */}
       <motion.div
         initial={{ opacity: 0, x: 40 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8, delay: 0.3 }}
-        className="grid grid-cols-2 sm:grid-cols-3 gap-4 md:w-1/2 mt-10 md:mt-0"
+        className="md:w-1/2 grid grid-cols-2 sm:grid-cols-3 gap-5"
       >
-        {[
-          { label: "Entrada", path: "/entrada" },
-          { label: "Ato Penitencial", path: "/ato-penitencial" },
-          { label: "Glória", path: "/gloria" },
-          { label: "Salmo", path: "/salmo" },
-          { label: "Aclamação", path: "/aclamacao" },
-          { label: "Ofertório", path: "/ofertorio" },
-          { label: "Santo", path: "/santo" },
-          { label: "Amém", path: "/amem" },
-          { label: "Cordeiro", path: "/cordeiro" },
-          { label: "Comunhão", path: "/comunhao" },
-          { label: "Final", path: "/final" },
-        ].map((item, index) => (
+        {sections.map(({ label, path, icon: Icon }) => (
           <Link
-            key={item.path}
-            href={item.path}
-            className="bg-white/10 hover:bg-white/20 transition p-4 rounded-xl text-center backdrop-blur-md border border-white/10 hover:-translate-y-1 duration-300"
+            key={path}
+            href={path}
+            className="
+              bg-white 
+              text-black 
+              p-5 
+              rounded-2xl 
+              border border-gray-200 
+              shadow-md 
+              hover:shadow-xl 
+              hover:-translate-y-1 
+              transition-all 
+              flex flex-col 
+              items-center 
+              gap-3
+            "
           >
-            <p className="font-semibold">{item.label}</p>
+            <Icon className="text-amber-600" size={28} />
+            <span className="font-semibold text-center">{label}</span>
           </Link>
         ))}
       </motion.div>
