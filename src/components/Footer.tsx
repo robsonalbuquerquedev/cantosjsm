@@ -5,35 +5,65 @@ import { Music, Heart } from "lucide-react";
 
 export default function Footer() {
     return (
-        <footer className="mt-16 w-full bg-white/30 backdrop-blur-md border-t border-white/20 text-gray-900">
-            <div className="max-w-6xl mx-auto px-6 py-8 flex flex-col md:flex-row items-center justify-between gap-4">
+        <footer className="mt-20 w-full bg-white text-black border-t border-gray-200">
+            <div className="max-w-6xl mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-3 gap-10">
 
-                {/* 🌿 Identidade CantosJSM */}
-                <div className="text-center md:text-left">
-                    <h3 className="font-semibold text-lg text-amber-700">CantosJSM</h3>
-                    <p className="text-sm">Juventude de Santa Maria — Servindo em Canção</p>
+                {/* 🌿 Identidade */}
+                <div>
+                    <h3 className="font-bold text-xl text-amber-700 mb-2">CantosJSM</h3>
+                    <p className="text-sm text-gray-700">
+                        Juventude de Santa Maria — Servindo em Canção.
+                    </p>
+                    <p className="text-sm text-gray-700 mt-1">
+                        Um projeto feito com carinho para ministérios de música de todo o Brasil.
+                    </p>
                 </div>
 
-                {/* 🎵 CTA para Aprender Violão */}
-                <div className="text-center">
-                    <p className="text-sm mb-1">Conheça também:</p>
-                    <Link
-                        href="https://aprenderviolaoonline.com.br/"
-                        target="_blank"
-                        className="inline-flex items-center gap-2 bg-amber-600 hover:bg-amber-500 text-white px-4 py-2 rounded-xl shadow-lg transition"
-                    >
-                        <Music size={18} />
-                        Aprender Violão Online
-                    </Link>
+                {/* 🔗 Navegação */}
+                <div className="flex flex-col space-y-2">
+                    <h4 className="font-semibold text-lg mb-2 text-amber-700">Navegação</h4>
+
+                    <Link href="/" className="hover:text-amber-700 transition">Página Inicial</Link>
+                    <Link href="/sobre" className="hover:text-amber-700 transition">Sobre</Link>
+                    <Link href="/contato" className="hover:text-amber-700 transition">Contato</Link>
+
+                    <Link href="/agradecimentos" className="hover:text-amber-700 transition">Agradecimentos</Link>
+                    <Link href="/politica-de-privacidade" className="hover:text-amber-700 transition">Política de Privacidade</Link>
+                    <Link href="/termos-de-uso" className="hover:text-amber-700 transition">Termos de Uso</Link>
                 </div>
 
-                {/* ❤️ Créditos */}
-                <div className="text-center md:text-right text-sm text-gray-800 flex flex-col">
-                    <span className="flex items-center justify-center md:justify-end gap-1">
-                        Feito com <Heart size={14} className="text-red-500" /> pela JSM
-                    </span>
-                    <span>© {new Date().getFullYear()} CantosJSM</span>
+                {/* 🎶 Partes da Missa */}
+                <div className="flex flex-col space-y-2">
+                    <h4 className="font-semibold text-lg mb-2 text-amber-700">Cantos Litúrgicos</h4>
+
+                    <Link href="/entrada" className="hover:text-amber-700 transition">Entrada</Link>
+                    <Link href="/ato-penitencial" className="hover:text-amber-700 transition">Ato Penitencial</Link>
+                    <Link href="/gloria" className="hover:text-amber-700 transition">Glória</Link>
+                    <Link href="/salmo" className="hover:text-amber-700 transition">Salmo</Link>
+                    <Link href="/aclamacao" className="hover:text-amber-700 transition">Aclamação</Link>
+                    <Link href="/ofertorio" className="hover:text-amber-700 transition">Ofertório</Link>
+                    <Link href="/santo" className="hover:text-amber-700 transition">Santo</Link>
+                    <Link href="/amem" className="hover:text-amber-700 transition">Amém</Link>
+                    <Link href="/cordeiro" className="hover:text-amber-700 transition">Cordeiro</Link>
+                    <Link href="/comunhao" className="hover:text-amber-700 transition">Comunhão</Link>
+                    <Link href="/final" className="hover:text-amber-700 transition">Final</Link>
                 </div>
+            </div>
+
+            {/* ⚡ Rodapé final */}
+            <div className="border-t border-gray-200 py-4 text-center text-sm flex flex-col md:flex-row items-center justify-center gap-2">
+                <span className="flex items-center gap-1">
+                    Feito com <Heart size={14} className="text-red-500" /> pela JSM
+                </span>
+                <span>• © {new Date().getFullYear()} CantosJSM</span>
+
+                <Link
+                    href="https://aprenderviolaoonline.com.br/"
+                    target="_blank"
+                    className="inline-flex items-center gap-1 text-amber-700 font-semibold hover:underline"
+                >
+                    <Music size={16} /> Aprender Violão Online
+                </Link>
             </div>
         </footer>
     );
