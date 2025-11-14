@@ -20,5 +20,82 @@
         "copyright": "© Padre Zeca",
         "fullLyricsUrl": "https://www.bananacifras.com/simplificada/p/padre-zeca/senhor-que-vieste-salvar",
         "isPublicDomain": false
+    },
+    {
+        "id": "3",
+        "name": "Glória Glória Glória Aleluia",
+        "description": "Glória para celebrações do Tempo Comum.",
+        "lyrics": "A                          E7\nGLÓRIA, GLÓRIA, GLÓRIA, ALELUIA!\n                            A\nGLÓRIA, GLÓRIA, GLÓRIA, ALELUIA!\nA7                        D\nGLÓRIA, GLÓRIA, GLÓRIA A DEUS NOS ALTOS CÉUS\n       A       E7     A\nPAZ NA TERRA A TODOS NÓS!\nA                      E7\nDEUS E PAI NÓS VOS LOUVAMOS: (GLÓRIA A DEUS!)\n                A\nADORAMOS, BENDIZEMOS (GLÓRIA A DEUS!)\nA7                     D\nDAMOS GLÓRIA AO VOSSO NOME: (GLÓRIA A DEUS!)\n       A     E7    A\nVOSSOS DONS AGRADECEMOS",
+        "key": "A",
+        "category": "gloria",
+        "copyright": "© Frei Fabreti",
+        "fullLyricsUrl": "https://musicasparamissa.com.br/musica/gloria-gloria-gloria-aleluia/",
+        "isPublicDomain": false
+    },
+    {
+        "id": "4",
+        "name": "Aleluia, Aleluia, Aleluia, Alelu...u...u...uia",
+        "description": "Canto de Aclamação para celebrações do Tempo Comum.",
+        "lyrics": "C        G        Am         F    G         C\nAleluia, aleluia, aleluia, alelu___u___u___uia\nAm\nSe alguém me ama\n                     G\nGuardará a minha palavra\nDm\nE meu Pai o amará\n                G\nE a Ele nós viremos",
+        "key": "C",
+        "category": "aclamacao",
+        "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
+        "fullLyricsUrl": "https://www.cifraclub.com.br/catolicas/aleluia-aleluia-aleluia-alelu-u-u-uia/",
+        "isPublicDomain": false
+    },
+    {
+        "id": "5",
+        "name": "A Mesa Santa",
+        "description": "Canto de Ofertório para celebrações do Tempo Comum.",
+        "lyrics": " F      Dm            Am\nA mesa santa que preparamos\n              A#      C        F\nMãos que se elevam a Ti, ó Senhor\n          Dm              Am\nO pão e o vinho, frutos da Terra\n         A#       E       A\nDuro trabalho, carinho e amor\nA#  C   Dm          Am\nÔ,  ô,  ô, recebe, Senhor\nA#  C     C7        F\nÔ,  ô,  recebe, Senhor",
+        "key": "F",
+        "category": "ofertorio",
+        "copyright": "© Pe. Almir G. dos Reis",
+        "fullLyricsUrl": "https://musicasparamissa.com.br/musica/a-mesa-santa-que-preparamos/",
+        "isPublicDomain": false
+    },
+    {
+        "id": "6",
+        "name": "Santo, Santo, Santo, Senhor Deus Do universo",
+        "description": "Santo para celebrações do Tempo Comum.",
+        "lyrics": " B             G#m      E              F#\nSanto, Santo, Santo, Senhor Deus do universo\n   B                G#m       E        F#  \nO céu e a terra proclamam a vossa glória\n  B         G#m        E     F#\nHosana nas alturas, Hosa...na\n B        G#m        E      F#\nHosana nas alturas, Hosa...na",
+        "key": "B",
+        "category": "santo",
+        "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/c/catolicas/santo-deus-do-universo",
+        "isPublicDomain": false
+    },
+    {
+        "id": "7",
+        "name": "Pão Da Vida",
+        "description": "Canto de Comunhão para celebrações do Tempo Comum.",
+        "lyrics": " D              G            D                  G           A\nNa comunhão, Jesus se dá no pão, o cordeiro imolado é refeição\n D                  G          D                     G           A\nNosso alimento de amor e salvação, em torno deste altar somos irmãos\n          D             G            D              G\nO pão da vida és Tu, Jesus, o pão do céu  (o pão do céu)\n     D           G            D           C     A          D\nO caminho, a verdade, via de amor, Dom de Deus, nosso redentor",
+        "key": "D",
+        "category": "comunhao",
+        "copyright": "© Padre Zeca",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/c/catolicas/pao-da-vida",
+        "isPublicDomain": false
+    },
+    {
+        "id": "8",
+        "name": "A Escolhida",
+        "description": "Canto Final para celebrações do Tempo Comum.",
+        "lyrics": "D                     A\nUma entre todas foi a escolhida\n Bm                     F#m\nFoste tu Maria a serva preferida\n G             D\nMãe do meu Senhor\n E              A\nMãe do meu salvador\n   D     G                  D\nMaria, cheia de graça e consolo\n Bm                    E\nVenha caminhar com teu povo\n G         A        D  A\nNossa mãe sempre será",
+        "key": "D",
+        "category": "final",
+        "copyright": "© Paulo Cesar",
+        "fullLyricsUrl": "https://www.cifraclub.com.br/catolicas/a-escolhida/#key=5",
+        "isPublicDomain": false
+    },
+    {
+        "id": "9",
+        "name": "Hino Jubilar das ISMN no Brasil",
+        "description": "Composto pelas Irmãs e membros da Juventude de Santa Maria em comemoração aos 50 anos das ISMN no Brasil.",
+        "lyrics": "Ref.: Venham todos, venham celebrar\nEsta travessia jubilar\nDas Irmãs peregrinas neste chão\nLouvar a Deus com amor e gratidão!\n\n1. Aqui estamos fazendo memória\nDos 50 anos de história\nVindas da África para o Brasil\nEm Poço Verde a semente floriu!\n\n2. Juntas, em comunidade\nVivendo a diversidade\nNa escuta, partilha e perdão\nTudo ofertamos com a criação!\n\n3. A força da palavra nos motiva\nA estar perto de quem mais precisa\nArtesãs do cuidado e da vida\nEis-nos aqui, Senhor, nesta lida!\n\n4. Itinerantes sempre a caminhar\nO evangelho a testemunhar\nSeguindo os passos de Cristo Jesus\nE para o povo sendo sal e luz!\n\n5. Mulheres que em sua identidade\nCarregam traços de simplicidade\nEsperança, fé, alegria\nA exemplo da Virgem Maria!",
+        "key": "C",
+        "category": "hinos",
+        "copyright": "© Ir. Josenilde SMN, Milena Beatriz, Brenda Emily, Mariele Wiegas — uso autorizado pela JSM/ISMN.",
+        "fullLyricsUrl": "",
+        "isPublicDomain": false
     }
 ]
