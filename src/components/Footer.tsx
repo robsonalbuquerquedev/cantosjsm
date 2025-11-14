@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Music, Heart, Bookmark } from "lucide-react";
+import { Music, Heart } from "lucide-react";
 
 export default function Footer() {
     return (

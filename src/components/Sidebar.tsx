@@ -33,6 +33,12 @@ interface SidebarProps {
     onClose: () => void;
 }
 
+interface SidebarRoute {
+    label: string;
+    href: string;
+    icon: React.ComponentType<{ size?: number; className?: string }>;
+}
+
 export default function Sidebar({ isOpen, onClose }: SidebarProps) {
 
     const [openSection, setOpenSection] = useState<string | null>(null);
@@ -71,7 +77,11 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
         { label: "Agradecimentos", href: "/agradecimentos", icon: Sparkles },
     ];
 
-    const renderSection = (title: string, key: string, routes: any[]) => (
+    const renderSection = (
+        title: string,
+        key: string,
+        routes: SidebarRoute[]
+    ) => (
         <div className="mb-6">
             <button
                 onClick={() => toggle(key)}

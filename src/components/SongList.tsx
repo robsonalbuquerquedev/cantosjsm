@@ -9,7 +9,6 @@ import {
     ChevronRight,
     ExternalLink,
     RotateCcw,
-    Music,
 } from "lucide-react";
 
 interface SongListProps {
