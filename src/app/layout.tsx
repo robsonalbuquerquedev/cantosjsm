@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     title: "CantosJSM",
     description:
       "Banco de cantos litúrgicos colaborativo criado pela Juventude de Santa Maria.",
-    url: "https://cantosjsm.vercel.app/",
+    url: "https://cantosjsm.com.br",
     siteName: "CantosJSM",
     type: "website",
     locale: "pt_BR",
