@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://cantosjsm.com.br
+
+# Sitemaps
+Sitemap: https://cantosjsm.com.br/sitemap.xml
