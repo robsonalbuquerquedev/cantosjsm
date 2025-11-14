@@ -85,7 +85,7 @@ export default function Header() {
                     {/* 📱 Botão Mobile */}
                     <button
                         onClick={() => setIsOpen(true)}
-                        className="text-gray-800 md:hidden"
+                        className="text-gray-800 md:hidden cursor-pointer"
                     >
                         <Menu size={28} />
                     </button>

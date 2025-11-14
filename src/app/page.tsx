@@ -9,6 +9,11 @@ import {
   Sparkles,
   Star,
   HeartHandshake,
+  Library,
+  Crown,
+  Flame,
+  HandHeart,
+  Church
 } from "lucide-react";
 
 export default function Home() {
@@ -24,6 +29,13 @@ export default function Home() {
     { label: "Cordeiro", path: "/cordeiro", icon: Mic2 },
     { label: "Comunhão", path: "/comunhao", icon: BookOpen },
     { label: "Final", path: "/final", icon: Sparkles },
+
+    // NOVAS CATEGORIAS
+    { label: "Hinos", path: "/hinos", icon: Library },
+    { label: "Marianas", path: "/marianas", icon: Crown },
+    { label: "Espírito Santo", path: "/espirito-santo", icon: Flame },
+    { label: "Adoração", path: "/adoracao", icon: HandHeart },
+    { label: "Padroeiro da Cidade", path: "/padroeiro-da-cidade", icon: Church },
   ];
 
   return (
@@ -36,12 +48,9 @@ export default function Home() {
         transition={{ duration: 0.8 }}
         className="md:w-1/2 w-full bg-white text-black rounded-2xl p-10 shadow-xl border-l-4 border-amber-400 space-y-6 relative"
       >
-        {/* Faixa decorativa litúrgica */}
         <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-300 rounded-t-2xl" />
 
         <div className="flex flex-col items-center md:items-start space-y-4">
-
-          {/* Título aprimorado */}
           <h1 className="text-4xl md:text-5xl font-extrabold text-center md:text-left text-amber-700 drop-shadow-sm">
             Bem-vindo ao
             <br />
@@ -50,11 +59,11 @@ export default function Home() {
             </span>
           </h1>
 
-          {/* Texto elegante */}
           <p className="text-lg leading-relaxed text-gray-700 max-w-md">
             Um espaço criado com carinho para ajudar ministérios de música a
-            encontrarem cantos litúrgicos com mais facilidade — organizados por
-            momento da missa, com trechos permitidos, tom e cifras opcionais.
+            encontrarem cantos litúrgicos e devocionais com facilidade — organizados por
+            momento da missa e por categorias espirituais, com trechos permitidos,
+            tom e cifras opcionais.
           </p>
         </div>
       </motion.article>

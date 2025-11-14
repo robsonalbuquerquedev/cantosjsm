@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Music, Heart } from "lucide-react";
+import { Music, Heart, Bookmark } from "lucide-react";
 
 export default function Footer() {
     return (
@@ -19,34 +19,45 @@ export default function Footer() {
                     </p>
                 </div>
 
-                {/* 🔗 Navegação */}
+                {/* 🧭 Navegação institucional */}
                 <div className="flex flex-col space-y-2">
                     <h4 className="font-semibold text-lg mb-2 text-amber-700">Navegação</h4>
 
                     <Link href="/" className="hover:text-amber-700 transition">Página Inicial</Link>
                     <Link href="/sobre" className="hover:text-amber-700 transition">Sobre</Link>
                     <Link href="/contato" className="hover:text-amber-700 transition">Contato</Link>
-
                     <Link href="/agradecimentos" className="hover:text-amber-700 transition">Agradecimentos</Link>
                     <Link href="/politica-de-privacidade" className="hover:text-amber-700 transition">Política de Privacidade</Link>
                     <Link href="/termos-de-uso" className="hover:text-amber-700 transition">Termos de Uso</Link>
                 </div>
 
-                {/* 🎶 Partes da Missa */}
+                {/* 🎵 Navegação simplificada de cantos */}
                 <div className="flex flex-col space-y-2">
-                    <h4 className="font-semibold text-lg mb-2 text-amber-700">Cantos Litúrgicos</h4>
+                    <h4 className="font-semibold text-lg mb-2 text-amber-700">Cantos</h4>
 
-                    <Link href="/entrada" className="hover:text-amber-700 transition">Entrada</Link>
-                    <Link href="/ato-penitencial" className="hover:text-amber-700 transition">Ato Penitencial</Link>
-                    <Link href="/gloria" className="hover:text-amber-700 transition">Glória</Link>
-                    <Link href="/salmo" className="hover:text-amber-700 transition">Salmo</Link>
-                    <Link href="/aclamacao" className="hover:text-amber-700 transition">Aclamação</Link>
-                    <Link href="/ofertorio" className="hover:text-amber-700 transition">Ofertório</Link>
-                    <Link href="/santo" className="hover:text-amber-700 transition">Santo</Link>
-                    <Link href="/amem" className="hover:text-amber-700 transition">Amém</Link>
-                    <Link href="/cordeiro" className="hover:text-amber-700 transition">Cordeiro</Link>
-                    <Link href="/comunhao" className="hover:text-amber-700 transition">Comunhão</Link>
-                    <Link href="/final" className="hover:text-amber-700 transition">Final</Link>
+                    <Link href="/entrada" className="hover:text-amber-700 transition">
+                        Partes da Missa
+                    </Link>
+
+                    <Link href="/hinos" className="hover:text-amber-700 transition">
+                        Hinos Litúrgicos
+                    </Link>
+
+                    <Link href="/marianas" className="hover:text-amber-700 transition">
+                        Cantos Marianos
+                    </Link>
+
+                    <Link href="/espirito-santo" className="hover:text-amber-700 transition">
+                        Espírito Santo
+                    </Link>
+
+                    <Link href="/adoracao" className="hover:text-amber-700 transition">
+                        Adoração
+                    </Link>
+
+                    <Link href="/padroeiro-da-cidade" className="hover:text-amber-700 transition">
+                        Padroeiro da Cidade
+                    </Link>
                 </div>
             </div>
 
