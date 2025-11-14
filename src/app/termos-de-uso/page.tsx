@@ -147,7 +147,7 @@ export default function TermosDeUsoPage() {
                         Para solicitações de dados, remoção de imagem, atualização de informações ou
                         dúvidas gerais, entre em contato através de:
                     </p>
-                    <p className="font-semibold">📧 contato.cantosjsm@gmail.com</p>
+                    <p className="font-semibold">📧 jsmribeiraope@gmail.com</p>
                 </section>
 
                 {/* 10. Alterações */}

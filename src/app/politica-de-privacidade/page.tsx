@@ -139,7 +139,7 @@ export default function PoliticaDePrivacidadePage() {
                     <p className="leading-relaxed">
                         Para solicitações relacionadas à privacidade:
                     </p>
-                    <p className="font-semibold">📧 contato.cantosjsm@gmail.com</p>
+                    <p className="font-semibold">📧 jsmribeiraope@gmail.com</p>
                 </section>
 
                 {/* 11. Alterações */}
