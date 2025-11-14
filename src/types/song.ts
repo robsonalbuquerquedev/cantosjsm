@@ -18,5 +18,10 @@ export interface Song {
     | "amem"
     | "cordeiro"
     | "comunhao"
-    | "final";
+    | "final"
+    | "hinos"
+    | "marianas"
+    | "espirito-santo"
+    | "adoracao"
+    | "padroeiro-da-cidade";
 }
