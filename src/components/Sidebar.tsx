@@ -25,7 +25,8 @@ import {
     Church,
     Info,
     Mail,
-    ShieldCheck
+    ShieldCheck,
+    BookOpen
 } from "lucide-react";
 
 interface SidebarProps {
@@ -75,6 +76,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
         { label: "Política de Privacidade", href: "/politica-de-privacidade", icon: ShieldCheck },
         { label: "Termos de Uso", href: "/termos-de-uso", icon: BookOpenCheck },
         { label: "Agradecimentos", href: "/agradecimentos", icon: Sparkles },
+        { label: "Guia Litúrgico", href: "/guia-liturgico", icon: BookOpen },
     ];
 
     const renderSection = (

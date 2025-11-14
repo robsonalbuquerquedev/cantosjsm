@@ -3,7 +3,14 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Menu, Info, Mail, HeartHandshake } from "lucide-react";
+import {
+    Menu,
+    Info,
+    Mail,
+    HeartHandshake,
+    BookOpen,
+    Home
+} from "lucide-react";
 import Sidebar from "@/components/Sidebar";
 
 export default function Header() {
@@ -22,7 +29,7 @@ export default function Header() {
                 className={`
                     fixed top-0 left-0 w-full z-50 
                     transition-all duration-300 
-                    bg-white ${isScrolled ? "shadow-md" : "shadow-sm"} 
+                    bg-white ${isScrolled ? "shadow-lg" : "shadow-sm"} 
                     border-b border-gray-200
                 `}
             >
@@ -35,15 +42,24 @@ export default function Header() {
                             alt="Logo CantosJSM"
                             width={42}
                             height={42}
-                            className="rounded-full shadow"
+                            className="rounded-full shadow border border-gray-300"
                         />
-                        <span className="font-semibold text-gray-900 text-lg tracking-wide">
+                        <span className="font-bold text-gray-900 text-xl tracking-wide">
                             CantosJSM
                         </span>
                     </Link>
 
                     {/* 🧭 Navegação Desktop */}
-                    <nav className="hidden md:flex items-center gap-6">
+                    <nav className="hidden md:flex items-center gap-8">
+
+                        {/* 🔹 Início */}
+                        <Link
+                            href="/"
+                            className="flex items-center gap-2 text-sm font-medium text-gray-800 hover:text-amber-700 transition"
+                        >
+                            <Home size={18} className="text-amber-700" />
+                            Início
+                        </Link>
 
                         <Link
                             href="/sobre"
@@ -69,13 +85,22 @@ export default function Header() {
                             Agradecimentos
                         </Link>
 
+                        {/* ⭐ Guia Litúrgico */}
+                        <Link
+                            href="/guia-liturgico"
+                            className="flex items-center gap-2 text-sm font-medium text-gray-800 hover:text-amber-700 transition"
+                        >
+                            <BookOpen size={18} className="text-amber-700" />
+                            Guia Litúrgico
+                        </Link>
+
                         {/* CTA */}
                         <button
                             onClick={() => setIsOpen(true)}
                             className="
                                 cursor-pointer bg-amber-600 hover:bg-amber-500 
                                 text-white text-sm font-semibold 
-                                px-4 py-2 rounded-lg shadow transition
+                                px-4 py-2 rounded-lg shadow-md transition
                             "
                         >
                             Partes da Missa
