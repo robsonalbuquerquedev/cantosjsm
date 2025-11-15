@@ -1,13 +1,4 @@
-export interface Song {
-    id: string;
-    name: string;
-    description?: string;
-    lyrics: string;
-    key?: string;
-    copyright?: string;
-    fullLyricsUrl?: string;
-    isPublicDomain?: boolean;
-    category:
+export type SongCategory =
     | "entrada"
     | "ato-penitencial"
     | "gloria"
@@ -24,4 +15,15 @@ export interface Song {
     | "espirito-santo"
     | "adoracao"
     | "padroeiro-da-cidade";
+
+export interface Song {
+    id: number;
+    name: string;
+    description?: string;
+    lyrics: string;
+    key?: string;
+    copyright?: string;
+    fullLyricsUrl?: string;
+    isPublicDomain?: boolean;
+    categories: SongCategory[];
 }
