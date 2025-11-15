@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://cantosjsm.com.br"),
   title: "CantosJSM",
   description: "Banco de cantos litúrgicos colaborativo criado pela Juventude de Santa Maria.",
   keywords: [
