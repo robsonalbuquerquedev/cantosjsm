@@ -2,10 +2,12 @@
     {
         "id": "1",
         "name": "Alegres Vamos À Casa do Pai",
-        "description": "Canto de entrada para celebrações do Tempo Comum.",
-        "lyrics": "        C       G7      C  C7\nAlegres vamos à casa do Pai\n       F                   C\nE na alegria cantar seu louvor\nA7    Dm   G7     C    Am\nEm sua casa somos felizes\n       Dm      G7       C\nParticipamos da ceia do amor\n\n     Am      A7      Dm\nA alegria nos vem do Senhor\n     G7                  C\nSeu amor nos conduz pela mão\n      A         A7         Dm\nEle é luz que ilumina o seu povo\n         D7                 G7\nCom segurança lhe dá a salvação",
+        "description": "Canto de entrada destinado a acolher a assembleia e iniciar a celebração com alegria e unidade.",
+        "lyrics": "        C       G7      C  C7\nAlegres vamos à casa do Pai\n       F                   C\nE na alegria cantar seu louvor\nA7    Dm   G7     C    Am\nEm sua casa somos felizes\n       Dm      G7       C\nParticipamos da ceia do amor\n\n     Am      A7      Dm\nA alegria nos vem do Senhor\n     G7                  C\nSeu amor nos conduz pela mão\n      A         A7         Dm\nEle é luz que ilumina o seu povo\n         D7                 G7\nCom segurança lhe dá a salvação...",
         "key": "C",
-        "category": "entrada",
+        "categories": [
+            "entrada"
+        ],
         "copyright": "© CNBB – Conferência Nacional dos Bispos do Brasil.",
         "fullLyricsUrl": "https://musicasparamissa.com.br/musica/alegres-vamos-a-casa-do-pai/",
         "isPublicDomain": false
@@ -13,10 +15,12 @@
     {
         "id": "2",
         "name": "Senhor Que Vieste Salvar",
-        "description": "Ato Penitencial para celebrações do Tempo Comum.",
-        "lyrics": "  C          G       C\nSenhor que vieste salvar\n      F           G    C  C7\nOs corações arrependi..idos\n   F Fm     C Am     Dm   G     C   C7\nPiedade, piedade, pieda...de de nós\n   F  Fm    C Am       Dm   G     C   G7\nPiedade, piedade, pieda...de de nós",
+        "description": "Canto utilizado no Ato Penitencial, ajudando a comunidade a reconhecer suas faltas e pedir misericórdia.",
+        "lyrics": "  C          G       C\nSenhor que vieste salvar\n      F           G    C  C7\nOs corações arrependi..idos\n   F Fm     C Am     Dm   G     C   C7\nPiedade, piedade, pieda...de de nós\n   F  Fm    C Am       Dm   G     C   G7\nPiedade, piedade, pieda...de de nós...",
         "key": "C",
-        "category": "ato-penitencial",
+        "categories": [
+            "ato-penitencial"
+        ],
         "copyright": "© Padre Zeca",
         "fullLyricsUrl": "https://www.bananacifras.com/simplificada/p/padre-zeca/senhor-que-vieste-salvar",
         "isPublicDomain": false
@@ -24,10 +28,12 @@
     {
         "id": "3",
         "name": "Glória Glória Glória Aleluia",
-        "description": "Glória para celebrações do Tempo Comum.",
-        "lyrics": "A                          E7\nGLÓRIA, GLÓRIA, GLÓRIA, ALELUIA!\n                            A\nGLÓRIA, GLÓRIA, GLÓRIA, ALELUIA!\nA7                        D\nGLÓRIA, GLÓRIA, GLÓRIA A DEUS NOS ALTOS CÉUS\n       A       E7     A\nPAZ NA TERRA A TODOS NÓS!\nA                      E7\nDEUS E PAI NÓS VOS LOUVAMOS: (GLÓRIA A DEUS!)\n                A\nADORAMOS, BENDIZEMOS (GLÓRIA A DEUS!)\nA7                     D\nDAMOS GLÓRIA AO VOSSO NOME: (GLÓRIA A DEUS!)\n       A     E7    A\nVOSSOS DONS AGRADECEMOS",
+        "description": "Hino de louvor que exalta a grandeza de Deus no rito inicial da celebração.",
+        "lyrics": "A                          E7\nGLÓRIA, GLÓRIA, GLÓRIA, ALELUIA!\n                            A\nGLÓRIA, GLÓRIA, GLÓRIA, ALELUIA!\nA7                        D\nGLÓRIA, GLÓRIA, GLÓRIA A DEUS NOS ALTOS CÉUS\n       A       E7     A\nPAZ NA TERRA A TODOS NÓS!\nA                      E7\nDEUS E PAI NÓS VOS LOUVAMOS: (GLÓRIA A DEUS!)\n                A\nADORAMOS, BENDIZEMOS (GLÓRIA A DEUS!)\nA7                     D\nDAMOS GLÓRIA AO VOSSO NOME: (GLÓRIA A DEUS!)\n       A     E7    A\nVOSSOS DONS AGRADECEMOS...",
         "key": "A",
-        "category": "gloria",
+        "categories": [
+            "gloria"
+        ],
         "copyright": "© Frei Fabreti",
         "fullLyricsUrl": "https://musicasparamissa.com.br/musica/gloria-gloria-gloria-aleluia/",
         "isPublicDomain": false
@@ -35,10 +41,12 @@
     {
         "id": "4",
         "name": "Aleluia, Aleluia, Aleluia, Alelu...u...u...uia",
-        "description": "Canto de Aclamação para celebrações do Tempo Comum.",
-        "lyrics": "C        G        Am         F    G         C\nAleluia, aleluia, aleluia, alelu___u___u___uia\nAm\nSe alguém me ama\n                     G\nGuardará a minha palavra\nDm\nE meu Pai o amará\n                G\nE a Ele nós viremos",
+        "description": "Aclamação ao Evangelho que prepara a assembleia para ouvir a Palavra do Senhor.",
+        "lyrics": "C        G        Am         F    G         C\nAleluia, aleluia, aleluia, alelu___u___u___uia\nAm\nSe alguém me ama\n                     G\nGuardará a minha palavra\nDm\nE meu Pai o amará\n                G\nE a Ele nós viremos...",
         "key": "C",
-        "category": "aclamacao",
+        "categories": [
+            "aclamacao"
+        ],
         "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
         "fullLyricsUrl": "https://www.cifraclub.com.br/catolicas/aleluia-aleluia-aleluia-alelu-u-u-uia/",
         "isPublicDomain": false
@@ -46,10 +54,12 @@
     {
         "id": "5",
         "name": "A Mesa Santa",
-        "description": "Canto de Ofertório para celebrações do Tempo Comum.",
-        "lyrics": " F      Dm            Am\nA mesa santa que preparamos\n              A#      C        F\nMãos que se elevam a Ti, ó Senhor\n          Dm              Am\nO pão e o vinho, frutos da Terra\n         A#       E       A\nDuro trabalho, carinho e amor\nA#  C   Dm          Am\nÔ,  ô,  ô, recebe, Senhor\nA#  C     C7        F\nÔ,  ô,  recebe, Senhor",
+        "description": "Canto de ofertório que acompanha a apresentação do pão e do vinho e expressa entrega e gratidão.",
+        "lyrics": " F      Dm            Am\nA mesa santa que preparamos\n              A#      C        F\nMãos que se elevam a Ti, ó Senhor\n          Dm              Am\nO pão e o vinho, frutos da Terra\n         A#       E       A\nDuro trabalho, carinho e amor\nA#  C   Dm          Am\nÔ,  ô,  ô, recebe, Senhor\nA#  C     C7        F\nÔ,  ô,  recebe, Senhor...",
         "key": "F",
-        "category": "ofertorio",
+        "categories": [
+            "ofertorio"
+        ],
         "copyright": "© Pe. Almir G. dos Reis",
         "fullLyricsUrl": "https://musicasparamissa.com.br/musica/a-mesa-santa-que-preparamos/",
         "isPublicDomain": false
@@ -57,10 +67,12 @@
     {
         "id": "6",
         "name": "Santo, Santo, Santo, Senhor Deus Do universo",
-        "description": "Santo para celebrações do Tempo Comum.",
-        "lyrics": " B             G#m      E              F#\nSanto, Santo, Santo, Senhor Deus do universo\n   B                G#m       E        F#  \nO céu e a terra proclamam a vossa glória\n  B         G#m        E     F#\nHosana nas alturas, Hosa...na\n B        G#m        E      F#\nHosana nas alturas, Hosa...na",
+        "description": "Aclamação do Santo que une a comunidade ao louvor celestial durante a Oração Eucarística.",
+        "lyrics": " B             G#m      E              F#\nSanto, Santo, Santo, Senhor Deus do universo\n   B                G#m       E        F#  \nO céu e a terra proclamam a vossa glória\n  B         G#m        E     F#\nHosana nas alturas, Hosa...na\n B        G#m        E      F#\nHosana nas alturas, Hosa...na...",
         "key": "B",
-        "category": "santo",
+        "categories": [
+            "santo"
+        ],
         "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
         "fullLyricsUrl": "https://www.bananacifras.com/simplificada/c/catolicas/santo-deus-do-universo",
         "isPublicDomain": false
@@ -68,10 +80,12 @@
     {
         "id": "7",
         "name": "Pão Da Vida",
-        "description": "Canto de Comunhão para celebrações do Tempo Comum.",
-        "lyrics": " D              G            D  \nNa comunhão, Jesus se dá no pão\n               G           A\nO cordeiro imolado é refeição\n D                  G          D  \nNosso alimento de amor e salvação\n                  G           A\nEm torno deste altar somos irmãos\n          D             G            D  \nO pão da vida és Tu, Jesus, o pão do céu  \n          G\n(o pão do céu)\n     D           G            D           C   \nO caminho, a verdade, via de amor, Dom de Deus \nA          D\nnosso redentor",
+        "description": "Canto de comunhão que expressa unidade e acolhimento ao Corpo e Sangue de Cristo.",
+        "lyrics": " D              G            D  \nNa comunhão, Jesus se dá no pão\n               G           A\nO cordeiro imolado é refeição\n D                  G          D  \nNosso alimento de amor e salvação\n                  G           A\nEm torno deste altar somos irmãos\n          D             G            D  \nO pão da vida és Tu, Jesus, o pão do céu  \n          G\n(o pão do céu)\n     D           G            D           C   \nO caminho, a verdade, via de amor, Dom de Deus \nA          D\nnosso redentor...",
         "key": "D",
-        "category": "comunhao",
+        "categories": [
+            "comunhao"
+        ],
         "copyright": "© Padre Zeca",
         "fullLyricsUrl": "https://www.bananacifras.com/simplificada/c/catolicas/pao-da-vida",
         "isPublicDomain": false
@@ -79,10 +93,13 @@
     {
         "id": "8",
         "name": "A Escolhida",
-        "description": "Canto Final para celebrações do Tempo Comum.",
-        "lyrics": "D                     A\nUma entre todas foi a escolhida\n Bm                     F#m\nFoste tu Maria a serva preferida\n G             D\nMãe do meu Senhor\n E              A\nMãe do meu salvador\n   D     G                  D\nMaria, cheia de graça e consolo\n Bm                    E\nVenha caminhar com teu povo\n G         A        D  A\nNossa mãe sempre será",
+        "description": "Canto Mariano dedicado à Virgem Maria.",
+        "lyrics": "D                     A\nUma entre todas foi a escolhida\n Bm                     F#m\nFoste tu Maria a serva preferida\n G             D\nMãe do meu Senhor\n E              A\nMãe do meu salvador\n   D     G                  D\nMaria, cheia de graça e consolo\n Bm                    E\nVenha caminhar com teu povo\n G         A        D  A\nNossa mãe sempre será...",
         "key": "D",
-        "category": "final",
+        "categories": [
+            "final",
+            "marianas"
+        ],
         "copyright": "© Paulo Cesar",
         "fullLyricsUrl": "https://www.cifraclub.com.br/catolicas/a-escolhida/#key=5",
         "isPublicDomain": false
@@ -93,8 +110,480 @@
         "description": "Composto pelas Irmãs e membros da Juventude de Santa Maria em comemoração aos 50 anos das ISMN no Brasil.",
         "lyrics": "Ref.: Venham todos, venham celebrar\nEsta travessia jubilar\nDas Irmãs peregrinas neste chão\nLouvar a Deus com amor e gratidão!\n\n1. Aqui estamos fazendo memória\nDos 50 anos de história\nVindas da África para o Brasil\nEm Poço Verde a semente floriu!\n\n2. Juntas, em comunidade\nVivendo a diversidade\nNa escuta, partilha e perdão\nTudo ofertamos com a criação!\n\n3. A força da palavra nos motiva\nA estar perto de quem mais precisa\nArtesãs do cuidado e da vida\nEis-nos aqui, Senhor, nesta lida!\n\n4. Itinerantes sempre a caminhar\nO evangelho a testemunhar\nSeguindo os passos de Cristo Jesus\nE para o povo sendo sal e luz!\n\n5. Mulheres que em sua identidade\nCarregam traços de simplicidade\nEsperança, fé, alegria\nA exemplo da Virgem Maria!",
         "key": "C",
-        "category": "hinos",
+        "categories": [
+            "hinos"
+        ],
         "copyright": "© Ir. Josenilde SMN, Milena Beatriz, Brenda Emily, Mariele Wiegas — uso autorizado pela JSM/ISMN.",
+        "fullLyricsUrl": "",
+        "isPublicDomain": false
+    },
+    {
+        "id": "10",
+        "name": "De Alegria Vibrei No Senhor",
+        "description": "Canto de entrada destinado a acolher a assembleia e iniciar a celebração com alegria e unidade.",
+        "lyrics": "      A                 D\nDe alegria vibrei no Senhor\n         E                A\nPois vestiu-me com sua justiça\n                        D\nAdornou-me com jóias bonitas\n       E                 A\nComo esposa do Rei me elevou\n        F#m             Bm       E              A\nTransborda o meu coração em belos versos ao Rei\n     D           Bm          E            A\nUm poema, uma canção com a língua escreverei\n    F#m            Bm        E           A\nDe todos és o mais belo, a graça desabrochou\n          F#m              Bm\nEm teu semblante, em teus lábios\n           E            A\nPra sempre Deus te abençoou...",
+        "key": "A",
+        "categories": [
+            "entrada"
+        ],
+        "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/c/catolicas/de-alegria-vibrei-no-senhor",
+        "isPublicDomain": false
+    },
+    {
+        "id": "11",
+        "name": "Reunidos Aqui",
+        "description": "Canto de entrada destinado a acolher a assembleia e iniciar a celebração com alegria e unidade.",
+        "lyrics": "            G                      C\nReunidos aqui só pra louvar ao Senhor\n             D        G   D\nNovamente aqui, em união...",
+        "key": "G",
+        "categories": [
+            "entrada"
+        ],
+        "copyright": "© Padre Marcelo Rossi",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/p/padre-marcelo-rossi/reunidos-aqui",
+        "isPublicDomain": false
+    },
+    {
+        "id": "12",
+        "name": "Senhor Filho De Deus",
+        "description": "Canto utilizado no Ato Penitencial, ajudando a comunidade a reconhecer suas faltas e pedir misericórdia.",
+        "lyrics": "E           G#m\n  Senhor, Filho de Deus\n    A        G#m\nQue nascendo da Virgem Maria\n   A     B     G#m\nVos fizestes nosso irmão\n     F#m    B\nTende piedade de nós!\nA      B\nPiedade de nós!\nG#m      C#m\nPiedade de nós!\nF#m  G#m     C#m\nPieda-a-de de nós...",
+        "key": "E",
+        "categories": [
+            "ato-penitencial"
+        ],
+        "copyright": "© Willian Damasceno",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/w/willian-damasceno/senhor-filho-de-deus",
+        "isPublicDomain": false
+    },
+    {
+        "id": "13",
+        "name": "Eu Confesso",
+        "description": "Canto utilizado no Ato Penitencial, ajudando a comunidade a reconhecer suas faltas e pedir misericórdia.",
+        "lyrics": "Am     E                     Am\nEu confesso a Deus e a vós irmãos\n       G                     C   C \nTantas vezes pequei, não fui fiel\n     Dm         G           Am          F\nPensamentos e palavras, atitudes e omissões\n          E                  Am   A \nPor minha culpa,  tão grande culpa\n          Dm    G          C  Am       Dm    E    Am   A \nSenhor piedade! Cristo, piedade! tem piedade ó Senhor!\n          Dm    G          C  Am       Dm    E    Am\nSenhor piedade! Cristo, piedade! tem piedade ó Senhor...",
+        "key": "Am",
+        "categories": [
+            "ato-penitencial"
+        ],
+        "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/c/catolicas/eu-confesso",
+        "isPublicDomain": false
+    },
+    {
+        "id": "14",
+        "name": "Glória A Deus Nas Alturas",
+        "description": "Hino de louvor que exalta a grandeza de Deus no rito inicial da celebração.",
+        "lyrics": "D9                  C9\nGLÓRIA A DEUS NAS ALTURAS\n  G                                D9\nE PAZ NA TERRA AOS HOMENS POR ELE AMADOS\n             C9            G                 D9\nSENHOR DEUS, REI DOS CÉUS, DEUS PAI TODO PODEROSO\n           Am   D9 \nNÓS VOS LOUVAMOS\n             Am   D9\nNÓS VOS BENDIZEMOS\n            Am  D9\nNÓS VOS ADORAMOS\n               Am   D9\nNÓS VOS GLORIFICAMOS\n              C9         \nNÓS VOS DAMOS GRAÇAS, \n    G            D9\nPOR VOSSA IMENSA GLÓRIA...",
+        "key": "D",
+        "categories": [
+            "gloria"
+        ],
+        "copyright": "© Eliana Ribeiro",
+        "fullLyricsUrl": "https://musicasparamissa.com.br/musica/gloria-a-deus-nas-alturas/",
+        "isPublicDomain": false
+    },
+    {
+        "id": "15",
+        "name": "Glória Glória Anjos No Céu",
+        "description": "Hino de louvor que exalta a grandeza de Deus no rito inicial da celebração.",
+        "lyrics": "D       Bm      F#m\nGLÓRIA, GLÓRIA! ANJOS NO CÉU\nG      D          A7\nCANTAM TODOS SEU AMOR!\nD    Bm     F#m\nE NA TERRA, HOMENS DE PAZ\nG      A7        D\nDEUS MERECE O LOUVOR!\n   F#7                    Bm\nDEUS E PAI, NÓS VOS LOUVAMOS\nE             A7 \nADORAMOS, BENDIZEMOS,\nG     G#°             D   Bm\nDAMOS GLÓRIA AO VOSSO NOME,\n       E         A7\nVOSSOS DONS AGRADECEMOS...",
+        "key": "D",
+        "categories": [
+            "gloria"
+        ],
+        "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
+        "fullLyricsUrl": "https://musicasparamissa.com.br/musica/gloria-gloria-anjos-no-ceu-arq-goiania/",
+        "isPublicDomain": false
+    },
+    {
+        "id": "16",
+        "name": "Dai Graças",
+        "description": "Salmo responsorial cantado como resposta orante à Palavra proclamada.",
+        "lyrics": "     D           A       G          F# \nDai graças ao Senhor, porque Ele é bom!\n Bm         A        G        F#\nEterna é a sua misericórdia!\n  Bm                      A   \nA casa de Israel agora o diga:\n G                   F#     \nEterna é a sua misericórdia!\n  Bm                    A\nA casa de Aarão agora o diga:\n G                   F#\nEterna é a sua misericórdia...",
+        "key": "D",
+        "categories": [
+            "salmo"
+        ],
+        "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/s/salmos-de-missa/dai-gracas-sl-117",
+        "isPublicDomain": false
+    },
+    {
+        "id": "17",
+        "name": "Salmo 102",
+        "description": "Salmo responsorial cantado como resposta orante à Palavra proclamada.",
+        "lyrics": "  D            A            Bm\nO Senhor é bondoso e compassivo\n    G          A            D\nO Senhor é bondoso e compassivo!\n   F#m                       G\nBendize, ó minha alma, ao Senhor\n    F#m                       G\nE todo o meu ser, seu santo nome!\n  Em               D         A\nBendize, ó minha alma, ao Senhor\n   Em                   D             A\nNão te esqueças de nenhum de seus favores...",
+        "key": "D",
+        "categories": [
+            "salmo"
+        ],
+        "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/s/salmos-cantados/salmo-102",
+        "isPublicDomain": false
+    },
+    {
+        "id": "18",
+        "name": "O Senhor É Minha Luz",
+        "description": "Salmo responsorial cantado como resposta orante à Palavra proclamada.",
+        "lyrics": "     G           E          Am \nO Senhor é minha luz e salvação\n     D                         G\nO Senhor é a proteção da minha vida\n Em                           Bm  \n  O Senhor é minha luz e salvação\n C                G\nDe quem eu terei medo\nD                 G            Em  \nO Senhor é a proteção da minha vida\n  A                  D \nPerante quem eu tremerei...",
+        "key": "G",
+        "categories": [
+            "salmo"
+        ],
+        "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/s/salmos-cantados/salmo-102",
+        "isPublicDomain": false
+    },
+    {
+        "id": "19",
+        "name": "Aleluia, A Minh'Alma Abrirei",
+        "description": "Aclamação ao Evangelho que prepara a assembleia para ouvir a Palavra do Senhor.",
+        "lyrics": "C   Em   F   C\nAleluia, aleluia,\nF         Dm  G     G \na minh'alma abrirei.\nC   Em    F   C\nAleluia, aleluia,\nF      G         C     A \nCristo é meu Rei..ei...",
+        "key": "C",
+        "categories": [
+            "aclamacao"
+        ],
+        "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/c/catolicas/aleluia-a-minhalma-abrirei",
+        "isPublicDomain": false
+    },
+    {
+        "id": "20",
+        "name": "Aleluia, Quando Estamos Unidos",
+        "description": "Aclamação ao Evangelho que prepara a assembleia para ouvir a Palavra do Senhor.",
+        "lyrics": "D     A    Bm  F#m    G  D  A  A \nAleluia,  aleluia,  aleluia\nD     A    Bm  F#m    G  D  A  A \nAleluia,  aleluia,  aleluia\nEm                F#m   Bm          F#m\nQuando estamos unidos, estás entre nós\nG         Em         A  A \nE nos falarás da Tua vida...",
+        "key": "E",
+        "categories": [
+            "aclamacao"
+        ],
+        "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/p/padre-zeca/aleluia-quando-estamos-unidos",
+        "isPublicDomain": false
+    },
+    {
+        "id": "21",
+        "name": "De Mãos Estendidas",
+        "description": "Canto de ofertório que acompanha a apresentação do pão e do vinho e expressa entrega e gratidão.",
+        "lyrics": "   Dm        Gm    A   Dm\nDE MÃOS ESTENDIDAS, OFERTAMOS\n         Gm    A   Dm\nO QUE DE GRAÇA RECEBEMOS. (BIS)\nD7             Gm\nA NATUREZA TÃO BELA\nC                      F\nQUE É LOUVOR, QUE É SERVIÇO,\nA#                    Gm\nO SOL QUE ILUMINA AS TREVAS\nA                   Dm\nTRANSFORMANDO-AS EM LUZ.\nD7                   Gm\nO DIA QUE NOS TRAZ O PÃO\nC                      F\nE A NOITE QUE NOS DÁ REPOUSO,\n    A#          Gm\nOFERTAMOS AO SENHOR\nA              Dm\nO LOUVOR DA CRIAÇÃO...",
+        "key": "F",
+        "categories": [
+            "ofertorio"
+        ],
+        "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
+        "fullLyricsUrl": "https://musicasparamissa.com.br/musica/de-maos-estendidas/",
+        "isPublicDomain": false
+    },
+    {
+        "id": "22",
+        "name": "Estar em tuas mãos",
+        "description": "Canto de ofertório que acompanha a apresentação do pão e do vinho e expressa entrega e gratidão.",
+        "lyrics": "Em              C         G         B \nMão na terra e o coração além desde Céu,\nEm              C          G             D\nE a semente que brota é um germe de eternidade\n          Em     C           G  D \nVai brotando, crescendo, esperando,\n   Em      C          G   D\né a vida que vem despontar.\n            C   C        Am      Am     D\nE este trigo maduro,a colheita o recolherá\n               G       A    C                   G  D   \nEstar em tuas mãos, ó pai     e minha vida ofertar\n   Em    Em       C C   Am              D\nNo pão e no vinho a Ti,     o céu se abrirá\n               G        A C               G D   \nEstar em tuas mãos, senhor e a vida entregar\n  Em       Em     C C   Am          D  \nA minha oblação em ti        se perderá,\n      Em C  G        D  Em       C   G       D\nfrutificará,  frutificará, frutificará, frutificará",
+        "key": "G",
+        "categories": [
+            "ofertorio"
+        ],
+        "copyright": "© Comunidade Católica Shalom",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/c/comunidade-shalom/estar-em-tuas-maos",
+        "isPublicDomain": false
+    },
+    {
+        "id": "23",
+        "name": "Santo - Pe. Cleidimar",
+        "description": "Aclamação do Santo que une a comunidade ao louvor celestial durante a Oração Eucarística.",
+        "lyrics": "C   G  C    G    C      Em    C        D\nSaaanto, santo, santo é o Senhor, Deus do universo.\nC   G    Em     C           D       D    G  \nSaaanto, santo, santo é o Senhor, Deus do universo.\n       C      D  \nOs céus e a terra proclamam a Vossa glória!\n Am       G      C        D    D\nHosana nas alturas, hosana nas alturas!\nG       C        D  \nOs céus e a terra proclamam a Vossa glória!\n Am       G      C        D\nHosana nas alturas, hosana nas alturas...",
+        "key": "C",
+        "categories": [
+            "santo"
+        ],
+        "copyright": "© Padre Cleidimar Moreira",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/p/padre-cleidimar-moreira/santo",
+        "isPublicDomain": false
+    },
+    {
+        "id": "24",
+        "name": "Santo - Pe. Pedro Brito",
+        "description": "Aclamação do Santo que une a comunidade ao louvor celestial durante a Oração Eucarística.",
+        "lyrics": "C               Am    F                 G\nSanto, Santo, Santo, Senhor Deus do universo\n   C                 Am       F         G\nO Céu e a Terra, proclamam a Vossa glória\n   C         Am          F      G\nHosana nas altu__ras, Hosa_aaa_na\n   C         Am          F      G\nHosana nas altu__ras, Hosa_aaa_na...",
+        "key": "C",
+        "categories": [
+            "santo"
+        ],
+        "copyright": "© Padre Pedro Brito Guimarães",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/p/padre-pedro-brito-guimaraes/santo",
+        "isPublicDomain": false
+    },
+    {
+        "id": "25",
+        "name": "Amém",
+        "description": "Aclamação de 'Amém' que confirma com fé a Oração Eucarística.",
+        "lyrics": "F  C   Dm  Am\n Amem  a___mem\nBb  C    F  C \nA_______mem  \nF  C   Dm  Am\n Amem  a___mem\nBb  C    F \nA_______mem  ",
+        "key": "F",
+        "categories": [
+            "amem"
+        ],
+        "copyright": "",
+        "fullLyricsUrl": "",
+        "isPublicDomain": true
+    },
+    {
+        "id": "26",
+        "name": "Amém",
+        "description": "Aclamação de 'Amém' que confirma com fé a Oração Eucarística.",
+        "lyrics": "Dm\nA-A-A-A-MÉM!  \n             D7\nA-A-A-A-MÉM! \nGm  C\nA-A-A\nF   Dm\nA-A-A\nGm  C  Dm     D7\nA-A-A AMÉM!\nGm  C\nA-A-A\nF   Dm\nA-A-A\nGm  C  Dm    \nA-A-A AMÉM!\nC Dm   C Dm \nA-MÉM! A-MÉM! ",
+        "key": "Dm",
+        "categories": [
+            "amem"
+        ],
+        "copyright": "",
+        "fullLyricsUrl": "",
+        "isPublicDomain": true
+    },
+    {
+        "id": "27",
+        "name": "Amém",
+        "description": "Aclamação de 'Amém' que confirma com fé a Oração Eucarística.",
+        "lyrics": "D     Bm    A       G     D\nAmém, Amém, Amém, Amém, Amém\nD     Bm    A       G     D\nAmém, Amém, Amém, Amém, Amém",
+        "key": "Dm",
+        "categories": [
+            "amem"
+        ],
+        "copyright": "",
+        "fullLyricsUrl": "",
+        "isPublicDomain": true
+    },
+    {
+        "id": "28",
+        "name": "Cordeiro De Deus",
+        "description": "Canto do Cordeiro que acompanha o rito da fração do pão e a preparação para a comunhão.",
+        "lyrics": "            G          Bm7               C9\nCORDEIRO DE DEUS QUE TIRAIS OS PECADO DO MUNDO\n         Am7      D       G   C9    \nTENDE PIEDADE, PIEDADE DE NÓS...",
+        "key": "G",
+        "categories": [
+            "cordeiro"
+        ],
+        "copyright": "© Ministério Amor e Adoração",
+        "fullLyricsUrl": "https://musicasparamissa.com.br/musica/cordeiro-ministerio-amor-e-adoracao/",
+        "isPublicDomain": false
+    },
+    {
+        "id": "29",
+        "name": "Cordeiro De Deus",
+        "description": "Canto do Cordeiro que acompanha o rito da fração do pão e a preparação para a comunhão.",
+        "lyrics": "    G                   Bm               C    D         D\nCordeiro de Deus que tirais o pecado do mundo,tende piedade...",
+        "key": "G",
+        "categories": [
+            "cordeiro"
+        ],
+        "copyright": "© Comunidade Católica Shalom",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/c/comunidade-catolica-shalom/cordeiro-de-deus",
+        "isPublicDomain": false
+    },
+    {
+        "id": "30",
+        "name": "Cordeiro De Deus",
+        "description": "Canto do Cordeiro que acompanha o rito da fração do pão e a preparação para a comunhão.",
+        "lyrics": "A\nCordeiro de Deus que tirais o pecado do mundo\nE                 D\nTende piedade de nós...",
+        "key": "A",
+        "categories": [
+            "cordeiro"
+        ],
+        "copyright": "© Comunidade Católica Colo de Deus",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/c/comunidade-catolica-colo-de-deus/cordeiro",
+        "isPublicDomain": false
+    },
+    {
+        "id": "31",
+        "name": "Ave Maria Cheia De Graça",
+        "description": "Canto de comunhão que expressa unidade e acolhimento ao Corpo e Sangue de Cristo.",
+        "lyrics": "      Cm   Fm       Cm     Fm       Cm\nAVE MARIA, CHEIA DE GRAÇA, MÃE DO SENHOR\nFm         Cm Ab         G              Cm\nBENDITA ÉS TU ENTRE AS MULHERES, DIZ ISABEL\n                Fm       Cm   Fm       Cm\nTODAS AS GENTES CELEBRAM HOJE O TEU LOUVOR\n         Cm      Bb     Eb         Gm      Cm\nTU ÉS NA TERRA A VIRGEM BELA QUE ENCANTA O CÉU.\nCm        Gm     Cm\nLOUVAI, É BOM CANTAR\n         Gm    Cm\nMERECE O NOSSO DEUS\n      Gm    Cm\nJERUSALÉM RENOVA \nEb         F      Gm\nE JUNTA OS FILHOS SEUS\nCm       F     Cm\nDOS CORAÇÕES FERIDOS\nFm           Gm       Cm\nQUEM CUIDA É DEUS DOS CÉUS...",
+        "key": "Cm",
+        "categories": [
+            "comunhao"
+        ],
+        "copyright": "© Reginaldo Veloso",
+        "fullLyricsUrl": "https://musicasparamissa.com.br/musica/ave-maria-cheia-de-graca/",
+        "isPublicDomain": false
+    },
+    {
+        "id": "32",
+        "name": "Como És Lindo",
+        "description": "Canto de comunhão que expressa unidade e acolhimento ao Corpo e Sangue de Cristo.",
+        "lyrics": "     D           A           Bm    Bm  \nQue bom, senhor, ir ao teu encontro\n   G            G         D       (A   )\nPoder chegar e adentrar à tua casa\n   Bm       F#m     G            G  \nSentar-me contigo e partilhar da mesma mesa\nD       F#m  Bm       F#m \nTe olhar,     te tocar\n   G            G             D      (A   )\nE te dizer: meu Deus, como és lindo!\nBm     F#m   Bm      F#m \nTe olhar,     te tocar\n   G             G             D   \nE te dizer: meu Deus, como és lindo...  ",
+        "key": "D",
+        "categories": [
+            "comunhao"
+        ],
+        "copyright": "© Vida Reluz",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/v/vida-reluz/como-es-lindo",
+        "isPublicDomain": false
+    },
+    {
+        "id": "33",
+        "name": "Maria Mãe Dos Caminhantes",
+        "description": "Canto Mariano dedicado à Virgem Maria.",
+        "lyrics": "C   F  C             F     F\nMaria, mãe dos caminhantes,\n Bb    D          Gm   C \nensina-nos a caminhar\n     F     C          F   \nNós somos todos viandantes,\n           Gm   C        F\nmas não é facil sempre andar\n                   C   \nFizeste longa caminhada\n                  F\npara seguir a Isabel,\n                  C      \nSabendo-te de Deus morada\n                F\napós teu sim a Gabriel...",
+        "key": "F",
+        "categories": [
+            "final",
+            "marianas"
+        ],
+        "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/c/cantando-louvor-a-maria/maria-mae-dos-caminhantes",
+        "isPublicDomain": false
+    },
+    {
+        "id": "34",
+        "name": "Mãezinha Do Céu",
+        "description": "Canto Mariano dedicado à Virgem Maria.",
+        "lyrics": "   D        D7+  G/A    Em    A7\nMãezinha do céu, eu não sei rezar.\n   A7       Em    A7         D\nEu só sei dizer: 'Quero te amar'\n  D        D7     Gm            G\nAzul é teu manto, branco é teu véu\n   G          D       A7        D7\nMãezinha, eu quero te ver lá no céu\n   G          D       A7         D\nMãezinha, eu quero te ver lá no céu...",
+        "key": "D",
+        "categories": [
+            "final",
+            "marianas"
+        ],
+        "copyright": "© Padre Marcelo Rossi",
+        "fullLyricsUrl": "https://www.musicacatolica.com.br/cantinhodacrianca/cifra/cantinho-da-crianca-maezinha-do-ceu-eu-nao-sei-rezar/",
+        "isPublicDomain": false
+    },
+    {
+        "id": "35",
+        "name": "A Chave Do Coração",
+        "description": "Canto popular muito presente nas celebrações e encontros de fé.",
+        "lyrics": "E        A     B\nQual é a chave?      \n            E\nQual é o segredo? (x2)  \n             A    B         E\nQue abre as portas do teu coração         \n              F#m                  B\nPor que não falar se Ele quer te ouvir?\n                G#m                  C#m\nPor que se esconder se Ele está aqui?\n                F#m                  B\nPor que não aceitar se Ele quer te dar?\n             E\nPor que insistir em resistir...",
+        "key": "A",
+        "categories": [
+            "hinos"
+        ],
+        "copyright": "© Adriana Arydes",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/a/adriana-arydes/a-chave-do-coracao",
+        "isPublicDomain": false
+    },
+    {
+        "id": "36",
+        "name": "Foi Por Você",
+        "description": "Canto popular muito presente nas celebrações e encontros de fé.",
+        "lyrics": "   G              D        Em \nEncontrei-me com Jesus no jardim\n       G           D       Em \nNunca vi nada tão lindo assim\n        Am          Am          D   \nMinhas dores entreguei em suas mãos\n   Am        Am          D     C  \nE Jesus foi falando pra mim\n      G        D       Em \nDas feridas que eu recebi\n     G      D           Em \nNão saíram sangue, nem dor\n        Am          Am        D   \nFoi por isso que o mal eu venci\n        Am       Am      D   \nPorque delas só saía     amor\n              G    D    \nFoi sempre o meu amor\n     G\nFoi por você\n              G                       C  \nQue eu me deixei ser tão chagado e ferido\n          Cm                  G\nPor isso sinta-se   amado e querido\n          Em                 Am     C  \nPois é o meu amor que cura sua dor, ououoh\n     G\nFoi por você\n          G                         C  \nQue, na cruz,  meu sangue foi derramado\n          Cm                G  \nPor isso sinta-se   querido e amado\n          Em                    Am \nPois é o meu amor que cura sua dor\n              C   G    Bb  F  Ab  Eb D     D \nque cura sua dor...",
+        "key": "G",
+        "categories": [
+            "hinos"
+        ],
+        "copyright": "© Anjos de Resgate",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/a/anjos-de-resgate/foi-por-voce",
+        "isPublicDomain": false
+    },
+    {
+        "id": "37",
+        "name": "Move-te Em Mim",
+        "description": "Canto dedicado ao Espírito Santo, invocando Sua presença, luz e sabedoria sobre a comunidade reunida.",
+        "lyrics": "    F                Bb         F   Bb  \nO Espírito de Deus esta neste lugar\n    F                 Bb           C    C\nO Espírito de Deus se move neste lugar\n      F                Bb         F             Bb\nEsta aqui para me consolar, esta aqui para libertar\n      F                   C      C          F    Bb  \nEsta aqui para guiar, o Espírito Deus esta aqui.\n           Bb  C               F\nMove-te em mim,     move-te em mim\n           Bb            C   \nToca minha mente meu coração\n            Am           Dm\nEnche minha vida do teu amor\n           Bb  F          Gm    \nMove-te em mim     Deus Espírito\nC          F   Bb     F   Bb  \nmove-te em mim...",
+        "key": "F",
+        "categories": [
+            "espirito-santo"
+        ],
+        "copyright": "© Eterna Aliança",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/e/eterna-alianca/move-te-em-mim",
+        "isPublicDomain": false
+    },
+    {
+        "id": "38",
+        "name": "O Céu Se Abre",
+        "description": "Canto dedicado ao Espírito Santo, invocando Sua presença, luz e sabedoria sobre a comunidade reunida.",
+        "lyrics": "A                       C#m\nHoje o céu se abre pra derramar\n          D               A        G   E    \nSobre os corações toda a graça do Pai\nA                   C#m\nEu também quero me derramar\n              D       Bm          G   E    \nDe todo o meu coração  nos braços do Pai\nA  E      A         D           F#m\nVem,    Espírito Santo, com teu poder\n   E             D          ( D  )\nTocar meu ser, fluir em mim...",
+        "key": "A",
+        "categories": [
+            "espirito-santo"
+        ],
+        "copyright": "© Ministério Theos Xadaí",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/m/ministerio-theos-xadai/o-ceu-se-abre",
+        "isPublicDomain": false
+    },
+    {
+        "id": "39",
+        "name": "Eu Navegarei",
+        "description": "Canto dedicado ao Espírito Santo, invocando Sua presença, luz e sabedoria sobre a comunidade reunida.",
+        "lyrics": "Am                            G\nEu navegarei No oceano do Espírito\n            F                  E\nE ali adorarei Ao Deus do meu amor  (2x)\n             Am                    G\nEspírito, Espírito, Que desce como fogo\n                  F                     E\nVem como em Pentecostes, e enche-me de novo (2x)...",
+        "key": "C",
+        "categories": [
+            "espirito-santo"
+        ],
+        "copyright": "© Composição de Azmaveth Carneiro Silva",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/m/mara-lima/eu-navegarei",
+        "isPublicDomain": false
+    },
+    {
+        "id": "40",
+        "name": "Tão Sublimne Sacramento",
+        "description": "Canto de adoração que conduz a comunidade a um momento profundo de louvor, entrega e contemplação diante de Deus.",
+        "lyrics": "      E     B7   E \nTÃO SUBLIME SACRAMENTO\nC#m G#m   A  B7   E\nADO-REMOS NESTE ALTAR\nE             B7   E\nPOIS O ANTIGO TESTAMENTO\nC#m    G#m  A   B7 E\nDEU AO NOVO SEU LU-GAR\nB7      E  B7       E\nVENHA A FÉ POR SUPLEMENTO\nA     E     A  B7 E\nOS SENTIDOS COMPLETAR...",
+        "key": "E",
+        "categories": [
+            "adoracao"
+        ],
+        "copyright": "© Composição de São Tomás De Aquino",
+        "fullLyricsUrl": "https://musicasparamissa.com.br/musica/tao-sublime-sacramento/",
+        "isPublicDomain": false
+    },
+    {
+        "id": "41",
+        "name": "Diante Do Rei",
+        "description": "Canto de adoração que conduz a comunidade a um momento profundo de louvor, entrega e contemplação diante de Deus.",
+        "lyrics": "A9           E/G#\nVEM SENHOR JESUS! \n      F#m7                    C#m7\nO CORAÇÃO JÁ BATE FORTE AO TE VER\n      D7+              Bm7    C#m\nA TUA GRAÇA HOJE EU QUERO RECEBER, \n         Bm7               E4\nSEM A BENÇÃO DO SENHOR NÃO SEI VIVER...\n    D7+          E/D              \nÉ O REI! A NOSSA FRENTE ESTÁ!\n    C#m7          F#m7 \nÉ FELIZ QUEM O ADORAR\n    D7+          E/D                \nÉ JESUS, O NOSSO MESTRE E REI!\n     C#m7              F#m7 \nBEM AQUI, TÃO PERTO SE DEIXA ENCONTRAR\n       D7+            \nDIANTE DO REI DOS REIS \nA/C# Bm7       E4/7 A9\nTODO JOELHO SE DOBRARÁ...",
+        "key": "A",
+        "categories": [
+            "adoracao"
+        ],
+        "copyright": "© Vida Reluz",
+        "fullLyricsUrl": "https://musicasparamissa.com.br/musica/diante-do-rei/",
+        "isPublicDomain": false
+    },
+    {
+        "id": "42",
+        "name": "Jesus Está Aqui",
+        "description": "Canto de adoração que conduz a comunidade a um momento profundo de louvor, entrega e contemplação diante de Deus.",
+        "lyrics": "C      G    Am     Am\nJesus está aqui\nF                      G        C       C\nTão certo como o ar que eu, respiro, aleluia\nF                  G              (C G Am)\nTão certo como as manhãs que se levantam\nF                      G                 C   G\nTão certo quanto eu te falo e podes me ouvir\n      C      G    Am     Am\nO Espirito  está aqui...",
+        "key": "C",
+        "categories": [
+            "adoracao"
+        ],
+        "copyright": "© Composição de Igreja Catolica",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/c/catolicas/jesus-esta-aqui",
+        "isPublicDomain": false
+    },
+    {
+        "id": "43",
+        "name": "Hino De Santana - Padroeira de Ribeirão",
+        "description": "Canto devocional especialmente utilizado em festas, procissões e celebrações em honra ao padroeiro da comunidade.",
+        "lyrics": "A noss'alma feliz se engalana dos fulgores do céu a rogar\nProteção maternal a Sant'Ana, pra seu povo fiel e seu lar.\n\n1. Oh Gloriosa Mãe de Maria, no teu trono de glória és fanal\nOuço a voz da feliz freguesia em louvor do teu nome imortal.\n\nRefrão...\n\n2. Na beleza do céu estrelado, das grandezas da Mãe de Jesus\nÉs luzeiro, por Deus colocado, pra mostrar o caminho da cruz.\n\nRefrão...\n\n3. Ribeirão agradece ajoelhado, de Sant'Ana os favores sem par\nAclamamos teu nome Sagrado, para sempre no céu a brilhar.\n\nRefrão...",
+        "key": "",
+        "categories": [
+            "padroeiro-da-cidade"
+        ],
+        "copyright": "© Diocese De Palmares - uso autorizado.",
+        "fullLyricsUrl": "",
+        "isPublicDomain": false
+    },
+    {
+        "id": "44",
+        "name": "Hino Da Gloriosa Santa Luzia - Padroeira da Paróquia de Santa Luzia - Ribeirão",
+        "description": "Canto devocional especialmente utilizado em festas, procissões e celebrações em honra ao padroeiro da comunidade.",
+        "lyrics": "1. Salve, ó Santa Luzia lírio formoso do Senhor,\nRosa que também um dia deu a Cristo seu odor.\nOuve,excelsa Padroeira lá do céu esse cantar,\nQuando esta multidão inteira a tua festa celebrar.\n\nNesse mundo eu te escolho protetora da visão,\nGuarda a luz dos nossos olhos, salve nosso coração.\n\n2. Oh! Estrela peregrina, no firmamento é teu fulgor,\nExpressão quase divina da beleza do Senhor\nImploramos, ó Santa Luzia, o raiar de tua luz,\nQue nos mostre cada dia o divino berço de Jesus.\n\n3. Irmanados nessa hora vamos Luzia imitar\nA mão de Nossa Senhora e vivendo sem pecar,\nSua imortal vitória há de ser nossa também\nQue de lá de sua glória nos respondam serafins: amém!",
+        "key": "",
+        "categories": [
+            "padroeiro-da-cidade"
+        ],
+        "copyright": "© Diocese De Palmares - uso autorizado.",
+        "fullLyricsUrl": "",
+        "isPublicDomain": false
+    },
+    {
+        "id": "45",
+        "name": "Hino De Nossa Senhora da Penha - Padroeira de Gameleira",
+        "description": "Canto devocional especialmente utilizado em festas, procissões e celebrações em honra ao padroeiro da comunidade.",
+        "lyrics": "Salve, Virgem Senhora/ desta terra és Padroeira/\nTe pedimos, Mãe da Penha,/ abençoa Gameleira.\n\n1. Hoje cantam os filhos teus/ Com amor no coração/\nAcolhe e recebe com carinho,/ esta nossa louvação.\n\n2. És de Deus agraciada/ Mãe de Cristo, nosso irmão/\nCom teu 'Sim' foste exaltada/ Mãe de vida e dos cristãos.\n\n3. Desta árvore surgiu a cidade/ Sob o olhar da tua proteção/\nGameleira te oferece com bondade/ Este hino de gratidão.",
+        "key": "",
+        "categories": [
+            "padroeiro-da-cidade"
+        ],
+        "copyright": "© Diocese De Palmares - Pe. Agivaldo - uso autorizado.",
         "fullLyricsUrl": "",
         "isPublicDomain": false
     }
