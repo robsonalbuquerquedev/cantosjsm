@@ -130,14 +130,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
                     animate={{ x: 0 }}
                     exit={{ x: "100%" }}
                     transition={{ duration: 0.35 }}
-                    className="
-            fixed top-0 right-0 
-            w-4/5 sm:w-2/5 md:w-1/3 
-            h-full bg-white text-black 
-            p-6 z-50 flex flex-col shadow-2xl
-            border-l-4 border-amber-400
-          "
-                >
+                    className="fixed top-0 right-0 w-4/5 sm:w-2/5 md:w-1/3 h-full bg-white text-black p-6 z-[99999] flex flex-col shadow-2xl border-l-4 border-amber-400 overflow-y-auto">
                     {/* Header */}
                     <div className="flex justify-between items-center mb-8 pb-4 border-b border-gray-200">
                         <div className="flex items-center gap-3">

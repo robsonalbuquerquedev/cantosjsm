@@ -11,6 +11,7 @@ import {
     RotateCcw,
 } from "lucide-react";
 import type { SongCategory } from "@/types/song";
+import SongModal from "@/components/SongModal";
 
 interface SongListProps {
     category: SongCategory;
@@ -22,6 +23,7 @@ export default function SongList({ category, title }: SongListProps) {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [searchTerm, setSearchTerm] = useState("");
     const [isLandscape, setIsLandscape] = useState(true);
+    const [isModalOpen, setIsModalOpen] = useState(false);
 
     useEffect(() => {
         function detectOrientation() {
@@ -105,9 +107,9 @@ export default function SongList({ category, title }: SongListProps) {
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.4 }}
                             className="
-                                bg-white text-black rounded-2xl p-10 shadow-xl 
-                                border-l-4 border-amber-400 space-y-6
-                            "
+            bg-white text-black rounded-2xl p-10 shadow-xl 
+            border-l-4 border-amber-400 space-y-6
+        "
                         >
                             <h2 className="text-3xl font-bold text-amber-700">
                                 {currentSong?.name}
@@ -123,41 +125,33 @@ export default function SongList({ category, title }: SongListProps) {
                                 </p>
                             )}
 
-                            <div
+                            {/* Botão para abrir modal */}
+                            <button
+                                onClick={() => setIsModalOpen(true)}
                                 className="
-    bg-amber-100 text-amber-900 
-    border border-amber-300 
-    rounded-xl px-4 py-4 
-    text-sm shadow 
-    flex flex-col gap-3
-  "
+                w-full inline-flex items-center justify-center gap-2 
+                bg-amber-600 hover:bg-amber-500 
+                text-black px-4 py-3 rounded-xl 
+                font-semibold transition shadow cursor-pointer
+            "
                             >
-                                <p className="flex items-center gap-2">
-                                    <RotateCcw size={18} className="flex-shrink-0" />
-                                    <span>
-                                        Para visualizar <strong>letra completa e cifras</strong>,
-                                        vire seu dispositivo para o modo <strong>paisagem (landscape)</strong>.
-                                    </span>
-                                </p>
+                                Ver letra e cifras
+                                <ExternalLink size={16} />
+                            </button>
 
-                                <p className="text-xs text-amber-700">
-                                    Dica: no modo paisagem, as cifras ficam alinhadas com perfeição — ideal para músicos.
-                                </p>
-                            </div>
-
-                            {/* Botão para letra completa (se houver) */}
+                            {/* Botão para letra completa */}
                             {currentSong?.fullLyricsUrl && (
                                 <a
                                     href={currentSong.fullLyricsUrl}
                                     target="_blank"
                                     className="
-                                        inline-flex items-center gap-2 
-                                        bg-amber-600 hover:bg-amber-500 
-                                        text-black px-4 py-2 rounded-xl 
-                                        font-semibold transition shadow
-                                    "
+                    inline-flex items-center gap-2 
+                    bg-amber-500 hover:bg-amber-400 
+                    text-black px-4 py-2 rounded-xl 
+                    font-semibold transition shadow w-full justify-center
+                "
                                 >
-                                    Abrir letra completa
+                                    Ver letra completa (site oficial)
                                     <ExternalLink size={16} />
                                 </a>
                             )}
@@ -231,6 +225,13 @@ export default function SongList({ category, title }: SongListProps) {
                             </motion.article>
                         </AnimatePresence>
                     )}
+
+                    {/* Modal */}
+                    <SongModal
+                        isOpen={isModalOpen}
+                        onClose={() => setIsModalOpen(false)}
+                        song={currentSong}
+                    />
 
                     {/* Navegação entre músicas */}
                     <div className="flex justify-between items-center mt-8">
