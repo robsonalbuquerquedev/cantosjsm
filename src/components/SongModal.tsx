@@ -2,6 +2,7 @@
 
 import { motion, AnimatePresence } from "framer-motion";
 import { X } from "lucide-react";
+import { useEffect, useRef } from "react";
 
 interface SongModalProps {
     isOpen: boolean;
@@ -19,30 +20,66 @@ interface SongModalProps {
 export default function SongModal({ isOpen, onClose, song }: SongModalProps) {
     if (!song) return null;
 
-    // 🔥 Escolhe automaticamente a melhor versão para portrait
     const lyricsToShow = song.lyricsMobile ?? song.lyrics;
+
+    // 🔒 Bloqueia scroll da página ao abrir modal
+    useEffect(() => {
+        if (isOpen) {
+            document.body.style.overflow = "hidden";
+        } else {
+            document.body.style.overflow = "auto";
+        }
+
+        return () => {
+            document.body.style.overflow = "auto";
+        };
+    }, [isOpen]);
+
+    // 📌 Referência para permitir scroll interno do modal
+    const modalRef = useRef<HTMLDivElement | null>(null);
+
+    // 🔽 Fechar com gesto de deslizar para baixo
+    const handleDragEnd = (_: any, info: any) => {
+        if (info.offset.y > 120) {
+            onClose();
+        }
+    };
 
     return (
         <AnimatePresence>
             {isOpen && (
-                <motion.div
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    exit={{ opacity: 0 }}
-                    className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/60 backdrop-blur-sm px-4"
-                >
+                <>
+                    {/* Overlay clicável */}
+                    <motion.div
+                        onClick={onClose}
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                        className="fixed inset-0 bg-black/60 backdrop-blur-sm z-[9998]"
+                    />
+
                     {/* Card do modal */}
                     <motion.div
-                        initial={{ scale: 0.8, opacity: 0, y: 50 }}
-                        animate={{ scale: 1, opacity: 1, y: 0 }}
-                        exit={{ scale: 0.8, opacity: 0, y: 50 }}
-                        transition={{ duration: 0.25 }}
-                        className="bg-white text-black w-full max-w-lg rounded-2xl shadow-2xl border border-amber-400 p-6 relative max-h-[85vh] overflow-y-auto"
+                        ref={modalRef}
+                        drag="y"
+                        dragConstraints={{ top: 0, bottom: 0 }}
+                        onDragEnd={handleDragEnd}
+                        initial={{ y: 60, opacity: 0, scale: 0.95 }}
+                        animate={{ y: 0, opacity: 1, scale: 1 }}
+                        exit={{ y: 100, opacity: 0 }}
+                        transition={{ type: "spring", damping: 20, stiffness: 260 }}
+                        className="fixed bottom-0 left-0 right-0 mx-auto w-full max-w-lg 
+                                   bg-white text-black rounded-t-3xl shadow-2xl 
+                                   border-t-4 border-amber-400 p-6 z-[9999]
+                                   max-h-[88vh] overflow-y-auto"
                     >
-                        {/* Botão fechar */}
+                        {/* Barra de arrastar (estilo iOS) */}
+                        <div className="w-12 h-1.5 bg-gray-300 rounded-full mx-auto mb-4" />
+
+                        {/* Botão fechar flutuante */}
                         <button
                             onClick={onClose}
-                            className="absolute top-3 right-3 text-amber-700 hover:text-amber-900 transition cursor-pointer"
+                            className="absolute top-4 right-4 text-amber-700 hover:text-amber-900 transition cursor-pointer"
                         >
                             <X size={26} />
                         </button>
@@ -64,7 +101,7 @@ export default function SongModal({ isOpen, onClose, song }: SongModalProps) {
                             </p>
                         )}
 
-                        {/* Letra ou letra mobile */}
+                        {/* Letra */}
                         <pre className="whitespace-pre-wrap font-mono text-[17px] leading-relaxed text-gray-900 bg-amber-50 p-4 rounded-xl border border-amber-200 shadow-inner">
                             {lyricsToShow}
                         </pre>
@@ -76,7 +113,7 @@ export default function SongModal({ isOpen, onClose, song }: SongModalProps) {
                             </p>
                         )}
                     </motion.div>
-                </motion.div>
+                </>
             )}
         </AnimatePresence>
     );

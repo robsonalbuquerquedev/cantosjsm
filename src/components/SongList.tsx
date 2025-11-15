@@ -8,7 +8,6 @@ import {
     ChevronLeft,
     ChevronRight,
     ExternalLink,
-    RotateCcw,
 } from "lucide-react";
 import type { SongCategory } from "@/types/song";
 import SongModal from "@/components/SongModal";
