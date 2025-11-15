@@ -3,6 +3,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { X } from "lucide-react";
 import { useEffect, useRef } from "react";
+import type { PanInfo } from "framer-motion";
 
 interface SongModalProps {
     isOpen: boolean;
@@ -18,32 +19,26 @@ interface SongModalProps {
 }
 
 export default function SongModal({ isOpen, onClose, song }: SongModalProps) {
-    if (!song) return null;
-
-    const lyricsToShow = song.lyricsMobile ?? song.lyrics;
+    // HOOKS DEVEM VIR ANTES DO RETURN
+    const modalRef = useRef<HTMLDivElement | null>(null);
 
     // 🔒 Bloqueia scroll da página ao abrir modal
     useEffect(() => {
-        if (isOpen) {
-            document.body.style.overflow = "hidden";
-        } else {
-            document.body.style.overflow = "auto";
-        }
-
-        return () => {
-            document.body.style.overflow = "auto";
-        };
+        document.body.style.overflow = isOpen ? "hidden" : "auto";
+        return () => { document.body.style.overflow = "auto"; };
     }, [isOpen]);
 
-    // 📌 Referência para permitir scroll interno do modal
-    const modalRef = useRef<HTMLDivElement | null>(null);
-
-    // 🔽 Fechar com gesto de deslizar para baixo
-    const handleDragEnd = (_: any, info: any) => {
+    // 🔽 Fechar com gesto de arrastar para baixo (tipado)
+    const handleDragEnd = (_: unknown, info: PanInfo) => {
         if (info.offset.y > 120) {
             onClose();
         }
     };
+
+    // SÓ AQUI PODE RETORNAR
+    if (!song) return null;
+
+    const lyricsToShow = song.lyricsMobile ?? song.lyrics;
 
     return (
         <AnimatePresence>
