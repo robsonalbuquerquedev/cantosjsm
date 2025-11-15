@@ -48,17 +48,6 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pt-BR">
-
-      <head>
-        {/* Google AdSense */}
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9360124149047745"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
-      </head>
-
       <body className="relative min-h-screen flex flex-col">
 
         <div
@@ -81,6 +70,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <footer className="relative z-20 mt-10">
           <Footer />
         </footer>
+
+        {/* Google AdSense */}
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9360124149047745"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
 
       </body>
     </html>
