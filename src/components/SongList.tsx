@@ -134,7 +134,7 @@ export default function SongList({ category, title }: SongListProps) {
                 font-semibold transition shadow cursor-pointer
             "
                             >
-                                Ver letra e cifras
+                                Abrir letra
                                 <ExternalLink size={16} />
                             </button>
 
