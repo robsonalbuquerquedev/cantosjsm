@@ -10,9 +10,10 @@ import {
     ExternalLink,
     RotateCcw,
 } from "lucide-react";
+import type { SongCategory } from "@/types/song";
 
 interface SongListProps {
-    category: Song["category"];
+    category: SongCategory;
     title: string;
 }
 
@@ -39,7 +40,7 @@ export default function SongList({ category, title }: SongListProps) {
             const data: Song[] = await res.json();
 
             const filtered = data
-                .filter((song) => song.category === category)
+                .filter((song) => song.categories.includes(category))
                 .sort((a, b) => a.name.localeCompare(b.name, "pt-BR"));
 
             setSongs(filtered);
@@ -233,38 +234,42 @@ export default function SongList({ category, title }: SongListProps) {
 
                     {/* Navegação entre músicas */}
                     <div className="flex justify-between items-center mt-8">
+
+                        {/* Botão anterior */}
                         <button
                             onClick={prevSong}
                             disabled={currentIndex === 0}
                             className={`
-                                flex items-center gap-2 px-4 py-2 rounded-xl border 
-                                transition shadow
-                                ${currentIndex === 0
-                                    ? "opacity-40 cursor-not-allowed border-gray-300"
-                                    : "bg-white hover:bg-gray-100 border-gray-300"
+            flex items-center gap-2 px-4 py-2 rounded-xl border shadow transition
+            ${currentIndex === 0
+                                    ? "bg-amber-600 opacity-40 cursor-not-allowed text-white border-amber-700"
+                                    : "bg-amber-600 hover:bg-amber-500 text-white cursor-pointer border-amber-700"
                                 }
-                            `}
+        `}
                         >
-                            <ChevronLeft size={18} /> Anterior
+                            <ChevronLeft size={18} />
+                            Anterior
                         </button>
 
+                        {/* Contador */}
                         <span className="text-gray-100 font-semibold">
                             {currentIndex + 1} de {filteredSongs.length}
                         </span>
 
+                        {/* Botão próxima */}
                         <button
                             onClick={nextSong}
                             disabled={currentIndex === filteredSongs.length - 1}
                             className={`
-                                flex items-center gap-2 px-4 py-2 rounded-xl border 
-                                transition shadow
-                                ${currentIndex === filteredSongs.length - 1
-                                    ? "opacity-40 cursor-not-allowed border-gray-300"
-                                    : "bg-white hover:bg-gray-100 border-gray-300"
+            flex items-center gap-2 px-4 py-2 rounded-xl border shadow transition
+            ${currentIndex === filteredSongs.length - 1
+                                    ? "bg-amber-600 opacity-40 cursor-not-allowed text-white border-amber-700"
+                                    : "bg-amber-600 hover:bg-amber-500 text-white cursor-pointer border-amber-700"
                                 }
-                            `}
+        `}
                         >
-                            Próxima <ChevronRight size={18} />
+                            Próxima
+                            <ChevronRight size={18} />
                         </button>
                     </div>
                 </div>
