@@ -49,8 +49,12 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pt-BR">
-      <body className="relative min-h-screen flex flex-col">
+      <head>
+        {/* Tag obrigatória para verificação no Google AdSense */}
+        <meta name="google-adsense-account" content="ca-pub-9360124149047745" />
+      </head>
 
+      <body className="relative min-h-screen flex flex-col">
         <div
           className="fixed inset-0 -z-20 bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: 'url("/background.jpg")' }}
@@ -72,7 +76,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Footer />
         </footer>
 
-        {/* Google AdSense */}
+        {/* Script do Google AdSense */}
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9360124149047745"
