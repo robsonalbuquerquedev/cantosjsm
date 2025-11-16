@@ -563,7 +563,7 @@
     },
     {
         "id": "44",
-        "name": "Hino Da Gloriosa Santa Luzia - Padroeira da Paróquia de Santa Luzia - Ribeirão",
+        "name": "Hino Da Gloriosa Santa Luzia - Padroeira Da Paróquia De Santa Luzia - Ribeirão",
         "description": "Canto devocional especialmente utilizado em festas, procissões e celebrações em honra ao padroeiro da comunidade.",
         "lyrics": "1. Salve, ó Santa Luzia lírio formoso do Senhor,\nRosa que também um dia deu a Cristo seu odor.\nOuve,excelsa Padroeira lá do céu esse cantar,\nQuando esta multidão inteira a tua festa celebrar.\n\nNesse mundo eu te escolho protetora da visão,\nGuarda a luz dos nossos olhos, salve nosso coração.\n\n2. Oh! Estrela peregrina, no firmamento é teu fulgor,\nExpressão quase divina da beleza do Senhor\nImploramos, ó Santa Luzia, o raiar de tua luz,\nQue nos mostre cada dia o divino berço de Jesus.\n\n3. Irmanados nessa hora vamos Luzia imitar\nA mão de Nossa Senhora e vivendo sem pecar,\nSua imortal vitória há de ser nossa também\nQue de lá de sua glória nos respondam serafins: amém!",
         "key": "",
@@ -576,7 +576,7 @@
     },
     {
         "id": "45",
-        "name": "Hino De Nossa Senhora da Penha - Padroeira de Gameleira",
+        "name": "Hino De Nossa Senhora Da Penha - Padroeira De Gameleira",
         "description": "Canto devocional especialmente utilizado em festas, procissões e celebrações em honra ao padroeiro da comunidade.",
         "lyrics": "Salve, Virgem Senhora/ desta terra és Padroeira/\nTe pedimos, Mãe da Penha,/ abençoa Gameleira.\n\n1. Hoje cantam os filhos teus/ Com amor no coração/\nAcolhe e recebe com carinho,/ esta nossa louvação.\n\n2. És de Deus agraciada/ Mãe de Cristo, nosso irmão/\nCom teu 'Sim' foste exaltada/ Mãe de vida e dos cristãos.\n\n3. Desta árvore surgiu a cidade/ Sob o olhar da tua proteção/\nGameleira te oferece com bondade/ Este hino de gratidão.",
         "key": "",
@@ -585,6 +585,71 @@
         ],
         "copyright": "© Diocese De Palmares - Pe. Agivaldo - uso autorizado.",
         "fullLyricsUrl": "",
+        "isPublicDomain": false
+    },
+    {
+        "id": "46",
+        "name": "Quem Tem a Graça",
+        "description": "Canto de entrada destinado a acolher a assembleia e iniciar a celebração com alegria e unidade.",
+        "lyrics": "Am       E    Am\nQuem tem a graça\n          A           Dm\nDe em tua casa poder morar?\n          Am\nQuem a justiça\n           F          E     Am\nBusca e conquista, com Deus está\nA            Dm            Am\nVamos entrando com alegria\n          E                  Em  A\nPois em família todos são irmãos\n       Dm             Am\nE se a casa de Deus é grande\n        E            Am\nMaior ainda o seu coração...",
+        "key": "Am",
+        "categories": [
+            "entrada"
+        ],
+        "copyright": "© Pe. João Carlos",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/p/pe-jose-carlos-sala/quem-tem-a-graca",
+        "isPublicDomain": false
+    },
+    {
+        "id": "47",
+        "name": "Senhor Que Vieste Para Perdoar",
+        "description": "Canto utilizado no Ato Penitencial, ajudando a comunidade a reconhecer suas faltas e pedir misericórdia.",
+        "lyrics": "     D                    Bm                 \nSENHOR QUE VIESTES NÃO PARA CONDENAR,\n    G         D/F# Em       Bm      A\nMAS PARA PERDOAR,  TENDE PIEDADE DE NÓS!\nD   Em D/F# G\nKYRIE  ELEI--SON,\nD   Em D/F# G\nKYRIE  ELEI--SON,\n    Bm  A4 A D\nKYRIE  ELEI--SON...",
+        "key": "D",
+        "categories": [
+            "ato-penitencial"
+        ],
+        "copyright": "© Comunidade Shalom",
+        "fullLyricsUrl": "https://musicasparamissa.com.br/musica/muito-perdoais/",
+        "isPublicDomain": false
+    },
+    {
+        "id": "48",
+        "name": "Glória A Deus",
+        "description": "Hino de louvor que exalta a grandeza de Deus no rito inicial da celebração.",
+        "lyrics": "A        E7             A    \nGLÓRIA A DEUS NOS ALTOS CÉUS,\n       Bm  \nPAZ NA TERRA A SEUS AMADOS\nDm   E7            F#m    \nA VÓS LOUVAM, REI CELESTE,\n       B7         D  E7\nOS QUE FORAM LIBERTA..DOS!\nA        A7   D     Dm    \nGLÓRIA A DEUS LÁ NOS CÉUS,\nA      E7        A\nE PAZ NA TERRA AOS SEUS...",
+        "key": "A",
+        "categories": [
+            "gloria"
+        ],
+        "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
+        "fullLyricsUrl": "https://musicasparamissa.com.br/musica/gloria-a-deus-ls/",
+        "isPublicDomain": false
+    },
+    {
+        "id": "49",
+        "name": "Vejam Eu Andei Pelas Vilas",
+        "description": "Canto de comunhão que expressa unidade e acolhimento ao Corpo e Sangue de Cristo.",
+        "lyrics": "D                     Bm\nVEJAM, EU ANDEI PELAS VILAS,\n            Em                     A\nAPONTEI AS SAÍDAS COMO O PAI ME PEDIU\n F#                      Bm\nPORTAS, EU CHEGUEI PARA ABRI-LAS,\n              Em   A7              D  Am\nEU CUREI AS FERIDAS COMO NUNCA SE VIU\nD        G             A                F#m Bm\nPOR ONDE FORMOS TAMBÉM NÓS QUE BRILHE A TUA LUZ!\n         Em            A             G D\nFALA, SENHOR, NA NOSSA VOZ, EM NOSSA VIDA\n D/F#    G             A/G           F#m    Bm\nNOSSO CAMINHO ENTÃO CONDUZ. QUEREMOS SER ASSIM!\n             Em            A              D    A\nQUE O PÃO DA VIDA NOS REVIGORE NO NOSSO 'SIM'...",
+        "key": "D",
+        "categories": [
+            "comunhao"
+        ],
+        "copyright": "© Frei Fabreti",
+        "fullLyricsUrl": "https://musicasparamissa.com.br/musica/vejam-eu-andei-pelas-vilas/",
+        "isPublicDomain": false
+    },
+    {
+        "id": "50",
+        "name": "Maria De Minha Infância",
+        "description": "Canto Mariano dedicado à Virgem Maria.",
+        "lyrics": "   C                    G\nEu era pequeno, nem me lembro\n  F                              C\nSó lembro que à noite, ao pé da cama\n    C                   F\nJuntava as mãozinhas e rezava apressado\n G                         C\nMas rezava como alguém que ama...\n C                  F\nAve Maria, Mãe de Jesus\nG                          C\nO tempo passa, não volta mais\nC                       F\nTenho saudade daquele tempo\nG                           C\nQue eu te chamava de minha mãe\nC                    F\nAve Maria, Mãe de Jesus\nG                    C\nAve Maria, Mãe de Jesus...",
+        "key": "C",
+        "categories": [
+            "final"
+        ],
+        "copyright": "© Padre Zezinho",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/p/padre-zezinho/maria-de-minha-infancia",
         "isPublicDomain": false
     }
 ]
