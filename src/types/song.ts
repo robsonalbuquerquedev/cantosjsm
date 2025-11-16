@@ -21,6 +21,7 @@ export interface Song {
     name: string;
     description?: string;
     lyrics: string;
+    imageLyrics: string;
     key?: string;
     copyright?: string;
     fullLyricsUrl?: string;
