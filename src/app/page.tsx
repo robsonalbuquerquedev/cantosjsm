@@ -28,6 +28,7 @@ export default function Home() {
     { label: "Amém", path: "/amem", icon: Music },
     { label: "Cordeiro", path: "/cordeiro", icon: Mic2 },
     { label: "Comunhão", path: "/comunhao", icon: BookOpen },
+    { label: "Pós-Comunhão", path: "/pos-comunhao", icon: BookOpen },
     { label: "Final", path: "/final", icon: Sparkles },
 
     // NOVAS CATEGORIAS
