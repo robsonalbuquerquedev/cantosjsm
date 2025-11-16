@@ -59,6 +59,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
         { label: "Amém", href: "/amem", icon: CheckCircle2 },
         { label: "Cordeiro", href: "/cordeiro", icon: BadgeCheck },
         { label: "Comunhão", href: "/comunhao", icon: Wine },
+        { label: "Pós-Comunhão", href: "/pos-comunhao", icon: Wine },
         { label: "Final", href: "/final", icon: Flag },
     ];
 
