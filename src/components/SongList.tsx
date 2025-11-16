@@ -124,15 +124,19 @@ export default function SongList({ category, title }: SongListProps) {
                                 </p>
                             )}
 
+                            <p className="text-xs text-amber-700 -mt-2">
+                                📌 A imagem é um print do próprio site, exibindo apenas o trecho permitido.
+                            </p>
+
                             {/* Botão para abrir modal */}
                             <button
                                 onClick={() => setIsModalOpen(true)}
                                 className="
-                w-full inline-flex items-center justify-center gap-2 
-                bg-amber-600 hover:bg-amber-500 
-                text-black px-4 py-3 rounded-xl 
-                font-semibold transition shadow cursor-pointer
-            "
+        w-full inline-flex items-center justify-center gap-2 
+        bg-amber-600 hover:bg-amber-500 
+        text-black px-4 py-3 rounded-xl 
+        font-semibold transition shadow cursor-pointer
+    "
                             >
                                 Abrir letra
                                 <ExternalLink size={16} />
@@ -140,19 +144,25 @@ export default function SongList({ category, title }: SongListProps) {
 
                             {/* Botão para letra completa */}
                             {currentSong?.fullLyricsUrl && (
-                                <a
-                                    href={currentSong.fullLyricsUrl}
-                                    target="_blank"
-                                    className="
-                    inline-flex items-center gap-2 
-                    bg-amber-500 hover:bg-amber-400 
-                    text-black px-4 py-2 rounded-xl 
-                    font-semibold transition shadow w-full justify-center
-                "
-                                >
-                                    Ver letra completa (site oficial)
-                                    <ExternalLink size={16} />
-                                </a>
+                                <>
+                                    <p className="text-xs text-amber-700">
+                                        🔗 Letra completa disponível no site autorizado.
+                                    </p>
+
+                                    <a
+                                        href={currentSong.fullLyricsUrl}
+                                        target="_blank"
+                                        className="
+                inline-flex items-center gap-2 
+                bg-amber-500 hover:bg-amber-400 
+                text-black px-4 py-2 rounded-xl 
+                font-semibold transition shadow w-full justify-center
+            "
+                                    >
+                                        Ver letra completa
+                                        <ExternalLink size={16} />
+                                    </a>
+                                </>
                             )}
                         </motion.div>
                     )}
