@@ -10,7 +10,7 @@ import {
     ExternalLink,
 } from "lucide-react";
 import type { SongCategory } from "@/types/song";
-import SongModal from "@/components/SongModal";
+import Image from "next/image";
 
 interface SongListProps {
     category: SongCategory;
@@ -22,7 +22,6 @@ export default function SongList({ category, title }: SongListProps) {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [searchTerm, setSearchTerm] = useState("");
     const [isLandscape, setIsLandscape] = useState(true);
-    const [isModalOpen, setIsModalOpen] = useState(false);
 
     useEffect(() => {
         function detectOrientation() {
@@ -99,23 +98,26 @@ export default function SongList({ category, title }: SongListProps) {
             {filteredSongs.length > 0 && (
                 <div className="w-full max-w-3xl">
 
-                    {/* 🎛️ PORTRAIT MODE (INFORMAÇÕES) */}
+                    {/* 🎛️ PORTRAIT MODE (INFORMAÇÕES + LETRA EM IMAGEM) */}
                     {!isLandscape && (
                         <motion.div
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.4 }}
                             className="
-            bg-white text-black rounded-2xl p-10 shadow-xl 
+            bg-white text-black rounded-2xl p-8 shadow-xl 
             border-l-4 border-amber-400 space-y-6
         "
                         >
+                            {/* TÍTULO */}
                             <h2 className="text-3xl font-bold text-amber-700">
                                 {currentSong?.name}
                             </h2>
 
                             {currentSong?.description && (
-                                <p className="text-gray-700 italic">{currentSong.description}</p>
+                                <p className="text-gray-700 italic">
+                                    {currentSong.description}
+                                </p>
                             )}
 
                             {currentSong?.key && (
@@ -124,25 +126,24 @@ export default function SongList({ category, title }: SongListProps) {
                                 </p>
                             )}
 
+                            {/* AVISO DE TRANSPARÊNCIA */}
                             <p className="text-xs text-amber-700 -mt-2">
-                                📌 A imagem é um print do próprio site, exibindo apenas o trecho permitido.
+                                📌 A letra exibida abaixo é uma imagem gerada do próprio site, contendo apenas o trecho permitido pela legislação.
                             </p>
 
-                            {/* Botão para abrir modal */}
-                            <button
-                                onClick={() => setIsModalOpen(true)}
-                                className="
-        w-full inline-flex items-center justify-center gap-2 
-        bg-amber-600 hover:bg-amber-500 
-        text-black px-4 py-3 rounded-xl 
-        font-semibold transition shadow cursor-pointer
-    "
-                            >
-                                Abrir letra
-                                <ExternalLink size={16} />
-                            </button>
+                            {/* LETRA COMO IMAGEM */}
+                            <div className="w-full flex justify-center">
+                                <Image
+                                    src={`/letras/${currentSong.id}.png`}
+                                    alt={`Letra da música ${currentSong.name}`}
+                                    width={1200}
+                                    height={2000}
+                                    quality={95}
+                                    className="rounded-xl shadow-md w-full h-auto"
+                                />
+                            </div>
 
-                            {/* Botão para letra completa */}
+                            {/* BOTÃO PARA LETRA COMPLETA */}
                             {currentSong?.fullLyricsUrl && (
                                 <>
                                     <p className="text-xs text-amber-700">
@@ -153,11 +154,11 @@ export default function SongList({ category, title }: SongListProps) {
                                         href={currentSong.fullLyricsUrl}
                                         target="_blank"
                                         className="
-                inline-flex items-center gap-2 
-                bg-amber-500 hover:bg-amber-400 
-                text-black px-4 py-2 rounded-xl 
-                font-semibold transition shadow w-full justify-center
-            "
+                        inline-flex items-center gap-2 
+                        bg-amber-500 hover:bg-amber-400 
+                        text-black px-4 py-2 rounded-xl 
+                        font-semibold transition shadow w-full justify-center
+                    "
                                     >
                                         Ver letra completa
                                         <ExternalLink size={16} />
@@ -234,13 +235,6 @@ export default function SongList({ category, title }: SongListProps) {
                             </motion.article>
                         </AnimatePresence>
                     )}
-
-                    {/* Modal */}
-                    <SongModal
-                        isOpen={isModalOpen}
-                        onClose={() => setIsModalOpen(false)}
-                        song={currentSong}
-                    />
 
                     {/* Navegação entre músicas */}
                     <div className="flex justify-between items-center mt-8">
