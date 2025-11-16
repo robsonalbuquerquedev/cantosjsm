@@ -9,6 +9,7 @@ export type SongCategory =
     | "amem"
     | "cordeiro"
     | "comunhao"
+    | "pos-comunhao"
     | "final"
     | "hinos"
     | "marianas"

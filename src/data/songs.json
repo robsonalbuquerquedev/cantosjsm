@@ -651,5 +651,31 @@
         "copyright": "© Padre Zezinho",
         "fullLyricsUrl": "https://www.bananacifras.com/simplificada/p/padre-zezinho/maria-de-minha-infancia",
         "isPublicDomain": false
+    },
+    {
+        "id": "51",
+        "name": "Obrigado Senhor",
+        "description": "Canto de ação de graças após a Comunhão, que ajuda a assembleia a permanecer em oração e contemplação depois de receber o Corpo de Cristo.",
+        "lyrics": "            C   C/E\nOBRIGADO, SENHOR\n               F   Dm\nPORQUE ÉS MEU AMIGO\n                G    G/B\nPORQUE SEMPRE COMIGO\n             C  C/E F\nTU ESTÁS A FALAR...\n     C/E       F7+ G/F\nESCONDIDO TU ESTÁS\n                Em    Am\nNO VERDE DAS FLORESTAS\n            Dm   G\nNAS AVES EM FESTA\n            C    Gm/Bb \nNO SOL A BRILHAR\n   C7          F#7\nNA SOMBRA QUE ABRIGA\n        C/E  D#º\nA BRISA AMIGA\n             Dm    G\nNA FONTE QUE CORRE\n             C\nLIGEIRA A CANTAR...",
+        "key": "C",
+        "categories": [
+            "pos-comunhao"
+        ],
+        "copyright": "© Eugênio Jorge",
+        "fullLyricsUrl": "https://musicasparamissa.com.br/musica/obrigado-senhor-eugenio-jorge/",
+        "isPublicDomain": false
+    },
+    {
+        "id": "52",
+        "name": "Doce Mãe De Guardalupe",
+        "description": "Canto de ação de graças após a Comunhão, que ajuda a assembleia a permanecer em oração e contemplação depois de receber o Corpo de Cristo.",
+        "lyrics": "Bm                  Em A          D\nAve, ave sempre virgem santa maria,\n       G             Em             F#\nMãe do verdadeiro Deus, senhor do céu, \n              Bm B \nsenhor da terra\n                       Em         A           D\nÉs o templo do Deus vivo, és do amor revelação\n      G              Em          F#          Bm Bm \nOuve mãe nosso lamento, és auxílio e compaixão\n                 Em A              D\nNada me entristeça, nada me preocupe \n       G            Em\nse estou no teu olhar\n       F#           Bm B \nDoce mãe de guadalupe\nBm                     Em     A     D\nAve, ave das américas, mãe carinhosa...",
+        "key": "D",
+        "categories": [
+            "pos-comunhao"
+        ],
+        "copyright": "© Padre Reginaldo Manzotti",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/p/padre-reginaldo-manzotti/doce-mae-de-guadalupe",
+        "isPublicDomain": false
     }
 ]
