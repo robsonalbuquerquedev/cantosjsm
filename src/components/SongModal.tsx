@@ -31,17 +31,15 @@ export default function SongModal({ isOpen, onClose, song }: SongModalProps) {
         }
     }, [isOpen]);
 
-    // 📌 estados para zoom manual
+    // 📌 zoom states
     const [scale, setScale] = useState(1);
     const [startDistance, setStartDistance] = useState(0);
 
     if (!song) return null;
 
-    // ✋ Função que calcula distância entre dois dedos
     const getDistance = (touches: React.TouchList | TouchList) => {
         const t0 = touches[0];
         const t1 = touches[1];
-
         if (!t0 || !t1) return 0;
 
         return Math.sqrt(
@@ -50,7 +48,6 @@ export default function SongModal({ isOpen, onClose, song }: SongModalProps) {
         );
     };
 
-    // 📱 Pinch-to-zoom
     const handleTouchStart = (e: React.TouchEvent) => {
         if (e.touches.length === 2) {
             setStartDistance(getDistance(e.touches));
@@ -78,43 +75,46 @@ export default function SongModal({ isOpen, onClose, song }: SongModalProps) {
                         className="fixed inset-0 bg-black/70 backdrop-blur-sm z-[9998]"
                     />
 
-                    {/* Modal que agora é praticamente só a imagem */}
+                    {/* MODAL CENTRALIZADO */}
                     <motion.div
                         ref={modalRef}
-                        initial={{ y: 80, opacity: 0 }}
-                        animate={{ y: 0, opacity: 1 }}
-                        exit={{ y: 100, opacity: 0 }}
+                        initial={{ opacity: 0, scale: 0.9 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        exit={{ opacity: 0, scale: 0.9 }}
                         transition={{ type: "spring", stiffness: 240, damping: 22 }}
                         className="
-                            fixed bottom-0 left-0 right-0 mx-auto 
-                            w-full max-w-xl 
-                            z-[9999] max-h-[92vh] overflow-auto
+                            fixed inset-0 z-[9999]
+                            flex items-center justify-center
+                            overflow-y-auto
+                            p-4
                         "
                     >
-                        {/* Fechar */}
-                        <button
-                            onClick={onClose}
-                            className="absolute top-4 right-6 z-[9999] text-white/90 hover:text-white transition"
-                        >
-                            <X size={32} />
-                        </button>
-
-                        {/* Imagem ocupando tudo */}
+                        {/* CONTAINER DA IMAGEM (cartão centralizado) */}
                         <div
                             className="
-                                relative w-full 
-                                bg-black 
-                                rounded-t-3xl
+                                relative bg-black rounded-2xl 
+                                max-w-xl w-full 
+                                max-h-[92vh] overflow-auto
                             "
                             onTouchStart={handleTouchStart}
                             onTouchMove={handleTouchMove}
                         >
+                            {/* Botão fechar */}
+                            <button
+                                onClick={onClose}
+                                className="absolute top-3 right-3 text-white/90 hover:text-white z-[9999]"
+                            >
+                                <X size={32} />
+                            </button>
+
+                            {/* Imagem ocupando 100% */}
                             <div
                                 style={{
                                     transform: `scale(${scale})`,
                                     transformOrigin: "center center",
                                     transition: "transform 0.05s linear",
                                 }}
+                                className="select-none touch-none"
                             >
                                 <Image
                                     src={song.imageLyrics}
@@ -122,7 +122,7 @@ export default function SongModal({ isOpen, onClose, song }: SongModalProps) {
                                     width={1200}
                                     height={2000}
                                     quality={100}
-                                    className="w-full h-auto select-none touch-none rounded-t-3xl"
+                                    className="w-full h-auto rounded-2xl"
                                 />
                             </div>
                         </div>
