@@ -15,6 +15,7 @@ import {
   HandHeart,
   Church
 } from "lucide-react";
+import VerseBox from "@/components/VerseBox";
 
 export default function Home() {
   const sections = [
@@ -68,6 +69,7 @@ export default function Home() {
               tom e cifras opcionais.
             </p>
           </div>
+          <VerseBox />
         </motion.article>
 
         {/* 🟦 Lado Direito — Cards litúrgicos elegantes */}
