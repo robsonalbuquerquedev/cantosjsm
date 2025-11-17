@@ -26,7 +26,8 @@ import {
     Info,
     Mail,
     ShieldCheck,
-    BookOpen
+    BookOpen,
+    CircleDot,
 } from "lucide-react";
 
 interface SidebarProps {
@@ -78,6 +79,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
         { label: "Termos de Uso", href: "/termos-de-uso", icon: BookOpenCheck },
         { label: "Agradecimentos", href: "/agradecimentos", icon: Sparkles },
         { label: "Guia Litúrgico", href: "/guia-liturgico", icon: BookOpen },
+        { label: "Guia do Rosário", href: "/guia-do-rosario", icon: CircleDot },
     ];
 
     const renderSection = (

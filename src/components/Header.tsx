@@ -9,7 +9,8 @@ import {
     Mail,
     HeartHandshake,
     BookOpen,
-    Home
+    Home,
+    CircleDot,
 } from "lucide-react";
 import Sidebar from "@/components/Sidebar";
 
@@ -92,6 +93,14 @@ export default function Header() {
                         >
                             <BookOpen size={18} className="text-amber-700" />
                             Guia Litúrgico
+                        </Link>
+
+                        <Link
+                            href="/guia-do-rosario"
+                            className="flex items-center gap-2 text-sm font-medium text-gray-800 hover:text-amber-700 transition"
+                        >
+                            <CircleDot size={18} className="text-amber-700" />
+                            Guia do Rosário
                         </Link>
 
                         {/* CTA */}
