@@ -70,6 +70,16 @@ export default function Home() {
             </p>
           </div>
           <VerseBox />
+          <a
+            href="#recursos"
+            className="
+    mt-4 inline-block bg-amber-600 hover:bg-amber-500 
+    text-black font-semibold px-5 py-3 rounded-xl 
+    shadow transition-all
+  "
+          >
+            Explorar Conteúdos Especiais
+          </a>
         </motion.article>
 
         {/* 🟦 Lado Direito — Cards litúrgicos elegantes */}
@@ -106,7 +116,7 @@ export default function Home() {
       </main>
 
       {/* CTA – Recursos adicionais */}
-      <section className="px-6 py-20 max-w-4xl mx-auto text-center space-y-10">
+      <section id="recursos" className="px-6 py-20 max-w-4xl mx-auto text-center space-y-10">
 
         {/* Guia do Rosário */}
         <Link
