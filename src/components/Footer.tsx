@@ -29,9 +29,8 @@ export default function Footer() {
                     <Link href="/agradecimentos" className="hover:text-amber-700 transition">Agradecimentos</Link>
                     <Link href="/politica-de-privacidade" className="hover:text-amber-700 transition">Política de Privacidade</Link>
                     <Link href="/termos-de-uso" className="hover:text-amber-700 transition">Termos de Uso</Link>
-                    <Link href="/guia-liturgico" className="hover:text-amber-700 transition">
-                        Guia Litúrgico
-                    </Link>
+                    <Link href="/guia-liturgico" className="hover:text-amber-700 transition"> Guia Litúrgico</Link>
+                    <Link href="/guia-do-rosario" className="hover:text-amber-700 transition"> Guia do Rosário</Link>
                 </div>
 
                 {/* 🎵 Navegação simplificada de cantos */}
