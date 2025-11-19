@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import BreadcrumbInjector from "@/components/BreadcrumbInjector";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://cantosjsm.com.br"),
@@ -193,6 +194,8 @@ export default function RootLayout({
         />
 
         <div className="fixed inset-0 -z-10 bg-black/40" />
+
+        <BreadcrumbInjector />
 
         <header className="relative z-20">
           <Header />
