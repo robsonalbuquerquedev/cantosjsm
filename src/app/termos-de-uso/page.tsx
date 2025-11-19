@@ -1,3 +1,51 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: {
+        absolute: "Termos de Uso | CantosJSM"
+    },
+    description:
+        "Leia os Termos de Uso do CantosJSM e entenda as regras, responsabilidades e condições de uso da plataforma criada por Robson Albuquerque em parceria com a Juventude de Santa Maria (JSM).",
+    keywords: [
+        "Termos de Uso",
+        "Regras da Plataforma",
+        "Condições de Uso",
+        "Uso do CantosJSM",
+        "Direitos e Responsabilidades",
+        "Cantos Litúrgicos",
+        "CantosJSM",
+        "Robson Albuquerque",
+        "Juventude de Santa Maria"
+    ],
+    alternates: {
+        canonical: "https://cantosjsm.com.br/termos-de-uso"
+    },
+    openGraph: {
+        title: "Termos de Uso | CantosJSM",
+        description:
+            "Confira as condições e diretrizes para utilização da plataforma CantosJSM, desenvolvida por Robson Albuquerque e pela Juventude de Santa Maria (JSM).",
+        url: "https://cantosjsm.com.br/termos-de-uso",
+        siteName: "CantosJSM",
+        images: [
+            {
+                url: "https://cantosjsm.com.br/og-termos-uso.png",
+                width: 1200,
+                height: 630,
+                alt: "Termos de Uso - CantosJSM"
+            }
+        ],
+        locale: "pt_BR",
+        type: "article"
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Termos de Uso | CantosJSM",
+        description:
+            "Saiba todas as regras, diretrizes e condições para utilizar os recursos do CantosJSM com segurança e clareza.",
+        images: ["https://cantosjsm.com.br/og-termos-uso.png"]
+    }
+};
+
 export default function TermosDeUsoPage() {
     return (
         <main className="min-h-screen flex items-center justify-center px-6 py-20">
