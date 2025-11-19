@@ -1,17 +1,60 @@
-"use client";
+import type { Metadata } from "next";
 
-import { motion } from "framer-motion";
+export const metadata: Metadata = {
+    title: {
+        absolute: "Agradecimentos | CantosJSM"
+    },
+
+    description:
+        "Agradecimentos especiais escritos por Robson Albuquerque e pela Juventude de Santa Maria (JSM). Uma homenagem a todos que contribuem com apoio, orações, participação nos ministérios e fortalecimento da missão.",
+
+    keywords: [
+        "Agradecimentos",
+        "Juventude de Santa Maria",
+        "JSM",
+        "CantosJSM",
+        "Comunidade Católica",
+        "Ministério de Música",
+        "Gratidão",
+        "Apoio Pastoral"
+    ],
+
+    alternates: {
+        canonical: "https://cantosjsm.com.br/agradecimentos"
+    },
+
+    openGraph: {
+        title: "Agradecimentos | CantosJSM",
+        description:
+            "Uma página dedicada para expressar gratidão a todos que caminham conosco na missão, criada por Robson Albuquerque e pela Juventude de Santa Maria (JSM).",
+        url: "https://cantosjsm.com.br/agradecimentos",
+        siteName: "CantosJSM",
+        images: [
+            {
+                url: "https://cantosjsm.com.br/og-agradecimentos.png",
+                width: 1200,
+                height: 630,
+                alt: "Agradecimentos - CantosJSM"
+            }
+        ],
+        locale: "pt_BR",
+        type: "article"
+    },
+
+    twitter: {
+        card: "summary_large_image",
+        title: "Agradecimentos | CantosJSM",
+        description:
+            "Uma homenagem a todos que contribuem com apoio, orações e incentivo à missão.",
+        images: ["https://cantosjsm.com.br/og-agradecimentos.png"]
+    }
+};
 
 export default function AgradecimentosPage() {
     return (
         <main className="min-h-screen flex items-center justify-center px-6 py-20">
 
-            <motion.article
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8 }}
-                className="max-w-3xl w-full bg-white text-black rounded-2xl p-10 shadow-xl border-l-4 border-amber-400 space-y-6 relative"
-            >
+            <article className="max-w-3xl w-full bg-white text-black rounded-2xl p-10 shadow-xl border-l-4 border-amber-400 space-y-6 relative fade-in-up-30">
                 {/* Faixa decorativa */}
                 <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-300 rounded-t-2xl" />
 
@@ -65,7 +108,7 @@ export default function AgradecimentosPage() {
                         “Quem canta, reza duas vezes.” — Santo Agostinho
                     </p>
                 </section>
-            </motion.article>
+            </article>
         </main>
     );
 }
