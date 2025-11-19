@@ -1,6 +1,55 @@
-"use client";
+import type { Metadata } from "next";
 
-import { motion } from "framer-motion";
+export const metadata: Metadata = {
+  title: {
+    absolute: "CantosJSM — Cifras e Cantos Litúrgicos Organizados"
+  },
+  description:
+    "Acesse cantos litúrgicos organizados por categorias como Entrada, Salmo, Comunhão, Final e muito mais. Projeto criado por Robson Albuquerque em parceria com a Juventude de Santa Maria (JSM) para auxiliar ministérios de música e celebrações.",
+  keywords: [
+    "Cantos Litúrgicos",
+    "Cifras Católicas",
+    "Músicas para Missa",
+    "Canto de Entrada",
+    "Salmo Responsorial",
+    "Aclamação",
+    "Comunhão",
+    "Cantos Católicos",
+    "Hinos Católicos",
+    "Músicas Religiosas",
+    "CantosJSM",
+    "Robson Albuquerque",
+    "Juventude de Santa Maria"
+  ],
+  alternates: {
+    canonical: "https://cantosjsm.com.br/"
+  },
+  openGraph: {
+    title: "CantosJSM — Cantos Litúrgicos para Missa e Adoração",
+    description:
+      "Encontre cantos litúrgicos por categoria: Entrada, Glória, Salmo, Ofertório, Comunhão, Final e muito mais. Uma plataforma criada para ministérios de música.",
+    url: "https://cantosjsm.com.br/",
+    siteName: "CantosJSM",
+    images: [
+      {
+        url: "https://cantosjsm.com.br/og-home.png",
+        width: 1200,
+        height: 630,
+        alt: "CantosJSM — Plataforma de Cantos Litúrgicos"
+      }
+    ],
+    locale: "pt_BR",
+    type: "website"
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "CantosJSM — Cantos Litúrgicos para Missa",
+    description:
+      "Plataforma organizada com cantos e cifras para missas, celebrações e momentos de oração.",
+    images: ["https://cantosjsm.com.br/og-home.png"]
+  }
+};
+
 import Link from "next/link";
 import {
   BookOpen,
@@ -45,11 +94,12 @@ export default function Home() {
       <main className="min-h-screen flex flex-col md:flex-row items-center justify-center px-8 py-20 gap-10">
 
         {/* 🟨 Lado Esquerdo — Apresentação Detalhada */}
-        <motion.article
-          initial={{ opacity: 0, x: -40 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8 }}
-          className="md:w-1/2 w-full bg-white text-black rounded-2xl p-10 shadow-xl border-l-4 border-amber-400 space-y-6 relative"
+        <article
+          className="
+    md:w-1/2 w-full bg-white text-black rounded-2xl p-10 shadow-xl
+    border-l-4 border-amber-400 space-y-6 relative
+    fade-in-left
+  "
         >
           <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-300 rounded-t-2xl" />
 
@@ -80,14 +130,14 @@ export default function Home() {
           >
             Explorar Conteúdos Especiais
           </a>
-        </motion.article>
+        </article>
 
         {/* 🟦 Lado Direito — Cards litúrgicos elegantes */}
-        <motion.div
-          initial={{ opacity: 0, x: 40 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8, delay: 0.3 }}
-          className="md:w-1/2 grid grid-cols-2 sm:grid-cols-3 gap-5"
+        <div
+          className="
+    md:w-1/2 grid grid-cols-2 sm:grid-cols-3 gap-5
+    fade-in-right delay-3
+  "
         >
           {sections.map(({ label, path, icon: Icon }) => (
             <Link
@@ -112,7 +162,7 @@ export default function Home() {
               <span className="font-semibold text-center">{label}</span>
             </Link>
           ))}
-        </motion.div>
+        </div>
       </main>
 
       {/* CTA – Recursos adicionais */}
