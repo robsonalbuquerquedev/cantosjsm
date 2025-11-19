@@ -1,15 +1,57 @@
-"use client";
+import type { Metadata } from "next";
 
-import { motion } from "framer-motion";
+export const metadata: Metadata = {
+    title: {
+        absolute: "Sobre | CantosJSM"
+    },
+    description:
+        "Conheça a história do CantosJSM, um projeto criado por Robson Albuquerque em parceria com a Juventude de Santa Maria (JSM). Saiba como surgiu a plataforma, sua missão, valores e como ela ajuda ministérios de música e comunidades a encontrarem cantos litúrgicos de forma rápida e organizada.",
+    keywords: [
+        "Sobre o CantosJSM",
+        "CantosJSM",
+        "Robson Albuquerque",
+        "Juventude de Santa Maria",
+        "História do projeto",
+        "Projeto litúrgico",
+        "Cantos Litúrgicos",
+        "Plataforma de música litúrgica",
+        "Ministério de Música",
+        "Cantos para Missa"
+    ],
+    alternates: {
+        canonical: "https://cantosjsm.com.br/sobre"
+    },
+    openGraph: {
+        title: "Sobre | CantosJSM",
+        description:
+            "Conheça a origem e a missão do CantosJSM — um projeto criado por Robson Albuquerque em parceria com a Juventude de Santa Maria (JSM) para facilitar o acesso aos cantos litúrgicos.",
+        url: "https://cantosjsm.com.br/sobre",
+        siteName: "CantosJSM",
+        images: [
+            {
+                url: "https://cantosjsm.com.br/og-sobre.png",
+                width: 1200,
+                height: 630,
+                alt: "Sobre o CantosJSM"
+            }
+        ],
+        locale: "pt_BR",
+        type: "article"
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Sobre | CantosJSM",
+        description:
+            "Conheça a história, missão e propósito do CantosJSM, criado por Robson Albuquerque em parceria com a Juventude de Santa Maria (JSM).",
+        images: ["https://cantosjsm.com.br/og-sobre.png"]
+    }
+};
 
 export default function SobrePage() {
     return (
         <main className="min-h-screen flex items-center justify-center px-6 py-20">
-            <motion.article
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8 }}
-                className="max-w-3xl w-full bg-white text-black rounded-2xl p-8 md:p-10 shadow-xl border-l-4 border-amber-400 space-y-6"
+            <article
+                className="max-w-3xl w-full bg-white text-black rounded-2xl p-8 md:p-10 shadow-xl border-l-4 border-amber-400 space-y-6 fade-in-up-30"
             >
                 {/* Título */}
                 <header className="text-center space-y-2 mb-6">
@@ -66,7 +108,7 @@ export default function SobrePage() {
                     </p>
                     <p className="text-gray-700">— Santo Agostinho</p>
                 </footer>
-            </motion.article>
+            </article>
         </main>
     );
 }
