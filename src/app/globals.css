@@ -34,3 +34,17 @@ body {
     transform: translateY(0);
   }
 }
+
+/* Animação específica para deslocamento de 30px */
+.fade-in-up-30 {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp30 0.8s ease forwards;
+}
+
+@keyframes fadeInUp30 {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
