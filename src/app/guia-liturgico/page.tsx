@@ -1,17 +1,59 @@
-"use client";
-
-import { motion } from "framer-motion";
 import { BookOpenCheck, Music2, Sparkles, Info } from "lucide-react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: {
+        absolute: "Guia Litúrgico | CantosJSM"
+    },
+    description:
+        "Guia litúrgico completo criado por Robson Albuquerque e pela Juventude de Santa Maria (JSM). Entenda a função de cada canto da Missa e aprenda como escolher músicas adequadas para Entrada, Ato Penitencial, Salmo, Glória, Ofertório, Santo, Cordeiro, Comunhão, Final e outras categorias especiais.",
+    keywords: [
+        "Guia Litúrgico",
+        "Cantos da Missa",
+        "Liturgia",
+        "Cantos Litúrgicos",
+        "Ministério de Música",
+        "Como escolher cantos",
+        "Cantos Católicos",
+        "Função dos cantos",
+        "Cantos para Missa",
+        "Juventude de Santa Maria"
+    ],
+    alternates: {
+        canonical: "https://cantosjsm.com.br/guia-liturgico"
+    },
+    openGraph: {
+        title: "Guia Litúrgico | CantosJSM",
+        description:
+            "Aprenda a função litúrgica de cada canto da Missa com este guia completo criado por Robson Albuquerque e pela Juventude de Santa Maria (JSM).",
+        url: "https://cantosjsm.com.br/guia-liturgico",
+        siteName: "CantosJSM",
+        images: [
+            {
+                url: "https://cantosjsm.com.br/og-guia-liturgico.png",
+                width: 1200,
+                height: 630,
+                alt: "Guia Litúrgico - CantosJSM"
+            }
+        ],
+        locale: "pt_BR",
+        type: "article"
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Guia Litúrgico | CantosJSM",
+        description:
+            "Um guia prático para entender a função de cada canto da Missa e escolher músicas com consciência litúrgica.",
+        images: ["https://cantosjsm.com.br/og-guia-liturgico.png"]
+    }
+};
 
 export default function GuiaLiturgicoPage() {
     return (
         <main className="min-h-screen px-6 py-12 flex flex-col items-center">
             {/* 🌿 Cabeçalho da página */}
-            <motion.header
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6 }}
-                className="max-w-4xl w-full text-center mb-10 text-white drop-shadow"
+            <header
+                className="max-w-4xl w-full text-center mb-10 text-white drop-shadow fade-in-up"
             >
                 <div className="inline-flex items-center gap-3 px-4 py-2 bg-black/40 rounded-full mb-4">
                     <BookOpenCheck size={22} className="text-amber-300" />
@@ -28,14 +70,11 @@ export default function GuiaLiturgicoPage() {
                     e comunidades a compreender melhor a função de cada canto na celebração
                     e escolher músicas com mais consciência litúrgica.
                 </p>
-            </motion.header>
+            </header>
 
             {/* 📘 Conteúdo principal */}
-            <motion.section
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.7, delay: 0.1 }}
-                className="max-w-4xl w-full bg-white text-black rounded-2xl p-8 md:p-10 shadow-xl border-l-4 border-amber-400 space-y-8"
+            <section
+                className="max-w-4xl w-full bg-white text-black rounded-2xl p-8 md:p-10 shadow-xl border-l-4 border-amber-400 space-y-8 fade-in-up delay-1"
             >
                 {/* O que é o Canto de Entrada */}
                 <article id="canto-de-entrada" className="space-y-3">
@@ -219,7 +258,7 @@ export default function GuiaLiturgicoPage() {
                         </span>
                     </p>
                 </footer>
-            </motion.section>
+            </section>
         </main>
     );
 }
