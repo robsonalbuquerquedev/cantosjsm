@@ -1,3 +1,51 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: {
+        absolute: "Política de Privacidade | CantosJSM"
+    },
+    description:
+        "Leia a Política de Privacidade do CantosJSM. Entenda como seus dados são coletados, utilizados e protegidos na plataforma desenvolvida por Robson Albuquerque em parceria com a Juventude de Santa Maria (JSM).",
+    keywords: [
+        "Política de Privacidade",
+        "Privacidade CantosJSM",
+        "Segurança de Dados",
+        "Proteção de Dados",
+        "Termos de Privacidade",
+        "Dados de Usuários",
+        "CantosJSM",
+        "Robson Albuquerque",
+        "Juventude de Santa Maria"
+    ],
+    alternates: {
+        canonical: "https://cantosjsm.com.br/politica-de-privacidade"
+    },
+    openGraph: {
+        title: "Política de Privacidade | CantosJSM",
+        description:
+            "Saiba como seus dados são tratados e protegidos na plataforma CantosJSM, criada por Robson Albuquerque em parceria com a Juventude de Santa Maria (JSM).",
+        url: "https://cantosjsm.com.br/politica-de-privacidade",
+        siteName: "CantosJSM",
+        images: [
+            {
+                url: "https://cantosjsm.com.br/og-politica-privacidade.png",
+                width: 1200,
+                height: 630,
+                alt: "Política de Privacidade - CantosJSM"
+            }
+        ],
+        locale: "pt_BR",
+        type: "article"
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Política de Privacidade | CantosJSM",
+        description:
+            "Confira como seus dados são utilizados e armazenados na plataforma CantosJSM.",
+        images: ["https://cantosjsm.com.br/og-politica-privacidade.png"]
+    }
+};
+
 export default function PoliticaDePrivacidadePage() {
     return (
         <main className="min-h-screen flex items-center justify-center px-6 py-20">
