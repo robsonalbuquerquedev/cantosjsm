@@ -94,7 +94,7 @@
         "id": "8",
         "name": "A Escolhida",
         "description": "Canto Mariano dedicado à Virgem Maria.",
-        "lyrics": "D                     A\nUma entre todas foi a escolhida\n Bm                     F#m\nFoste tu Maria a serva preferida\n G             D\nMãe do meu Senhor\n E              A\nMãe do meu salvador\n   D     G                  D\nMaria, cheia de graça e consolo\n Bm                    E\nVenha caminhar com teu povo\n G         A        D  A\nNossa mãe sempre será...",
+        "lyrics": "D                     A\nUma entre todas foi a escolhida\n Bm                     F#m\nFoste tu Maria a serva preferida\n G             D\nMãe do meu Senhor\n E              A\nMãe do meu salvador\n   D     G                  D\nMaria, cheia de graça e consolo\n Bm                    F#m\nVenha caminhar com teu povo\n G         A        D  A\nNossa mãe sempre será...",
         "key": "D",
         "categories": [
             "final",
@@ -676,6 +676,19 @@
         ],
         "copyright": "© Padre Reginaldo Manzotti",
         "fullLyricsUrl": "https://www.bananacifras.com/simplificada/p/padre-reginaldo-manzotti/doce-mae-de-guadalupe",
+        "isPublicDomain": false
+    },
+    {
+        "id": "53",
+        "name": "Cordeiro De Deus",
+        "description": "Canto do Cordeiro que acompanha o rito da fração do pão e a preparação para a comunhão.",
+        "lyrics": "F                     C                  Dm\nCordeiro de Deus que tirais o pecado do mundo,\nBb        C\ntende piedade...\nDm                    C                  Bb\nCordeiro de Deus que tirais o pecado do mundo...",
+        "key": "F",
+        "categories": [
+            "cordeiro"
+        ],
+        "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
+        "fullLyricsUrl": "",
         "isPublicDomain": false
     }
 ]
