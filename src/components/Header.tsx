@@ -45,7 +45,7 @@ export default function Header() {
                             height={42}
                             className="rounded-full shadow border border-gray-300"
                         />
-                        <span className="font-bold text-gray-900 text-xl tracking-wide">
+                        <span className="text-xl font-bold text-amber-700 tracking-wide">
                             CantosJSM
                         </span>
                     </Link>
