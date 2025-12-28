@@ -50,9 +50,7 @@ export const metadata: Metadata = {
     images: ["https://cantosjsm.com.br/og-home.png"]
   }
 };
-
-import Link from "next/link";
-import { BookOpen, Music, Mic2, Sparkles, Star, HeartHandshake, Library, Crown, Flame, HandHeart, Church, Calendar, DoorOpen, Wine, Flag, HandHelping, Sun, BookOpenCheck, Megaphone, CheckCircle2, BadgeCheck } from "lucide-react";
+import { Library, Crown, Flame, HandHeart, Church, Calendar } from "lucide-react";
 import MainHeroSplit from "@/components/hero/MainHeroSplit";
 import LiturgicalDevotionalSplit from "@/components/LiturgicalDevotionalSplit";
 
@@ -63,24 +61,6 @@ export default function Home() {
     { key: "quaresma", label: "Quaresma", icon: Calendar },
     { key: "pascoa", label: "Páscoa", icon: Calendar },
     { key: "tempo-comum", label: "Tempo Comum", icon: Calendar },
-  ];
-
-  const variableParts = [
-    { key: "entrada", label: "Entrada", icon: DoorOpen },
-    { key: "ofertorio", label: "Ofertório", icon: HandHeart },
-    { key: "comunhao", label: "Comunhão", icon: Wine },
-    { key: "pos-comunhao", label: "Pós-Comunhão", icon: Wine },
-    { key: "final", label: "Final", icon: Flag },
-  ];
-
-  const fixedParts = [
-    { key: "ato-penitencial", label: "Ato Penitencial", icon: HandHelping },
-    { key: "gloria", label: "Glória", icon: Sun },
-    { key: "salmo", label: "Salmo", icon: BookOpenCheck },
-    { key: "aclamacao", label: "Aclamação", icon: Megaphone },
-    { key: "santo", label: "Santo", icon: Sparkles },
-    { key: "amem", label: "Amém", icon: CheckCircle2 },
-    { key: "cordeiro", label: "Cordeiro", icon: BadgeCheck },
   ];
 
   const sections = [
