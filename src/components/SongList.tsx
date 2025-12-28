@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Song } from "@/types/song";
+import type { SongCategory, LiturgicalSeason, Song } from "@/types/song";
 import { motion, AnimatePresence } from "framer-motion";
 import {
     Search,
@@ -9,15 +9,15 @@ import {
     ChevronRight,
     ExternalLink,
 } from "lucide-react";
-import type { SongCategory } from "@/types/song";
 import Image from "next/image";
 
 interface SongListProps {
     category: SongCategory;
+    liturgicalSeason?: LiturgicalSeason;
     title: string;
 }
 
-export default function SongList({ category, title }: SongListProps) {
+export default function SongList({ category, liturgicalSeason, title }: SongListProps) {
     const [songs, setSongs] = useState<Song[]>([]);
     const [currentIndex, setCurrentIndex] = useState(0);
     const [searchTerm, setSearchTerm] = useState("");
@@ -40,13 +40,24 @@ export default function SongList({ category, title }: SongListProps) {
             const data: Song[] = await res.json();
 
             const filtered = data
-                .filter((song) => song.categories.includes(category))
+                .filter((song) => {
+                    const matchesCategory =
+                        song.categories?.includes(category);
+
+                    const matchesSeason =
+                        !liturgicalSeason ||
+                        song.liturgicalSeasons?.includes(liturgicalSeason);
+
+                    return matchesCategory && matchesSeason;
+                })
                 .sort((a, b) => a.name.localeCompare(b.name, "pt-BR"));
 
             setSongs(filtered);
+            setCurrentIndex(0);
         }
+
         fetchSongs();
-    }, [category]);
+    }, [category, liturgicalSeason]);
 
     const filteredSongs = songs.filter((song) =>
         song.name.toLowerCase().includes(searchTerm.toLowerCase())
@@ -63,7 +74,7 @@ export default function SongList({ category, title }: SongListProps) {
         setCurrentIndex((prev) => (prev > 0 ? prev - 1 : prev));
 
     return (
-        <main className="min-h-screen w-full flex flex-col items-center px-6 py-16">
+        <section className="min-h-screen w-full flex flex-col items-center px-6 py-16">
 
             {/* Título */}
             <h1 className="text-4xl font-extrabold text-white drop-shadow-lg mb-10 text-center">
@@ -278,6 +289,6 @@ export default function SongList({ category, title }: SongListProps) {
                     </div>
                 </div>
             )}
-        </main>
+        </section>
     );
 }
