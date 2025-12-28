@@ -1,3 +1,10 @@
+export type LiturgicalSeason =
+    | "advento"
+    | "natal"
+    | "quaresma"
+    | "pascoa"
+    | "tempo-comum";
+
 export type SongCategory =
     | "entrada"
     | "ato-penitencial"
@@ -27,4 +34,5 @@ export interface Song {
     fullLyricsUrl?: string;
     isPublicDomain?: boolean;
     categories: SongCategory[];
+    liturgicalSeasons: LiturgicalSeason[];
 }

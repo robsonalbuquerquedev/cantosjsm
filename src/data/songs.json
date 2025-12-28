@@ -8,6 +8,9 @@
         "categories": [
             "entrada"
         ],
+        "liturgicalSeasons": [
+            "tempo-comum"
+        ],
         "copyright": "© CNBB – Conferência Nacional dos Bispos do Brasil.",
         "fullLyricsUrl": "https://musicasparamissa.com.br/musica/alegres-vamos-a-casa-do-pai/",
         "isPublicDomain": false
@@ -20,6 +23,9 @@
         "key": "C",
         "categories": [
             "ato-penitencial"
+        ],
+        "liturgicalSeasons": [
+            "tempo-comum"
         ],
         "copyright": "© Padre Zeca",
         "fullLyricsUrl": "https://www.bananacifras.com/simplificada/p/padre-zeca/senhor-que-vieste-salvar",
@@ -34,6 +40,9 @@
         "categories": [
             "gloria"
         ],
+        "liturgicalSeasons": [
+            "tempo-comum"
+        ],
         "copyright": "© Frei Fabreti",
         "fullLyricsUrl": "https://musicasparamissa.com.br/musica/gloria-gloria-gloria-aleluia/",
         "isPublicDomain": false
@@ -46,6 +55,9 @@
         "key": "C",
         "categories": [
             "aclamacao"
+        ],
+        "liturgicalSeasons": [
+            "tempo-comum"
         ],
         "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
         "fullLyricsUrl": "https://www.cifraclub.com.br/catolicas/aleluia-aleluia-aleluia-alelu-u-u-uia/",
@@ -60,6 +72,9 @@
         "categories": [
             "ofertorio"
         ],
+        "liturgicalSeasons": [
+            "tempo-comum"
+        ],
         "copyright": "© Pe. Almir G. dos Reis",
         "fullLyricsUrl": "https://musicasparamissa.com.br/musica/a-mesa-santa-que-preparamos/",
         "isPublicDomain": false
@@ -72,6 +87,10 @@
         "key": "B",
         "categories": [
             "santo"
+        ],
+        "liturgicalSeasons": [
+            "tempo-comum",
+            "advento"
         ],
         "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
         "fullLyricsUrl": "https://www.bananacifras.com/simplificada/c/catolicas/santo-deus-do-universo",
@@ -86,6 +105,9 @@
         "categories": [
             "comunhao"
         ],
+        "liturgicalSeasons": [
+            "tempo-comum"
+        ],
         "copyright": "© Padre Zeca",
         "fullLyricsUrl": "https://www.bananacifras.com/simplificada/c/catolicas/pao-da-vida",
         "isPublicDomain": false
@@ -99,6 +121,9 @@
         "categories": [
             "final",
             "marianas"
+        ],
+        "liturgicalSeasons": [
+            "tempo-comum"
         ],
         "copyright": "© Paulo Cesar",
         "fullLyricsUrl": "https://www.cifraclub.com.br/catolicas/a-escolhida/#key=5",
@@ -126,6 +151,9 @@
         "categories": [
             "entrada"
         ],
+        "liturgicalSeasons": [
+            "tempo-comum"
+        ],
         "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
         "fullLyricsUrl": "https://www.bananacifras.com/simplificada/c/catolicas/de-alegria-vibrei-no-senhor",
         "isPublicDomain": false
@@ -138,6 +166,9 @@
         "key": "G",
         "categories": [
             "entrada"
+        ],
+        "liturgicalSeasons": [
+            "tempo-comum"
         ],
         "copyright": "© Padre Marcelo Rossi",
         "fullLyricsUrl": "https://www.bananacifras.com/simplificada/p/padre-marcelo-rossi/reunidos-aqui",
@@ -152,6 +183,9 @@
         "categories": [
             "ato-penitencial"
         ],
+        "liturgicalSeasons": [
+            "tempo-comum"
+        ],
         "copyright": "© Willian Damasceno",
         "fullLyricsUrl": "https://www.bananacifras.com/simplificada/w/willian-damasceno/senhor-filho-de-deus",
         "isPublicDomain": false
@@ -164,6 +198,9 @@
         "key": "Am",
         "categories": [
             "ato-penitencial"
+        ],
+        "liturgicalSeasons": [
+            "tempo-comum"
         ],
         "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
         "fullLyricsUrl": "https://www.bananacifras.com/simplificada/c/catolicas/eu-confesso",
@@ -178,6 +215,9 @@
         "categories": [
             "gloria"
         ],
+        "liturgicalSeasons": [
+            "tempo-comum"
+        ],
         "copyright": "© Eliana Ribeiro",
         "fullLyricsUrl": "https://musicasparamissa.com.br/musica/gloria-a-deus-nas-alturas/",
         "isPublicDomain": false
@@ -190,6 +230,9 @@
         "key": "D",
         "categories": [
             "gloria"
+        ],
+        "liturgicalSeasons": [
+            "tempo-comum"
         ],
         "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
         "fullLyricsUrl": "https://musicasparamissa.com.br/musica/gloria-gloria-anjos-no-ceu-arq-goiania/",
@@ -204,6 +247,9 @@
         "categories": [
             "salmo"
         ],
+        "liturgicalSeasons": [
+            "tempo-comum"
+        ],
         "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
         "fullLyricsUrl": "https://www.bananacifras.com/simplificada/s/salmos-de-missa/dai-gracas-sl-117",
         "isPublicDomain": false
@@ -216,6 +262,9 @@
         "key": "D",
         "categories": [
             "salmo"
+        ],
+        "liturgicalSeasons": [
+            "tempo-comum"
         ],
         "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
         "fullLyricsUrl": "https://www.bananacifras.com/simplificada/s/salmos-cantados/salmo-102",
@@ -230,6 +279,9 @@
         "categories": [
             "salmo"
         ],
+        "liturgicalSeasons": [
+            "tempo-comum"
+        ],
         "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
         "fullLyricsUrl": "https://www.bananacifras.com/simplificada/s/salmos-cantados/salmo-102",
         "isPublicDomain": false
@@ -242,6 +294,9 @@
         "key": "C",
         "categories": [
             "aclamacao"
+        ],
+        "liturgicalSeasons": [
+            "tempo-comum"
         ],
         "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
         "fullLyricsUrl": "https://www.bananacifras.com/simplificada/c/catolicas/aleluia-a-minhalma-abrirei",
@@ -256,6 +311,9 @@
         "categories": [
             "aclamacao"
         ],
+        "liturgicalSeasons": [
+            "tempo-comum"
+        ],
         "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
         "fullLyricsUrl": "https://www.bananacifras.com/simplificada/p/padre-zeca/aleluia-quando-estamos-unidos",
         "isPublicDomain": false
@@ -268,6 +326,9 @@
         "key": "F",
         "categories": [
             "ofertorio"
+        ],
+        "liturgicalSeasons": [
+            "tempo-comum"
         ],
         "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
         "fullLyricsUrl": "https://musicasparamissa.com.br/musica/de-maos-estendidas/",
@@ -282,6 +343,9 @@
         "categories": [
             "ofertorio"
         ],
+        "liturgicalSeasons": [
+            "tempo-comum"
+        ],
         "copyright": "© Comunidade Católica Shalom",
         "fullLyricsUrl": "https://www.bananacifras.com/simplificada/c/comunidade-shalom/estar-em-tuas-maos",
         "isPublicDomain": false
@@ -294,6 +358,9 @@
         "key": "C",
         "categories": [
             "santo"
+        ],
+        "liturgicalSeasons": [
+            "tempo-comum"
         ],
         "copyright": "© Padre Cleidimar Moreira",
         "fullLyricsUrl": "https://www.bananacifras.com/simplificada/p/padre-cleidimar-moreira/santo",
@@ -308,6 +375,9 @@
         "categories": [
             "santo"
         ],
+        "liturgicalSeasons": [
+            "tempo-comum"
+        ],
         "copyright": "© Padre Pedro Brito Guimarães",
         "fullLyricsUrl": "https://www.bananacifras.com/simplificada/p/padre-pedro-brito-guimaraes/santo",
         "isPublicDomain": false
@@ -320,6 +390,9 @@
         "key": "F",
         "categories": [
             "amem"
+        ],
+        "liturgicalSeasons": [
+            "tempo-comum"
         ],
         "copyright": "",
         "fullLyricsUrl": "",
@@ -334,6 +407,9 @@
         "categories": [
             "amem"
         ],
+        "liturgicalSeasons": [
+            "tempo-comum"
+        ],
         "copyright": "",
         "fullLyricsUrl": "",
         "isPublicDomain": true
@@ -346,6 +422,9 @@
         "key": "Dm",
         "categories": [
             "amem"
+        ],
+        "liturgicalSeasons": [
+            "tempo-comum"
         ],
         "copyright": "",
         "fullLyricsUrl": "",
@@ -360,6 +439,9 @@
         "categories": [
             "cordeiro"
         ],
+        "liturgicalSeasons": [
+            "tempo-comum"
+        ],
         "copyright": "© Ministério Amor e Adoração",
         "fullLyricsUrl": "https://musicasparamissa.com.br/musica/cordeiro-ministerio-amor-e-adoracao/",
         "isPublicDomain": false
@@ -372,6 +454,9 @@
         "key": "G",
         "categories": [
             "cordeiro"
+        ],
+        "liturgicalSeasons": [
+            "tempo-comum"
         ],
         "copyright": "© Comunidade Católica Shalom",
         "fullLyricsUrl": "https://www.bananacifras.com/simplificada/c/comunidade-catolica-shalom/cordeiro-de-deus",
@@ -386,6 +471,9 @@
         "categories": [
             "cordeiro"
         ],
+        "liturgicalSeasons": [
+            "tempo-comum"
+        ],
         "copyright": "© Comunidade Católica Colo de Deus",
         "fullLyricsUrl": "https://www.bananacifras.com/simplificada/c/comunidade-catolica-colo-de-deus/cordeiro",
         "isPublicDomain": false
@@ -399,6 +487,9 @@
         "categories": [
             "comunhao"
         ],
+        "liturgicalSeasons": [
+            "tempo-comum"
+        ],
         "copyright": "© Reginaldo Veloso",
         "fullLyricsUrl": "https://musicasparamissa.com.br/musica/ave-maria-cheia-de-graca/",
         "isPublicDomain": false
@@ -411,6 +502,9 @@
         "key": "D",
         "categories": [
             "comunhao"
+        ],
+        "liturgicalSeasons": [
+            "tempo-comum"
         ],
         "copyright": "© Vida Reluz",
         "fullLyricsUrl": "https://www.bananacifras.com/simplificada/v/vida-reluz/como-es-lindo",
@@ -426,6 +520,9 @@
             "final",
             "marianas"
         ],
+        "liturgicalSeasons": [
+            "tempo-comum"
+        ],
         "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
         "fullLyricsUrl": "https://www.bananacifras.com/simplificada/c/cantando-louvor-a-maria/maria-mae-dos-caminhantes",
         "isPublicDomain": false
@@ -439,6 +536,9 @@
         "categories": [
             "final",
             "marianas"
+        ],
+        "liturgicalSeasons": [
+            "tempo-comum"
         ],
         "copyright": "© Padre Marcelo Rossi",
         "fullLyricsUrl": "https://www.musicacatolica.com.br/cantinhodacrianca/cifra/cantinho-da-crianca-maezinha-do-ceu-eu-nao-sei-rezar/",
@@ -596,6 +696,9 @@
         "categories": [
             "entrada"
         ],
+        "liturgicalSeasons": [
+            "tempo-comum"
+        ],
         "copyright": "© Pe. João Carlos",
         "fullLyricsUrl": "https://www.bananacifras.com/simplificada/p/pe-jose-carlos-sala/quem-tem-a-graca",
         "isPublicDomain": false
@@ -608,6 +711,9 @@
         "key": "D",
         "categories": [
             "ato-penitencial"
+        ],
+        "liturgicalSeasons": [
+            "tempo-comum"
         ],
         "copyright": "© Comunidade Shalom",
         "fullLyricsUrl": "https://musicasparamissa.com.br/musica/muito-perdoais/",
@@ -622,6 +728,9 @@
         "categories": [
             "gloria"
         ],
+        "liturgicalSeasons": [
+            "tempo-comum"
+        ],
         "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
         "fullLyricsUrl": "https://musicasparamissa.com.br/musica/gloria-a-deus-ls/",
         "isPublicDomain": false
@@ -634,6 +743,9 @@
         "key": "D",
         "categories": [
             "comunhao"
+        ],
+        "liturgicalSeasons": [
+            "tempo-comum"
         ],
         "copyright": "© Frei Fabreti",
         "fullLyricsUrl": "https://musicasparamissa.com.br/musica/vejam-eu-andei-pelas-vilas/",
@@ -648,6 +760,9 @@
         "categories": [
             "final"
         ],
+        "liturgicalSeasons": [
+            "tempo-comum"
+        ],
         "copyright": "© Padre Zezinho",
         "fullLyricsUrl": "https://www.bananacifras.com/simplificada/p/padre-zezinho/maria-de-minha-infancia",
         "isPublicDomain": false
@@ -660,6 +775,9 @@
         "key": "C",
         "categories": [
             "pos-comunhao"
+        ],
+        "liturgicalSeasons": [
+            "tempo-comum"
         ],
         "copyright": "© Eugênio Jorge",
         "fullLyricsUrl": "https://musicasparamissa.com.br/musica/obrigado-senhor-eugenio-jorge/",
@@ -674,6 +792,9 @@
         "categories": [
             "pos-comunhao"
         ],
+        "liturgicalSeasons": [
+            "tempo-comum"
+        ],
         "copyright": "© Padre Reginaldo Manzotti",
         "fullLyricsUrl": "https://www.bananacifras.com/simplificada/p/padre-reginaldo-manzotti/doce-mae-de-guadalupe",
         "isPublicDomain": false
@@ -687,8 +808,588 @@
         "categories": [
             "cordeiro"
         ],
+        "liturgicalSeasons": [
+            "tempo-comum"
+        ],
         "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
         "fullLyricsUrl": "",
+        "isPublicDomain": false
+    },
+    {
+        "id": "54",
+        "name": "Senhor, Vem Salvar Teu Povo",
+        "description": "Canto de entrada destinado a acolher a assembleia e iniciar a celebração com alegria e unidade.",
+        "lyrics": "   Em          Am       G                    Am    Em\nSenhor, vem salvar teu povo, das trevas da escravidão!\n   C                D          Bm         Em\nSó tu és nossa esperança, és nossa libertação!\n Em7     Am   D         G     Em      Am   B7       Em\nVem, Senhor, vem nos salvar, com teu povo vem caminhar\n Em7     Am   D         G     Em      Am   B7       Em\nVem, Senhor, vem nos salvar, com teu povo vem caminhar...",
+        "key": "G",
+        "categories": [
+            "entrada"
+        ],
+        "liturgicalSeasons": [
+            "advento"
+        ],
+        "copyright": "© Padre José Weber",
+        "fullLyricsUrl": "https://www.bananacifras.com/cifra/c/catolicas/senhor-vem-salvar-teu-povo",
+        "isPublicDomain": false
+    },
+    {
+        "id": "55",
+        "name": "Vigia Esperando a Aurora",
+        "description": "Canto que acolhe a assembleia no início da celebração e, ao final, conduz a comunidade a partir em missão, unida, fortalecida e cheia de esperança.",
+        "lyrics": "   G         C        G        C     D        G    Dm  G\nVigia esperando a aurora qual noiva esperando o amor\n   C         D       Em     C       D      G\nÉ assim que o servo espera a vinda do seu Senhor\n   C         D       Em     C       D      G\nÉ assim que o servo espera a vinda do seu Senhor\n         D                    G\nAo longe, um galo vai cantar seu canto\n        E                  Am\nO sol no céu vai estender seu manto\n      C         D         G\nNa madrugada eu estarei desperto\n           A            D      (C  G    Am  D)\nQue já vem perto o dia do Senhor  ôoooo...",
+        "key": "G",
+        "categories": [
+            "entrada",
+            "final"
+        ],
+        "liturgicalSeasons": [
+            "advento"
+        ],
+        "copyright": "© Antonio Carlos Santini",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/p/pe-jonas-abib/vigia-esperando-a-aurora",
+        "isPublicDomain": false
+    },
+    {
+        "id": "56",
+        "name": "Ó, Vinde, Enfim, Eterno Deus",
+        "description": "Canto de entrada destinado a acolher a assembleia e iniciar a celebração com alegria e unidade.",
+        "lyrics": "  Cm                 Gm    Cm \n1. OH, VINDE, ENFIM, ETERNO DEUS\n           Gm      A#    Cm\nDESCEI, DESCEI DOS ALTOS CÉUS\nGm       D#      Cm  Gm  \nDEIXAI A VOSSA HABITAÇÃO\nG#            D#     Fm Gm Cm\nQUE A TERRA ESPERA A SALVA-ÇÃO.\n   Cm                  Gm   Cm    \n2. QUE O CÉU ORVALHE O REDENTOR\n           Gm      A#  Cm\nBAIXAI DAS NUVENS, Ó SENHOR\nGm        D#      Cm    Gm   \nGERMINE A TERRA O NOSSO DEUS\nG#          D#      Fm Gm  Cm\nPRA QUE NOS ABRA OS AL-TOS CÉUS...",
+        "key": "Cm",
+        "categories": [
+            "entrada"
+        ],
+        "liturgicalSeasons": [
+            "advento"
+        ],
+        "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
+        "fullLyricsUrl": "https://musicasparamissa.com.br/musica/oh-vinde-enfim-eterno-deus/",
+        "isPublicDomain": false
+    },
+    {
+        "id": "57",
+        "name": "A Nossa Oferta Apresentamos No Altar",
+        "description": "Canto de ofertório que acompanha a apresentação do pão e do vinho e expressa entrega e gratidão.",
+        "lyrics": "C        Em      F    G        Am\nA nossa oferta apresentamos no altar\n  Dm          Am            Dm   G   C  F G C\nE te pedimos vem senhor nos libertar\n     Dm    G      C\nA chuva molhou a terra\n     F      C       G\nO homem plantou um grão\n   D#º        Em     F   C\nA planta deu flor e fru-tos\n    Dm       G     C\nDo trigo se fez o pão...",
+        "key": "C",
+        "categories": [
+            "ofertorio"
+        ],
+        "liturgicalSeasons": [
+            "advento"
+        ],
+        "copyright": "© Frei Joel Postma / Maria de Fátima de Oliveira",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/c/catolicas/a-nossa-oferta-apresentamos-no-altar",
+        "isPublicDomain": false
+    },
+    {
+        "id": "58",
+        "name": "Nasceu Em Belém, A Casa Do Pão",
+        "description": "Canto de ofertório que acompanha a apresentação do pão e do vinho e expressa entrega e gratidão.",
+        "lyrics": "      E    A      E     C#m      B         E\nAs nossas mãos se abrem mesmo na luta e na dor\n         F#m    C#m   F#               B\nE trazem pão e vinho para esperar o Senhor\n A           E     B                  E\nDeus ama os pobres e se fez pobre também\nA         E    B                  E\nDesceu à terra e fez pousada em Belém\n      E    A      E     C#m       B         E\nAs nossas mãos se elevam para, num gesto de amor\n      F#m   C#m     F#                    B\nRetribuir a vida    que vem das mãos do Senhor...",
+        "key": "E",
+        "categories": [
+            "ofertorio"
+        ],
+        "liturgicalSeasons": [
+            "advento"
+        ],
+        "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
+        "fullLyricsUrl": "https://www.bananacifras.com/cifra/c/catolicas/nasceu-em-belem-a-casa-do-pao",
+        "isPublicDomain": false
+    },
+    {
+        "id": "59",
+        "name": "É Dom De Amor",
+        "description": "Canto de ofertório que acompanha a apresentação do pão e do vinho e expressa entrega e gratidão.",
+        "lyrics": "Cm                  Fm\nDO CÉU VAI DESCER O CORDEIRO\n  G         G         Cm\nÉ DOM, PURO DOM, SALVAÇÃO\n     Cm       C         Fm\nNO ALTAR DO PENHOR VERDADEIRO\n   Cm        G       C   G \nTAMBÉM VAMOS SER OBLAÇÃO\nC      Am         Em\n EIS, SENHOR, A TUA VINHA\nF                     C    C \nFRUTOS MIL TE TRAZ, SENHOR\nFm                 C     Am\nMAS TEU POVO QUE CAMINHA\n         Dm      G       Cm\nMAIS QUE FRUTO É DOM DE AMOR...",
+        "key": "C",
+        "categories": [
+            "ofertorio"
+        ],
+        "liturgicalSeasons": [
+            "advento"
+        ],
+        "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/c/catolicas/e-dom-de-amor",
+        "isPublicDomain": false
+    },
+    {
+        "id": "60",
+        "name": "Ouço Uma Voz Lá No Deserto",
+        "description": "Canto de comunhão que expressa unidade e acolhimento ao Corpo e Sangue de Cristo.",
+        "lyrics": "         Cm  Fm      Cm Fm      Cm\nOUÇO UMA VOZ LÁ NO DESERTO A GRITAR:\nFm    Cm         G            Cm\nUMA ESTRADA PREPARAI PARA O SENHOR.\n           Fm        Cm     Fm       Cm\nENDIREITAI OS SEUS CAMINHOS POIS ELE VEM \n            Bb    Eb   Gm     Cm   G# Bb\nE LOGO MAIS AVISTAREIS O SALVADOR!\nCm       Gm  Cm             Gm       Cm\nLOUVA, JERUSALÉM, LOUVA O SENHOR TEU DEUS:\n            Gm   Cm    Eb       F    Gm\nTUAS PORTAS REFORÇOU E OS TEUS ABENÇOOU.\nCm     F      Cm    Fm       Gm     Cm    Bb Cm\nTE CUMULOU DE PAZ E O PÃO DO CÉU TE TRAZ... ",
+        "key": "Cm",
+        "categories": [
+            "comunhao"
+        ],
+        "liturgicalSeasons": [
+            "advento"
+        ],
+        "copyright": "© Reginaldo Veloso",
+        "fullLyricsUrl": "https://musicasparamissa.com.br/musica/ouco-uma-voz-la-no-deserto/",
+        "isPublicDomain": false
+    },
+    {
+        "id": "61",
+        "name": "Jerusálem, Povo De Deus",
+        "description": "Canto de comunhão que expressa unidade e acolhimento ao Corpo e Sangue de Cristo.",
+        "lyrics": " Dm         Gm       Dm\nJerusalém, Povo de Deus, Igreja Santa\n    Gm          Am       Dm\nLevanta e vai, sobe as montanhas, ergue o olhar\n            Gm     Dm\nLá no oriente desponta o sol da alegria\n    Gm        Am        Dm\nQue vem de Deus, aos filhos teus: eis o teu dia!\n  Dm    Gm     Dm\n Louva, Jerusalém\n Dm    Gm    Dm\nLouva o Senhor teu Deus\n Dm    Gm      Dm\nTuas portas reforçou\n Dm     Gm    Dm\nE os teus abençoou\n Dm     Am  Dm\nTe cumulou de paz\n Dm      Am     Dm\nE o pão do céu te traz...",
+        "key": "Dm",
+        "categories": [
+            "comunhao"
+        ],
+        "liturgicalSeasons": [
+            "advento"
+        ],
+        "copyright": "© Reginaldo Veloso",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/m/musicas-catolicas/jerusalem-povo-de-deus",
+        "isPublicDomain": false
+    },
+    {
+        "id": "62",
+        "name": "Vigiai, Vigiai, Eu Vos Digo",
+        "description": "Canto de comunhão que expressa unidade e acolhimento ao Corpo e Sangue de Cristo.",
+        "lyrics": "Am        E             Am\nVigiai, vigiai, eu vos digo\n      Dm                    Am   \nNão sabeis qual o dia ou a hora\n E                  Am \nVigiai, vigiai eu repito\n         B                   E  \nEis que vem o Senhor em sua glória!\nAm        E             Am\nVigiai, vigiai, eu vos digo\n      Dm                    Am   \nNão sabeis qual o dia ou a hora\n E                  Am  \nVigiai, vigiai eu repito\n         Dm       E            Am \nEis que vem o Senhor em sua glória!\nAm             E   Am  \nFoste amigo antigamente\n       F     E    Am  \nDesta terra que amaste\nA       Dm            Am\n  Deste povo que Escolheste...",
+        "key": "Am",
+        "categories": [
+            "comunhao"
+        ],
+        "liturgicalSeasons": [
+            "advento"
+        ],
+        "copyright": "© Reginaldo Veloso",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/c/catolicas/vigiai-vigiai-eu-vos-digo",
+        "isPublicDomain": false
+    },
+    {
+        "id": "63",
+        "name": "Nasceu-Nos Hoje",
+        "description": "Canto de entrada destinado a acolher a assembleia e iniciar a celebração com alegria e unidade.",
+        "lyrics": "           Bm        Em \nNASCEU-NOS HOJE UM MENINO\n     F#            Bm\nE UM FILHO NOS FOI DADO\n                   Em \nGRANDE É ESTE PEQUENINO,\n       F#          Bm \nREI DA PAZ SERÁ CHAMADO\n   Em       Bm\nALELUIA, ALELUIA,\n   F#7      Bm    (B7)\nALELUIA, ALELUIA! (BIS)\n      Bm      F#       Bm \n1. CANTAI, CANTAI AO SENHOR\nEm       F#          Bm \nUM CANTO NOVO, UM LOUVOR!\n    Bm  F#        Bm \nPOR MARAVILHA TÃO GRANDE,\nEm       F#          Bm \nUM CANTO NOVO, UM LOUVOR!\nEm                  Bm \nPOR TAL VITÓRIA E PODER,\nG        C#7         F# \nUM CANTO NOVO, UM LOUVOR!\nEm                Bm \nPOR UM AMOR TÃO FIEL,\nG        F#          Bm   F#7 \nUM CANTO NOVO, UM LOUVOR...",
+        "key": "Bm",
+        "categories": [
+            "entrada"
+        ],
+        "liturgicalSeasons": [
+            "natal"
+        ],
+        "copyright": "© Reginaldo Veloso",
+        "fullLyricsUrl": "https://musicasparamissa.com.br/musica/nasceu-nos-hoje/",
+        "isPublicDomain": false
+    },
+    {
+        "id": "64",
+        "name": "É Natal De Jesus",
+        "description": "Canto de entrada destinado a acolher a assembleia e iniciar a celebração com alegria e unidade.",
+        "lyrics": "C        F    C   G7            C   G7              C\nÉ Natal de Jesus Festa de alegria De esperança e luz\n       G            Am  F        C            G\nToda terra canta um hino, bendizendo o Salvado\n          Am           F             C          G\nQue em Belém se fez menino  dando exemplo de amor\nC        F    C   G7            C   G7              C\nÉ Natal de Jesus Festa de alegria De esperança e luz... ",
+        "key": "C",
+        "categories": [
+            "entrada"
+        ],
+        "liturgicalSeasons": [
+            "natal"
+        ],
+        "copyright": "© José Acácio Santana",
+        "fullLyricsUrl": "https://www.bananacifras.com/cifra/c/catolicas/e-natal-de-jesus",
+        "isPublicDomain": false
+    },
+    {
+        "id": "65",
+        "name": "Noite Excelsa",
+        "description": "Canto de entrada destinado a acolher a assembleia e iniciar a celebração com alegria e unidade.",
+        "lyrics": "   D         D4         D     D4\nALEGREMO-NOS TODOS NO SENHOR!\n        D       G/B           A   A#º\nHOJE NASCEU, DO MUNDO, O SALVADOR!\n   Bm7    F#m7    G      D/F#\nDESCEU DO CÉU, DESCEU DO CÉU\n     Em   A7 D   D4\nA VERDADEIRA PAZ! (BIS)\n           G     A/G           F#m  Bm \n1. NOITE EXCELSA!   NOITE ILUMINADA!\n      Em7           A7            D  Em D/F#\nNOITE SANTA QUE NOS TROUXE O SALVADO-O--OR.\nG                  AG        F#m7         Bm7    \nREIS E PASTORES O ADORAM, OS ANJOS CANTAM GLÓRIA!\n    Em7         G        A   A7\nO MENINO DEUS ESTÁ ENTRE NÓS...",
+        "key": "D",
+        "categories": [
+            "entrada"
+        ],
+        "liturgicalSeasons": [
+            "natal"
+        ],
+        "copyright": "© Marcelo Oliveira",
+        "fullLyricsUrl": "https://musicasparamissa.com.br/musica/noite-excelsa-comunidade-recado/",
+        "isPublicDomain": false
+    },
+    {
+        "id": "66",
+        "name": "Sobe A Jerusalém",
+        "description": "Canto de ofertório que acompanha a apresentação do pão e do vinho e expressa entrega e gratidão.",
+        "lyrics": "D   A       Bm    Bm           G     G      D\nSobe a Jerusalém, virgem oferente sem igual\nF#              Bm                   E             A\nVai apresenta ao pai teu menino luz que chegou no natal\nD F#          Bm                  G     G      D\nE junto a sua cruz, quando Deus morrer fica de pé\n F#          Bm                 E         A            D\nSim, Ele te salvou, mas o ofereceste por nós com toda fé\nD   A       Bm    Bm           G     G      D\nNós vamos renovar este Sacrifício de Jesus...",
+        "key": "D",
+        "categories": [
+            "ofertorio"
+        ],
+        "liturgicalSeasons": [
+            "natal"
+        ],
+        "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/c/catolicas/sobe-a-jerusalem",
+        "isPublicDomain": false
+    },
+    {
+        "id": "67",
+        "name": "Entre Nós Quis Morar",
+        "description": "Canto de ofertório que acompanha a apresentação do pão e do vinho e expressa entrega e gratidão.",
+        "lyrics": "D           G       D        G \nOs anjos cantam no céu   o Menino Deus nasceu\n       A                    G            A       D   A \nMaria e José com alegria,  acolheram o filho de Deus\nD         D#º     Em     A     G           D  D    \nO Menino Deus nasceu e entre nós quis morar\n     G        Gm         D           Em    A            D   \nPresente está no pão e vinho   que agora estão sobre o altar  \nD            G        D             G \nAo longe a estrela brilhava  e os magos vieram adorar...",
+        "key": "D",
+        "categories": [
+            "ofertorio"
+        ],
+        "liturgicalSeasons": [
+            "natal"
+        ],
+        "copyright": "© Berenice Gonçalves",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/c/catolicas/entre-nos-quis-morar",
+        "isPublicDomain": false
+    },
+    {
+        "id": "68",
+        "name": "Cristãos, Vinde Todos",
+        "description": "Canto de ofertório que acompanha a apresentação do pão e do vinho e expressa entrega e gratidão.",
+        "lyrics": "       F           C      \n1. CRISTÃOS, VINDE TODOS,\nF   C  F Gm   F  C\nCOM A-LE-GRES CANTOS.\n    Dm         C/E F   C/E G7 C\nOH! VINDE, OH! VIN-DE ATÉ  BE-LÉM.\nF       Bb F/A Gm    F    C/E \nVEDE NASCI-DO, VOSSO REI ETERNO.\n    F\nOH! VINDE ADOREMOS,\n    F  Gm F C/E F\nOH! VINDE A-DOREMOS,\n    Gm       C       Bb C F\nOH! VINDE ADOREMOS O SALVADOR...",
+        "key": "F",
+        "categories": [
+            "ofertorio"
+        ],
+        "liturgicalSeasons": [
+            "natal"
+        ],
+        "copyright": "© Fr. Emílio Scheid",
+        "fullLyricsUrl": "https://musicasparamissa.com.br/musica/cristaos-vinde/",
+        "isPublicDomain": false
+    },
+    {
+        "id": "69",
+        "name": "No Presépio Pequenino",
+        "description": "Canto de comunhão que expressa unidade e acolhimento ao Corpo e Sangue de Cristo.",
+        "lyrics": "      G           Am           D7           G\nNO PRESÉPIO, PEQUENINO, DEUS É HOJE NOSSO IRMÃO\n                     Am            D7        G\nE NOS DÁ SEU CORPO E SANGUE  NESTA SANTA COMUNHÃO.\nG                              Am\nPARA OS HOMENS QUE ERRAVAM NAS TREVAS\n      D7                  G\nLÁ DO CÉU RESPLANDECE UMA LUZ,\n     Em                 Am\nHOJE DEUS VISITOU NOSSA TERRA\n      D7                G\nE NOS DEU O SEU FILHO JESUS...",
+        "key": "G",
+        "categories": [
+            "comunhao"
+        ],
+        "liturgicalSeasons": [
+            "natal"
+        ],
+        "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
+        "fullLyricsUrl": "https://musicasparamissa.com.br/musica/no-presepio-pequenino/",
+        "isPublicDomain": false
+    },
+    {
+        "id": "70",
+        "name": "Da Cepa Brotou A Rama",
+        "description": "Canto de comunhão que expressa unidade e acolhimento ao Corpo e Sangue de Cristo.",
+        "lyrics": "   Em            B7\nDA CEPA BROTOU A RAMA,\n                 Em   \nDA RAMA BROTOU A FLOR.\n   E             Am\nDA FLOR NASCEU MARIA,\n   Em      B7   Em\nDE MARIA O SALVADOR. (BIS)\n       Am        D7         G        C\n1. O ESPÍRITO DE DEUS SOBRE ELE POUSARÁ,\n     F#º            B7                    Em\nDE SABER, DE ENTENDIMENTO ESTE ESPÍRITO SERÁ.\n      Am           D7         G            C\nDE CONSELHO E FORTALEZA, DE CIÊNCIA E DE TEMOR.\n    F#º       B7                     Em\nACHARÁ SUA ALEGRIA NO TEMOR DO SEU SENHOR...",
+        "key": "Em",
+        "categories": [
+            "comunhao"
+        ],
+        "liturgicalSeasons": [
+            "natal"
+        ],
+        "copyright": "© Reginaldo Veloso",
+        "fullLyricsUrl": "https://musicasparamissa.com.br/musica/da-cepa-brotou-rama/",
+        "isPublicDomain": false
+    },
+    {
+        "id": "71",
+        "name": "Hino Ao Verbo De Deus",
+        "description": "Canto de comunhão que expressa unidade e acolhimento ao Corpo e Sangue de Cristo.",
+        "lyrics": "  Em           B7 \nA LUZ RESPLANDECEU\n   Em\nEM PLENA ESCURIDÃO,\n  E7           Am    \nJAMAIS IRÃO AS TREVAS\n   Em    B7     Em \nVENCER O SEU CLARÃO!(BIS)\n      Em \n1. DE TUDO EXISTE UM COMEÇO\n  E            Am \nE NO COMEÇO DE TUDO\n      B7           Em \nERA O VERBO, SIM O VERBO,\n     F#7         B7 \nPELO QUAL EXISTE TUDO.\n   Em \nVOLTADO PRA DEUS ESTAVA\n  E             Am \nO VERBO QUE ERA DEUS,\n  B7              Em\nE NADA DE QUANTO EXISTE\n    F#7      B7 \nSEM ELE APARECEU.\n  Em \nÉ NELE QUE ESTAVA A VIDA,\n  E                  Am\nA VIDA QUE É LUZ DOS HOMENS,\n  B7                Em  \nA LUZ NAS TREVAS RESPLENDE\n     F#7              B7\nE AS TREVAS NÃO COMPREENDEM...",
+        "key": "Em",
+        "categories": [
+            "comunhao"
+        ],
+        "liturgicalSeasons": [
+            "natal"
+        ],
+        "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
+        "fullLyricsUrl": "https://musicasparamissa.com.br/musica/hino-ao-verbo-de-deus-luz-resplandeceu/",
+        "isPublicDomain": false
+    },
+    {
+        "id": "72",
+        "name": "Lembra Senhor, O Teu Amor",
+        "description": "Canto de entrada destinado a acolher a assembleia e iniciar a celebração com alegria e unidade.",
+        "lyrics": "F         Bb           Dm    F       Gm  C   \nLEMBRA, SENHOR, O TEU AMOR FIEL PARA SEM-PRE!\nBb        Dm           Am    Bb      Gm C  \nQUE OS INIMIGOS NÃO TRIUNFEM SOBRE O PO-VO!\nF         Bb           Dm    Bb        C  F  \nDE SUAS ANGÚSTIAS, Ó SENHOR, LIVRA TUA GENTE!\nDm                                C   F\n SENHOR, MEU DEUS, A TI ELEVO A MINHA ALMA,\nGm                               Dm   C\n EM TI CONFIO: QUE EU NÃO SEJA ENVERGONHADO.\nDm                                      C F\n NÃO SE ENVERGONHE QUEM EM TI PÕE SUA ESPERANÇA,\nGm                               Dm  C\n MAS, SIM, QUEM NEGA POR UM NADA SUA FÉ...",
+        "key": "F",
+        "categories": [
+            "entrada"
+        ],
+        "liturgicalSeasons": [
+            "quaresma"
+        ],
+        "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
+        "fullLyricsUrl": "https://musicasparamissa.com.br/musica/lembra-senhor-o-teu-amor/",
+        "isPublicDomain": false
+    },
+    {
+        "id": "73",
+        "name": "Rejubila-te Cidade Santa",
+        "description": "Canto de entrada destinado a acolher a assembleia e iniciar a celebração com alegria e unidade.",
+        "lyrics": "     C               Em\nRejubila-te, Cidade Santa\n         F                   C\nEis que vem o Rei que nos remiu\n    Dm                  C\nExultemos juntos de alegria\n G4                 (G)  C\nNova Páscoa Ele nos abriu!\n          G                 C\n1. Já se cumpre a grande profecia\n      G                C\nVem chegando a libertação!\n     D                     G\nO Pastor que guia nossas vidas\n     D                   G\nVem nos dar um novo coração...",
+        "key": "C",
+        "categories": [
+            "entrada"
+        ],
+        "liturgicalSeasons": [
+            "quaresma"
+        ],
+        "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
+        "fullLyricsUrl": "https://www.cifraclub.com.br/catolicas/rejubila-te-cidade-santa--entrada-de-quaresma/",
+        "isPublicDomain": false
+    },
+    {
+        "id": "74",
+        "name": "Acolhe, Ó Deus",
+        "description": "Canto de entrada destinado a acolher a assembleia e iniciar a celebração com alegria e unidade.",
+        "lyrics": " Em       D             Em \nACOLHE, Ó DEUS, O NOSSO CANTO!\n        D              G   E7\nESCUTA, POIS, NOSSO CLAMOR.\nAm        B7          Em    C\nVÊ QUANTA DOR, QUANTO PRANTO\n              G    Bm   Em  Am\nQUE O NOSSO PECADO PROVOCOU.\n         C              Bm  Em  Am\nPOR TEU AMOR, TEM MISERICÓR-DIA!\n         C              D   Em\nPOR TEU AMOR, TEM MISERICÓR-DIA!\n   C                D    G\n01.  VOLTAI, AGORA, PARA MIM\nAm             Bm    Em\nCOM O CORAÇÃO ARREPENDIDO.\nC        D      G\n RASGAI, NÃO AS VESTES,\nAm                 Bm   Em\nMAS O CORAÇÃO, DIZ O  SENHOR...",
+        "key": "Em",
+        "categories": [
+            "entrada"
+        ],
+        "liturgicalSeasons": [
+            "quaresma"
+        ],
+        "copyright": "© Fr. Telles Ramon, O. de M. e Daniel de Angeles",
+        "fullLyricsUrl": "https://musicasparamissa.com.br/musica/acolhe-o-deus-o-nosso-canto/",
+        "isPublicDomain": false
+    },
+    {
+        "id": "75",
+        "name": "Sê Bendito, Senhor, Para Sempre",
+        "description": "Canto de ofertório que acompanha a apresentação do pão e do vinho e expressa entrega e gratidão.",
+        "lyrics": "       Cm               Fm\nSê bendito senhor para sempre\n      G                    Cm\nPelos frutos das nossas jornadas!\n     C                Fm\nRepartimos na mesa do reino\n    Cm     D       G\nAnunciam a paz almejada!\n  Cm      Fm       Bb              Eb   G\nSenhor da vida, tu és a nossa salvação\n        C            Fm\nAo prepararmos a tua mesa\n   G                   Cm\nEm ti buscamos ressurreição...",
+        "key": "A",
+        "categories": [
+            "ofertorio"
+        ],
+        "liturgicalSeasons": [
+            "quaresma"
+        ],
+        "copyright": "© José Moacyr Cadenassi / Júlio Cézar Marques Ricarte",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/c/campanha-da-fraternidade/se-bendito-senhor-para-sempre",
+        "isPublicDomain": false
+    },
+    {
+        "id": "76",
+        "name": "Escuta, Senhor, A Voz do Povo Teu",
+        "description": "Canto de ofertório que acompanha a apresentação do pão e do vinho e expressa entrega e gratidão.",
+        "lyrics": "  Em        C     D            G\nEscuta, Senhor, a voz do povo teu\n  Am       D        B    E \nE dá-nos a tua salvação!\n     Am       B            Em\nQue Cristo Jesus nos prometeu!\n     Am       B            Em\nQue Cristo Jesus nos prometeu!\nD                    G\nComo outrora nossos pais\nD                 G\nConduziste à boa terra\n Am                 Em\nVem, conduz a tua Igreja\n B                     Em\nQue caminha e em ti espera\nC                  F# \nTua esperança nós vivemos\n B                Em\nPois não é uma quimera\nD                G\nSe nos falta tua luz\nD                 G\nNa penumbra andaremos\nAm                 Em\nNossas vidas transformadas\nB                     Em\nPor tua páscoa nós queremos\nC                  F# \nE a morte, o mal e a dor\nB                Em\nPara sempre venceremos...",
+        "key": "Em",
+        "categories": [
+            "ofertorio"
+        ],
+        "liturgicalSeasons": [
+            "quaresma"
+        ],
+        "copyright": "© Ministério Gratia Plena",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/m/ministerio-gratia-plena/escuta-senhor-a-voz-do-povo-teu",
+        "isPublicDomain": false
+    },
+    {
+        "id": "77",
+        "name": "Recebe, Deus Amigo",
+        "description": "Canto de ofertório que acompanha a apresentação do pão e do vinho e expressa entrega e gratidão.",
+        "lyrics": "     Dm           C           Gm              Dm\n1. RECEBE, DEUS AMIGO, ESTES DONS QUE AQUI TRAZEMOS,\n                 C           Gm         Dm\nE FELIZES ENTRE TODOS, A PARTILHA NÓS FAREMOS\n        F           C            Bb            F\nÓ DEUS PAI, A TI TRAZEMOS PÃO E VINHO UMA VEZ MAIS.\n      D7          Gm            Bb   A     Dm\nUM SO CORPO NÓS SEREMOS COM JESUS E PELA PAZ!\n     Dm           C           Gm            Dm\n2. RECEBE, DEUS AMIGO, NOSSOS PÉS E NOSSOS BRAÇOS,\n                   C        Gm          Dm\nQUE ENCONTRAM NA UNIDADE O ALENTO PRO CANSAÇO...",
+        "key": "Dm",
+        "categories": [
+            "ofertorio"
+        ],
+        "liturgicalSeasons": [
+            "quaresma"
+        ],
+        "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
+        "fullLyricsUrl": "https://musicasparamissa.com.br/musica/recebe-deus-amigo/",
+        "isPublicDomain": false
+    },
+    {
+        "id": "78",
+        "name": "Agora, o Tempo Se Cumpriu",
+        "description": "Canto de comunhão que expressa unidade e acolhimento ao Corpo e Sangue de Cristo.",
+        "lyrics": "              E          C#m      F#             \n    Agora, o tempo se cumpriu/ o Reino já chegou,\n    B            F#m    B   F#m           B             E\n      Irmãos, convertam-se/     e creiam firmes no evangelho!\n  C#m                     F#m      F#m                        B\n\nFeliz aquele homem que não anda conforme os conselhos dos perversos\n\n(Refrão...)\n\n         C#m                    F#m        F#m \nQuem não entra no caminho dos malvados nem junto aos zombadores\n        B\nVai sentar-se...",
+        "key": "E",
+        "categories": [
+            "comunhao"
+        ],
+        "liturgicalSeasons": [
+            "quaresma"
+        ],
+        "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/c/campanha-da-fraternidade/agora-o-tempo-se-cumpriu",
+        "isPublicDomain": false
+    },
+    {
+        "id": "79",
+        "name": "Então, Da Nuvem Luminosa",
+        "description": "Canto de comunhão que expressa unidade e acolhimento ao Corpo e Sangue de Cristo.",
+        "lyrics": "C7          F         Dm     \n  ENTÃO, DA NUVEM LUMINOSA\n  G    \nDIZIA UMA VOZ:\nC           Gm     C\n  ESTE É MEU FILHO AMADO,\nGm        C                F     \n  ESCUTEM SEMPRE O QUE ELE DIZ!\n\n   Dm                             Gm\n1. QUÃO AMÁVEL, Ó SENHOR, É VOSSA CASA\n                                 C\nQUANTO EU AMO, SENHOR DEUS DO UNIVERSO!\n\n(Refrão...)\n\n   Dm                         Gm\n2. MINHA ALMA DESFALECE DE SAUDADES\n                           C\nE ANSEIA PELOS ÁTRIOS DO SENHOR...",
+        "key": "C",
+        "categories": [
+            "comunhao"
+        ],
+        "liturgicalSeasons": [
+            "quaresma"
+        ],
+        "copyright": "© Autor desconhecido — obra de uso litúrgico popular. Trecho exibido conforme limites legais.",
+        "fullLyricsUrl": "https://musicasparamissa.com.br/musica/entao-da-nuvem-luminosa/",
+        "isPublicDomain": false
+    },
+    {
+        "id": "80",
+        "name": "Prova de Amor",
+        "description": "Canto de comunhão que expressa unidade e acolhimento ao Corpo e Sangue de Cristo.",
+        "lyrics": "  Dm                    Gm   A                     Dm \nProva de amor maior não há  que doar a vida pelo irmão (2x)\n Gm             C         F        Dm     Gm\nEis que eu vos dou o meu novo mandamento amai-vos uns aos\n C            F            Dm    (A )\noutros como  eu vos tenho amado\n  Dm                    Gm   A                     Dm \nProva de amor maior não há  que doar a vida pelo irmão (2x)\n       Gm          C            F             Dm      Gm\nVós serei os meus amigos se seguirdes meu preceito amai-vos\n         C            F            Dm   (A )\nuns aos outros como  eu vos tenho amado...",
+        "key": "Dm",
+        "categories": [
+            "comunhao"
+        ],
+        "liturgicalSeasons": [
+            "quaresma"
+        ],
+        "copyright": "© José Henrique Weber",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/c/catolicas/prova-de-amor",
+        "isPublicDomain": false
+    },
+    {
+        "id": "81",
+        "name": "Porque Ele Vive",
+        "description": "Canto de entrada destinado a acolher a assembleia e iniciar a celebração com alegria e unidade.",
+        "lyrics": "     A   A7           D   D7\nDeus enviou seu filho amado\n        A F#m7        E\nPara morrer em meu lugar\n            A                 D  D7\nNa cruz pagou  por meus pecados\n     A           F#m7   E             A\nMas o sepulcro vazio está porque Ele vive\n           A    A7             D     D7\nPorque Ele vive  posso crer no amanhã\n        A F#m7              E\nPorque Ele vive  temor não há\n            A      A7\nMas eu bem sei  eu sei\n       D     Dm\nQue  o meu futuro\n     A           F#m7    E             A\nEstá nas mãos de meu Jesus que vivo está...",
+        "key": "A",
+        "categories": [
+            "entrada"
+        ],
+        "liturgicalSeasons": [
+            "pascoa"
+        ],
+        "copyright": "© D. R",
+        "fullLyricsUrl": "https://www.cifraclub.com.br/catolicas/porque-ele-vive/simplificada.html",
+        "isPublicDomain": false
+    },
+    {
+        "id": "82",
+        "name": "O Senhor Ressurgiu",
+        "description": "Canto de entrada destinado a acolher a assembleia e iniciar a celebração com alegria e unidade.",
+        "lyrics": "D               F#m  G           D     \n O SENHOR RESSURGIU, ALELUIA, ALELUIA!\nG                Em Em6            A\n É O CORDEIRO PASCAL,  ALELUIA, ALELUIA!\n             D   F#m    G        D\n IMOLADO POR NÓS,    ALELUIA, ALELUIA!\nG    Em       F#m       Em        F#m     G  D\n É O CRISTO SENHOR, ELE VIVE E VENCEU, ALELU-IA!\n     Bm        Em6          F#m\n1. O CRISTO, SENHOR RESSUSCITOU,\n  Em        Bm7        A\nA NOSSA ESPERANÇA REALIZOU:\n   D      D7         G\nVENCIDA A MORTE PARA SEMPRE,\n   E7     E6/B       A\nTRIUNFA A VIDA ETERNAMENTE...",
+        "key": "D",
+        "categories": [
+            "entrada"
+        ],
+        "liturgicalSeasons": [
+            "pascoa"
+        ],
+        "copyright": "© Pe. Ney Brasil",
+        "fullLyricsUrl": "https://musicasparamissa.com.br/musica/o-senhor-ressurgiu/",
+        "isPublicDomain": false
+    },
+    {
+        "id": "83",
+        "name": "Sou Bom Pastor",
+        "description": "Canto de entrada destinado a acolher a assembleia e iniciar a celebração com alegria e unidade.",
+        "lyrics": "  D    Bm\nSou bom pastor\n A       D\nOvelhas guardarei\n  G        D         A  A \nNão tenho outro oficio nem terei\n    D       G   A      D\nQuantas vidas eu tiver eu lhes darei\n    D       Bm    F#m \nMaus pastores, num dia de sombra\n    G       Bm        F#m \nNão cuidaram e o rebanho se perdeu\n  G       A     D      Bm \nVou sair pelo campo reunir o que é meu\n   Em   A       D  A \nConduzir   e   salvar...",
+        "key": "D",
+        "categories": [
+            "entrada"
+        ],
+        "liturgicalSeasons": [
+            "pascoa"
+        ],
+        "copyright": "© Waldeci Farias",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/w/waldeci-farias/sou-bom-pastor",
+        "isPublicDomain": false
+    },
+    {
+        "id": "84",
+        "name": "Bendito Sejas, Ó Rei da Glória",
+        "description": "Canto de ofertório que acompanha a apresentação do pão e do vinho e expressa entrega e gratidão.",
+        "lyrics": "  Em      B      Em C       B \n1-Bendito sejas, ó  Rei da glória\nG      Am    D           G\nRessuscitado, Senhor da Igreja\nEm      Am                C B   E\nAqui trazemos as nossas ofer.....tas\nE           A      E      F#        B \nVê com bons olhos nossas humildes ofertas\n E         A  Am    E       B         Em\nTudo o que temos, seja pra Ti, ó Senhor\n   Em          B      Em   C      B \n2- Vidas se encontram no altar de Deus\nG       Am     D           G\nGente se doa, Dom que se imola\nEm      Am                C B   E\nAqui trazemos as nossas ofer.....tas...",
+        "key": "Em",
+        "categories": [
+            "ofertorio"
+        ],
+        "liturgicalSeasons": [
+            "pascoa"
+        ],
+        "copyright": "© Padre José Cândido da Silva / José Acácio Santana",
+        "fullLyricsUrl": "https://www.bananacifras.com/simplificada/m/ministerio-theos-xadai/bendito-sejas-o-rei-da-gloria",
+        "isPublicDomain": false
+    },
+    {
+        "id": "85",
+        "name": "Eu Creio Num Mundo Novo",
+        "description": "Canto de ofertório que acompanha a apresentação do pão e do vinho e expressa entrega e gratidão.",
+        "lyrics": "D                              A             D\nEU CREIO NUM MUNDO NOVO POIS, CRISTO RESSUSCITOU!\n                              A           D\nEU VEJO SUA LUZ NO POVO, POR ISSO ALEGRE SOU.\n\n   A             D         A           D    D7\nEM TODA PEQUENA OFERTA, NA FORÇA DA UNIÃO,\n    G             D         E             A\nNO POBRE QUE SE LIBERTA, EU VEJO RESSURREIÇÃO!\n\n(REFRÃO)\n\n   A                D         A             D    D7\nNA MÃO QUE FOI ESTENDIDA, NO DOM DA LIBERTAÇÃO,\n    G             D         E             A\nNASCENDO UMA NOVA VIDA, EU VEJO RESSURREIÇÃO!...",
+        "key": "D",
+        "categories": [
+            "ofertorio"
+        ],
+        "liturgicalSeasons": [
+            "pascoa"
+        ],
+        "copyright": "© Padre Geraldo Pennock",
+        "fullLyricsUrl": "https://musicasparamissa.com.br/musica/eu-creio-num-mundo-novo/",
+        "isPublicDomain": false
+    },
+    {
+        "id": "86",
+        "name": "Em Procissão",
+        "description": "Canto de ofertório que acompanha a apresentação do pão e do vinho e expressa entrega e gratidão.",
+        "lyrics": "        E                  F#m\nEM PROCISSÃO VÃO O PÃO E O VINHO.\n      B7                  E\nACOMPANHADOS DE NOSSA DEVOÇÃO.\n          E7                   A   Am \nPOIS SIMBOLIZAM AQUILO QUE OFERTAMOS:\n      E        B7        E    B7\nNOSSA VIDA E O NOSSO CORAÇÃO.\n       E  C#7     F#m   \nAO CELEBRAR NOSSA PÁSCOA\n            B7         E    E7\nE AO VOS TRAZER NOSSA OFERTA.\n         A  Am           E  C#7\nFAZEI DE NÓS, Ó DEUS DE AMOR,\n     F#m      B7   E   E4  E\nIMITADORES DO REDENTOR...",
+        "key": "E",
+        "categories": [
+            "ofertorio"
+        ],
+        "liturgicalSeasons": [
+            "pascoa"
+        ],
+        "copyright": "© Dom Carlos Alberto Navarro",
+        "fullLyricsUrl": "https://musicasparamissa.com.br/musica/em-procissao-vao-o-pao-e-o-vinho/",
+        "isPublicDomain": false
+    },
+    {
+        "id": "87",
+        "name": "As Promessas Do Bom Pastor",
+        "description": "Canto de comunhão que expressa unidade e acolhimento ao Corpo e Sangue de Cristo.",
+        "lyrics": "       Bm                    G     \n1. VOU SAIR PELOS PRADOS, BUSCANDO\n A7                      D\nOVELHAS QUE ESTÃO SEM PASTOR;\nF#7                Bm   \nEU AS TRAREI COM CARINHO\n   C#7                  F#7\nDE VOLTA, SEM FOME OU TEMOR!\n         Bm                G    \nNOS MEUS OMBROS, OVELHAS FERIDA\n    A7                D\nSEM DOR PODERÃO DESCANSAR.\nF#7                 Bm   \nDEVOLVEREI OS SEUS CAMPOS,\n  G       F#7     Bm  B7\nDAREI NOVAMENTE A PAZ.\n    Em   A7           D\nSOU REI, SOU O BOM PASTOR!\n  G                   Bm           \nVINDE AO BANQUETE QUE VOS PREPAREI,\n  C#7         F#7\nE FOME JAMAIS TEREIS!\n  Em   A7         D\nA QUEM VAMOS, Ó SENHOR ?\n   G                   Bm  \nSÓ TU TENS PALAVRAS DE VIDA\n            G  F#7 Bm  Em  F#7\nE TE DÁS EM RE-FEI-ÇÃO.  ",
+        "key": "Bm",
+        "categories": [
+            "comunhao"
+        ],
+        "liturgicalSeasons": [
+            "pascoa"
+        ],
+        "copyright": "© Dom Carlos Alberto Navarro",
+        "fullLyricsUrl": "https://musicasparamissa.com.br/musica/as-promessas-do-bom-pastor/",
+        "isPublicDomain": false
+    },
+    {
+        "id": "88",
+        "name": "Esposo Ressuscitado",
+        "description": "Canto de comunhão que expressa unidade e acolhimento ao Corpo e Sangue de Cristo.",
+        "lyrics": "E            G#m          A\nCAMINHÁVAMOS TRISTES, SEM DIREÇÃO\nE             G#m        A\nSOB O PESO DA MORTE E DA DOR\n       F#m                B4 B\nMAS TU ENTRAS EM NOSSAS ESTRADAS\n    A       C#m\nE CONOSCO CAMINHAS\n      A9    E/A        F#m/A \nO QUE ERA ESCURO E SEM VIDA,\n   E/A   C#m     B4 B\nA VIDA RECEBE DE TI\nE             G#m        A\nTUA PALAVRA EXPULSA A FRIEZA EM NOSSOS CORAÇÕES\nE             G#m           A\nTUA PRESENÇA ABRASA O NOSSO SER\n     F#m               B4\nTU ESCOLHES CONOSCO PERMANECER,\n       A        C#m\nNOSSOS OLHOS SE ABREM\n  A9          E/A        F#m/A     E/A    C#m      B4 B\nE NÃO HÁ MAIS NOITE SE O SOL DA JUSTIÇA ESTÁ ENTRE NÓS...",
+        "key": "E",
+        "categories": [
+            "comunhao"
+        ],
+        "liturgicalSeasons": [
+            "pascoa"
+        ],
+        "copyright": "© Cristiano Pinheiro / Fernando Martins",
+        "fullLyricsUrl": "https://musicasparamissa.com.br/musica/esposo-ressuscitado/",
+        "isPublicDomain": false
+    },
+    {
+        "id": "89",
+        "name": "Ao Partir Do Pão",
+        "description": "Canto de comunhão que expressa unidade e acolhimento ao Corpo e Sangue de Cristo.",
+        "lyrics": "E            B/D#   C#m        G#m  A\nQUEM PODIA IMAGINAR QUE AQUELA CRUZ\n           E/G#  F#m       C#m       B4  B\nERA SÓ O COMEÇO  DE UMA HISTÓRIA DE AMOR?\nE              B/D#      C#m              G#m   A\nCOMENTAVAM COM GRANDE DOR TUDO O QUE SE PASSOU\n             E/G#  F#m     C#m      B\nE JAMAIS ESPERAVAM  REENCONTRAR O SENHOR\n E/G# A                 B/A\nACONTECEU, SEM MESMO ESPERAR\n         G#m                C#m     E/B    A\nELE APARECEU EM MEIO AOS DISCÍPULOS, A CAMINHAR\n          B/A                 G#m\nFALAVA DE AMOR E O SOM DE SUA VOZ\n    C#m              C#        B/D#  C#/F\nABRASAVA OS SEUS CORAÇÕES, E DIZIAM\nF#m7      B4      B   G#m          C#4   C#   F#m\nSENHOR, FICA CONOSCO!  É TARDE E O DIA DECLINA\n              B4       B         Bm     E\nQUASE SEM ESPERANÇA PARTIMOS SEM DIREÇÃO\nF#m      B4       B  G#m         C#4    C#   F#m\nMAS AO REDOR DA MESA, SE ABRIRAM NOSSOS OLHOS\n           A/B                E    A/B\nTE RECONHECEMOS AO PARTIR DO PÃO...",
+        "key": "E",
+        "categories": [
+            "comunhao"
+        ],
+        "liturgicalSeasons": [
+            "pascoa"
+        ],
+        "copyright": "© Walmir Alencar",
+        "fullLyricsUrl": "https://musicasparamissa.com.br/musica/ao-partir-do-pao/",
         "isPublicDomain": false
     }
 ]
