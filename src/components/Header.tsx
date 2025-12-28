@@ -26,14 +26,7 @@ export default function Header() {
 
     return (
         <>
-            <header
-                className={`
-                    fixed top-0 left-0 w-full z-50 
-                    transition-all duration-300 
-                    bg-white ${isScrolled ? "shadow-lg" : "shadow-sm"} 
-                    border-b border-gray-200
-                `}
-            >
+            <header className="relative w-full z-20 bg-white border-b border-gray-200">
                 <div className="max-w-6xl mx-auto flex items-center justify-between px-6 py-3">
 
                     {/* 🌿 Logo + Nome */}
