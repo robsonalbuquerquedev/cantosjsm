@@ -1,9 +1,8 @@
 import Script from "next/script";
 import type { Metadata } from "next";
 import "./globals.css";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 import BreadcrumbInjector from "@/components/BreadcrumbInjector";
+import MainLayout from "@/components/layout/MainLayout";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://cantosjsm.com.br"),
@@ -186,31 +185,11 @@ export default function RootLayout({
         </Script>
       </head>
 
-      <body className="relative min-h-screen flex flex-col">
-        {/* Background fixo */}
-        <div
-          className="fixed inset-0 -z-20 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: 'url("/background.jpg")' }}
-        />
-
-        <div className="fixed inset-0 -z-10 bg-black/40" />
-
+      <body>
         <BreadcrumbInjector />
-
-        <header className="relative z-20">
-          <Header />
-        </header>
-
-        <main className="flex-1 w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-10 py-16 md:py-20">
-          <div className="w-full text-white drop-shadow-[0_1px_3px_rgba(0,0,0,0.7)]">
-            {children}
-          </div>
-        </main>
-
-        <footer className="relative z-20 mt-10">
-          <Footer />
-        </footer>
-
+        <MainLayout>
+          {children}
+        </MainLayout>
         {/* Google AdSense Script */}
         <Script
           async
