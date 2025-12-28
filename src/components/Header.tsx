@@ -1,28 +1,13 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import {
-    Menu,
-    Info,
-    Mail,
-    HeartHandshake,
-    BookOpen,
-    Home,
-    CircleDot,
-} from "lucide-react";
+import {Menu, Info, Mail, HeartHandshake, BookOpen, Home, CircleDot } from "lucide-react";
 import Sidebar from "@/components/Sidebar";
 
 export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
-    const [isScrolled, setIsScrolled] = useState(false);
-
-    useEffect(() => {
-        const handleScroll = () => setIsScrolled(window.scrollY > 20);
-        window.addEventListener("scroll", handleScroll);
-        return () => window.removeEventListener("scroll", handleScroll);
-    }, []);
 
     return (
         <>
