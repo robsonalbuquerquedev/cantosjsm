@@ -8,75 +8,46 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://cantosjsm.com.br"),
 
   title: {
-    default: "CantosJSM",
+    default: "CantosJSM | Cantos Litúrgicos e Músicas para a Missa",
     template: "%s | CantosJSM"
   },
 
   description:
-    "Plataforma completa de cantos litúrgicos criada por Robson Albuquerque e pela Juventude de Santa Maria (JSM). Reúne músicas para todas as partes da Missa — Entrada, Ato Penitencial, Salmo, Glória, Aclamação, Ofertório, Santo, Amém, Cordeiro, Comunhão e Final — além de categorias especiais como Hinos, Cantos Marianos, Espírito Santo, Adoração e Padroeiro da Cidade. Também oferece rotas institucionais como Sobre, Contato, Agradecimentos, Guia Litúrgico, Termos de Uso e Política de Privacidade, criando um ambiente seguro, organizado e formativo para ministérios de música.",
+    "CantosJSM é uma plataforma católica dedicada a cantos litúrgicos e devocionais para a Santa Missa. Encontre músicas organizadas por momento da celebração — Entrada, Salmo, Comunhão, Final e mais — além de categorias espirituais como Adoração, Espírito Santo e Maria. Criado para ajudar ministérios de música com clareza, organização e fidelidade litúrgica.",
 
   keywords: [
-    // Conceito geral
-    "Cantos Litúrgicos",
-    "Músicas para Missa",
-    "Cantos Católicos",
-    "Liturgia",
-    "Missa Católica",
-    "Ministério de Música",
-    "Louvor",
-    "Repertório Litúrgico",
-    "Cânticos Católicos",
-
-    // Rotas institucionais
-    "Guia Litúrgico",
-    "Contato CantosJSM",
-    "Sobre Juventude de Santa Maria",
-    "Política de Privacidade CantosJSM",
-    "Termos de Uso CantosJSM",
-
-    // Partes da Missa
-    "Canto de Entrada",
-    "Ato Penitencial",
-    "Salmo Responsorial",
-    "Glória",
-    "Aclamação ao Evangelho",
-    "Ofertório",
-    "Santo",
-    "Amém",
-    "Cordeiro de Deus",
-    "Canto de Comunhão",
-    "Canto Final",
-
-    // Categorias especiais
-    "Hinos Católicos",
-    "Cantos Marianos",
-    "Músicas ao Espírito Santo",
-    "Cantos de Adoração",
-    "Padroeiro da Cidade",
-
-    // Variedades úteis
-    "Música Católica para Missa",
-    "Repertório para Liturgia",
-    "Cantos para Celebrações",
-    "Cantos para Igreja"
+    "cantos litúrgicos",
+    "músicas para missa",
+    "cantos católicos",
+    "repertório litúrgico",
+    "ministério de música católico",
+    "música católica para igreja",
+    "canto de entrada",
+    "salmo responsorial",
+    "canto de comunhão",
+    "cantos de adoração",
+    "cantos marianos"
   ],
 
-  // CATEGORIA
-  category: "Religious Education",
+  category: "Religious Music and Liturgy",
 
-  // AUTORIA COMPLETA
   authors: [
-    { name: "Robson Albuquerque", url: "https://robsonverse.vercel.app" },
-    { name: "Juventude de Santa Maria (JSM)" }
+    {
+      name: "Robson Albuquerque",
+      url: "https://robsonverse.vercel.app"
+    },
+    {
+      name: "Juventude de Santa Maria (JSM)"
+    }
   ],
 
   creator: "Robson Albuquerque",
-  publisher: "CantosJSM • Projeto de Robson Albuquerque",
+  publisher: "CantosJSM",
 
   openGraph: {
-    title: "CantosJSM",
+    title: "CantosJSM | Cantos Litúrgicos para a Missa",
     description:
-      "Plataforma completa de cantos litúrgicos criada por Robson Albuquerque e pela Juventude de Santa Maria (JSM). Reúne músicas para todas as partes da Missa — Entrada, Ato Penitencial, Salmo, Glória, Aclamação, Ofertório, Santo, Amém, Cordeiro, Comunhão e Final — além de categorias especiais como Hinos, Cantos Marianos, Espírito Santo, Adoração e Padroeiro da Cidade. Também oferece rotas institucionais como Sobre, Contato, Agradecimentos, Guia Litúrgico, Termos de Uso e Política de Privacidade, criando um ambiente seguro, organizado e formativo para ministérios de música.",
+      "Descubra cantos litúrgicos e devocionais organizados por momento da Missa. Uma plataforma criada para apoiar ministérios de música com clareza, espiritualidade e fidelidade litúrgica.",
     url: "https://cantosjsm.com.br",
     siteName: "CantosJSM",
     type: "website",
@@ -86,16 +57,16 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "CantosJSM - Cantos Litúrgicos"
+        alt: "CantosJSM - Cantos Litúrgicos Católicos"
       }
     ]
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "CantosJSM",
+    title: "CantosJSM | Cantos Litúrgicos para a Missa",
     description:
-      "Plataforma completa de cantos litúrgicos criada por Robson Albuquerque e pela Juventude de Santa Maria (JSM). Reúne músicas para todas as partes da Missa — Entrada, Ato Penitencial, Salmo, Glória, Aclamação, Ofertório, Santo, Amém, Cordeiro, Comunhão e Final — além de categorias especiais como Hinos, Cantos Marianos, Espírito Santo, Adoração e Padroeiro da Cidade. Também oferece rotas institucionais como Sobre, Contato, Agradecimentos, Guia Litúrgico, Termos de Uso e Política de Privacidade, criando um ambiente seguro, organizado e formativo para ministérios de música.",
+      "Plataforma católica com cantos litúrgicos organizados por momento da Missa e categorias espirituais.",
     images: ["/og-image.png"]
   },
 
@@ -107,20 +78,16 @@ export const metadata: Metadata = {
       follow: true,
       "max-snippet": -1,
       "max-image-preview": "large",
-      "max-video-preview": -1,
-    },
+      "max-video-preview": -1
+    }
   },
 
   alternates: {
-    types: {
-      "application/ld+json": "Religious Education",
-    },
     canonical: "https://cantosjsm.com.br",
     languages: {
-      "pt-BR": "https://cantosjsm.com.br",
-      "en-US": "https://cantosjsm.com.br/en",
-    },
-  },
+      "pt-BR": "https://cantosjsm.com.br"
+    }
+  }
 };
 
 export default function RootLayout({
