@@ -3,53 +3,55 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "CantosJSM — Cifras e Cantos Litúrgicos Organizados"
+    absolute: "CantosJSM | Cantos Litúrgicos, Cifras e Guias para a Missa"
   },
+
   description:
-    "Acesse cantos litúrgicos organizados por categorias como Entrada, Salmo, Comunhão, Final e muito mais. Projeto criado por Robson Albuquerque em parceria com a Juventude de Santa Maria (JSM) para auxiliar ministérios de música e celebrações.",
+    "CantosJSM é um espaço católico criado para ajudar ministérios de música a encontrarem cantos litúrgicos e devocionais com facilidade. Explore músicas organizadas por momento da Missa, conteúdos formativos como o Guia Litúrgico, o Guia do Rosário e recursos musicais para servir melhor na Igreja.",
+
   keywords: [
-    "Cantos Litúrgicos",
-    "Cifras Católicas",
-    "Músicas para Missa",
-    "Canto de Entrada",
-    "Salmo Responsorial",
-    "Aclamação",
-    "Comunhão",
-    "Cantos Católicos",
-    "Hinos Católicos",
-    "Músicas Religiosas",
-    "CantosJSM",
-    "Robson Albuquerque",
-    "Juventude de Santa Maria"
+    "cantos litúrgicos",
+    "músicas para missa",
+    "cifras católicas",
+    "ministério de música",
+    "canto de comunhão",
+    "salmo responsorial",
+    "cantos devocionais",
+    "guia litúrgico",
+    "rosário católico"
   ],
+
   alternates: {
     canonical: "https://cantosjsm.com.br/"
   },
+
   openGraph: {
-    title: "CantosJSM — Cantos Litúrgicos para Missa e Adoração",
+    title: "CantosJSM | Cantos Litúrgicos e Conteúdos para a Missa",
     description:
-      "Encontre cantos litúrgicos por categoria: Entrada, Glória, Salmo, Ofertório, Comunhão, Final e muito mais. Uma plataforma criada para ministérios de música.",
+      "Plataforma católica com cantos litúrgicos organizados por momento da Missa, além de guias espirituais e formativos para ministérios de música e fiéis.",
     url: "https://cantosjsm.com.br/",
     siteName: "CantosJSM",
+    type: "website",
+    locale: "pt_BR",
     images: [
       {
         url: "https://cantosjsm.com.br/og-home.png",
         width: 1200,
         height: 630,
-        alt: "CantosJSM — Plataforma de Cantos Litúrgicos"
+        alt: "CantosJSM - Cantos Litúrgicos e Guias Católicos"
       }
-    ],
-    locale: "pt_BR",
-    type: "website"
+    ]
   },
+
   twitter: {
     card: "summary_large_image",
-    title: "CantosJSM — Cantos Litúrgicos para Missa",
+    title: "CantosJSM | Cantos Litúrgicos para a Missa",
     description:
-      "Plataforma organizada com cantos e cifras para missas, celebrações e momentos de oração.",
+      "Encontre cantos litúrgicos, cifras e conteúdos católicos para ministérios de música e celebrações.",
     images: ["https://cantosjsm.com.br/og-home.png"]
   }
 };
+
 import { Library, Crown, Flame, HandHeart, Church, Calendar } from "lucide-react";
 import MainHeroSplit from "@/components/hero/MainHeroSplit";
 import LiturgicalDevotionalSplit from "@/components/LiturgicalDevotionalSplit";
