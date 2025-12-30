@@ -1,6 +1,7 @@
 import CardLayout from "@/components/layout/CardLayout";
 import CardContentLiturgical from "@/components/CardContentLiturgical";
 import type { Metadata } from "next";
+
 export const metadata: Metadata = {
   title: {
     absolute: "Cantos do Advento | Cantos Litúrgicos para a Missa"
