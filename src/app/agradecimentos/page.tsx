@@ -52,7 +52,7 @@ export const metadata: Metadata = {
 
 export default function AgradecimentosPage() {
     return (
-        <main className="min-h-screen flex items-center justify-center px-6 py-20">
+        <section className="min-h-screen flex items-center justify-center px-6 py-20">
 
             <article className="max-w-3xl w-full bg-white text-black rounded-2xl p-10 shadow-xl border-l-4 border-amber-400 space-y-6 relative fade-in-up-30">
                 {/* Faixa decorativa */}
@@ -109,6 +109,6 @@ export default function AgradecimentosPage() {
                     </p>
                 </section>
             </article>
-        </main>
+        </section>
     );
 }
