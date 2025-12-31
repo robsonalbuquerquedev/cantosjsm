@@ -37,7 +37,7 @@ export default function Footer() {
                 <div className="flex flex-col space-y-2">
                     <h4 className="font-semibold text-lg mb-2 text-amber-700">Cantos</h4>
 
-                    <Link href="/entrada" className="hover:text-amber-700 transition">
+                    <Link href="/tempo-comum" className="hover:text-amber-700 transition">
                         Partes da Missa
                     </Link>
 

@@ -3,11 +3,12 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import {Menu, Info, Mail, HeartHandshake, BookOpen, Home, CircleDot } from "lucide-react";
+import { Menu, Info, Mail, HeartHandshake, BookOpen, Home, CircleDot, GraduationCap } from "lucide-react";
 import Sidebar from "@/components/Sidebar";
 
 export default function Header() {
-    const [isOpen, setIsOpen] = useState(false);
+    const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+    const [isGuidesOpen, setIsGuidesOpen] = useState(false);
 
     return (
         <>
@@ -64,31 +65,54 @@ export default function Header() {
                             Agradecimentos
                         </Link>
 
-                        {/* ⭐ Guia Litúrgico */}
-                        <Link
-                            href="/guia-liturgico"
-                            className="flex items-center gap-2 text-sm font-medium text-gray-800 hover:text-amber-700 transition"
-                        >
-                            <BookOpen size={18} className="text-amber-700" />
-                            Guia Litúrgico
-                        </Link>
+                        <div className="relative">
+                            <button
+                                onClick={() => setIsGuidesOpen((prev) => !prev)}
+                                className="flex items-center gap-2 text-sm font-medium text-gray-800 hover:text-amber-700 transition cursor-pointer"
+                            >
+                                <BookOpen size={18} className="text-amber-700" />
+                                Guias
+                            </button>
+
+                            {isGuidesOpen && (
+                                <div className="absolute left-0 mt-2 w-56 rounded-xl bg-white shadow-lg border">
+                                    <Link
+                                        href="/guia-liturgico"
+                                        className="flex items-center gap-2 px-4 py-3 text-sm hover:bg-amber-50"
+                                        onClick={() => setIsGuidesOpen(false)}
+                                    >
+                                        <BookOpen size={16} className="text-amber-700" />
+                                        Guia Litúrgico
+                                    </Link>
+
+                                    <Link
+                                        href="/guia-do-rosario"
+                                        className="flex items-center gap-2 px-4 py-3 text-sm hover:bg-amber-50"
+                                        onClick={() => setIsGuidesOpen(false)}
+                                    >
+                                        <CircleDot size={16} className="text-amber-700" />
+                                        Guia do Rosário
+                                    </Link>
+                                </div>
+                            )}
+                        </div>
 
                         <Link
-                            href="/guia-do-rosario"
+                            href="/formacao-liturgica"
                             className="flex items-center gap-2 text-sm font-medium text-gray-800 hover:text-amber-700 transition"
                         >
-                            <CircleDot size={18} className="text-amber-700" />
-                            Guia do Rosário
+                            <GraduationCap size={18} className="text-amber-700" />
+                            Formação Litúrgica
                         </Link>
 
                         {/* CTA */}
                         <button
-                            onClick={() => setIsOpen(true)}
+                            onClick={() => setIsSidebarOpen(true)}
                             className="
-                                cursor-pointer bg-amber-600 hover:bg-amber-500 
-                                text-white text-sm font-semibold 
-                                px-4 py-2 rounded-lg shadow-md transition
-                            "
+        cursor-pointer bg-amber-600 hover:bg-amber-500 
+        text-white text-sm font-semibold 
+        px-4 py-2 rounded-lg shadow-md transition
+    "
                         >
                             Partes da Missa
                         </button>
@@ -96,17 +120,19 @@ export default function Header() {
 
                     {/* 📱 Botão Mobile */}
                     <button
-                        onClick={() => setIsOpen(true)}
+                        onClick={() => setIsSidebarOpen(true)}
                         className="text-gray-800 md:hidden cursor-pointer"
                     >
                         <Menu size={28} />
                     </button>
-
                 </div>
             </header>
 
             {/* 📱 Sidebar */}
-            <Sidebar isOpen={isOpen} onClose={() => setIsOpen(false)} />
+            <Sidebar
+                isOpen={isSidebarOpen}
+                onClose={() => setIsSidebarOpen(false)}
+            />
         </>
     );
 }

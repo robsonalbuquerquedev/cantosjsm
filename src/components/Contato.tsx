@@ -30,7 +30,7 @@ export default function Contato() {
     }
 
     return (
-        <main className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 py-20 gap-10">
+        <section className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 py-20 gap-10">
 
             {/* 🎨 Lado esquerdo – Mensagem + Ícones litúrgicos */}
             <motion.div
@@ -152,6 +152,6 @@ export default function Contato() {
                     </button>
                 </form>
             </motion.div>
-        </main>
+        </section>
     );
 }

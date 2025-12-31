@@ -4,7 +4,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
-import { X, ChevronDown, ChevronUp, DoorOpen, HandHelping, Sun, BookOpenCheck, Megaphone, HandHeart, Sparkles, CheckCircle2, BadgeCheck, Wine, Flag, Library, Crown, Flame, Church, Info, Mail, ShieldCheck, BookOpen, CircleDot, Calendar, } from "lucide-react";
+import { X, ChevronDown, ChevronUp, DoorOpen, HandHelping, Sun, BookOpenCheck, Megaphone, HandHeart, Sparkles, CheckCircle2, BadgeCheck, Wine, Flag, Library, Crown, Flame, Church, Info, Mail, ShieldCheck, BookOpen, CircleDot, Calendar, GraduationCap } from "lucide-react";
 
 interface SidebarProps {
     isOpen: boolean;
@@ -73,6 +73,11 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
         { label: "Guia Litúrgico", href: "/guia-liturgico", icon: BookOpen },
         { label: "Guia do Rosário", href: "/guia-do-rosario", icon: CircleDot },
     ];
+
+    const formacao = [
+        { label: "Formação Litúrgica", href: "/formacao-liturgica", icon: GraduationCap },
+    ];
+
 
     const renderSection = (
         title: string,
