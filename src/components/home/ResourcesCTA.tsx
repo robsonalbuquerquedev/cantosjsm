@@ -60,6 +60,65 @@ export default function ResourcesCTA() {
                 </p>
             </Link>
 
+            {/* Cantos da Missa – Ministério JSM */}
+            {/* <Link
+                href="/cantos-da-jsm"
+                className="
+        block
+        bg-white
+        border-l-4 border-rose-500
+        shadow-lg
+        rounded-2xl
+        p-6
+        hover:shadow-xl
+        hover:-translate-y-1
+        transition
+        flex
+        flex-col
+        items-center
+        gap-2
+    "
+            >
+                <h2 className="text-xl font-bold text-rose-700">
+                    🎶 Cantos da Missa – Ministério JSM
+                </h2>
+                <p className="text-gray-700">
+                    Acesse os cantos que utilizamos na Missa: organizados por momento litúrgico,
+                    prontos para inspirar outros ministérios, com PDF para download.
+                </p>
+            </Link> */}
+
+            {/* Cantos da Missa – Ministério JSM (Em breve) */}
+            <div
+                className="
+        block
+        bg-white
+        border-l-4 border-rose-300
+        shadow-md
+        rounded-2xl
+        p-6
+        opacity-80
+        cursor-not-allowed
+        flex
+        flex-col
+        items-center
+        gap-3
+    "
+            >
+                <span className="text-xs uppercase tracking-wide text-rose-500 font-semibold">
+                    Em breve
+                </span>
+
+                <h2 className="text-xl font-bold text-rose-600">
+                    🎶 Cantos da Missa – Ministério JSM
+                </h2>
+
+                <p className="text-gray-600 text-center">
+                    Os cantos que utilizamos na Missa, organizados por momento litúrgico,
+                    para inspirar outros ministérios. Conteúdo em preparação.
+                </p>
+            </div>
+            
             {/* Curso de Violão */}
             <a
                 href="https://aprenderviolaoonline.com.br/"
