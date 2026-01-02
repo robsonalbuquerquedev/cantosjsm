@@ -1,73 +1,84 @@
 "use client";
 
 import Link from "next/link";
-import { Music, Heart } from "lucide-react";
+import {
+    Music,
+    Heart,
+    Compass,
+    BookOpen,
+    ShieldCheck,
+    Mic2,
+} from "lucide-react";
 
 export default function Footer() {
     return (
         <footer className="mt-20 w-full bg-white text-black border-t border-gray-200">
-            <div className="max-w-6xl mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-3 gap-10">
+            <div className="max-w-6xl mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-5 gap-10">
 
                 {/* 🌿 Identidade */}
                 <div>
-                    <h3 className="font-bold text-xl text-amber-700 mb-2">CantosJSM</h3>
-                    <p className="text-sm text-gray-700">
-                        Juventude de Santa Maria — Servindo em Canção.
-                    </p>
-                    <p className="text-sm text-gray-700 mt-1">
-                        Um projeto feito com carinho para ministérios de música de todo o Brasil.
-                    </p>
+                    <h3 className="font-bold text-xl text-amber-700 mb-2">
+                        CantosJSM
+                    </h3>
+                    <span className="text-sm text-gray-700">
+                        Juventude de Santa Maria
+                    </span>
                 </div>
 
-                {/* 🧭 Navegação institucional */}
+                {/* 🧭 Navegação */}
                 <div className="flex flex-col space-y-2">
-                    <h4 className="font-semibold text-lg mb-2 text-amber-700">Navegação</h4>
+                    <h4 className="flex items-center gap-2 font-semibold text-lg text-amber-700 mb-2">
+                        <Compass size={18} /> Navegação
+                    </h4>
 
-                    <Link href="/" className="hover:text-amber-700 transition">Página Inicial</Link>
-                    <Link href="/sobre" className="hover:text-amber-700 transition">Sobre</Link>
-                    <Link href="/contato" className="hover:text-amber-700 transition">Contato</Link>
-                    <Link href="/agradecimentos" className="hover:text-amber-700 transition">Agradecimentos</Link>
-                    <Link href="/politica-de-privacidade" className="hover:text-amber-700 transition">Política de Privacidade</Link>
-                    <Link href="/termos-de-uso" className="hover:text-amber-700 transition">Termos de Uso</Link>
-                    <Link href="/guia-liturgico" className="hover:text-amber-700 transition"> Guia Litúrgico</Link>
-                    <Link href="/guia-do-rosario" className="hover:text-amber-700 transition"> Guia do Rosário</Link>
+                    <Link href="/">Página Inicial</Link>
+                    <Link href="/sobre">Sobre</Link>
+                    <Link href="/contato">Contato</Link>
+                    <Link href="/agradecimentos">Agradecimentos</Link>
+                    <Link href="/agenda-jsm">Agenda JSM</Link>
                 </div>
 
-                {/* 🎵 Navegação simplificada de cantos */}
+                {/* 📘 Guias */}
                 <div className="flex flex-col space-y-2">
-                    <h4 className="font-semibold text-lg mb-2 text-amber-700">Cantos</h4>
+                    <h4 className="flex items-center gap-2 font-semibold text-lg text-amber-700 mb-2">
+                        <BookOpen size={18} /> Guias
+                    </h4>
 
-                    <Link href="/tempo-comum" className="hover:text-amber-700 transition">
-                        Partes da Missa
-                    </Link>
+                    <Link href="/guia-liturgico">Guia Litúrgico</Link>
+                    <Link href="/guia-do-rosario">Guia do Rosário</Link>
+                </div>
 
-                    <Link href="/hinos" className="hover:text-amber-700 transition">
-                        Hinos Litúrgicos
-                    </Link>
+                {/* 🔎 Transparência */}
+                <div className="flex flex-col space-y-2">
+                    <h4 className="flex items-center gap-2 font-semibold text-lg text-amber-700 mb-2">
+                        <ShieldCheck size={18} /> Transparência
+                    </h4>
 
-                    <Link href="/marianas" className="hover:text-amber-700 transition">
-                        Cantos Marianos
-                    </Link>
+                    <Link href="/politica-de-privacidade">Política de Privacidade</Link>
+                    <Link href="/termos-de-uso">Termos de Uso</Link>
+                </div>
 
-                    <Link href="/espirito-santo" className="hover:text-amber-700 transition">
-                        Espírito Santo
-                    </Link>
+                {/* 🎵 Cantos */}
+                <div className="flex flex-col space-y-2">
+                    <h4 className="flex items-center gap-2 font-semibold text-lg text-amber-700 mb-2">
+                        <Mic2 size={18} /> Cantos
+                    </h4>
 
-                    <Link href="/adoracao" className="hover:text-amber-700 transition">
-                        Adoração
-                    </Link>
-
-                    <Link href="/padroeiro-da-cidade" className="hover:text-amber-700 transition">
-                        Padroeiro da Cidade
-                    </Link>
+                    <Link href="/tempo-comum">Partes da Missa</Link>
+                    <Link href="/hinos">Hinos Litúrgicos</Link>
+                    <Link href="/marianas">Cantos Marianos</Link>
+                    <Link href="/espirito-santo">Espírito Santo</Link>
+                    <Link href="/adoracao">Adoração</Link>
+                    <Link href="/padroeiro-da-cidade">Padroeiro da Cidade</Link>
                 </div>
             </div>
 
             {/* ⚡ Rodapé final */}
-            <div className="border-t border-gray-200 py-4 text-center text-sm flex flex-col md:flex-row items-center justify-center gap-2">
+            <div className="border-t border-gray-200 py-4 text-sm flex flex-col md:flex-row items-center justify-center gap-3">
                 <span className="flex items-center gap-1">
                     Feito com <Heart size={14} className="text-red-500" /> pela JSM
                 </span>
+
                 <span>• © {new Date().getFullYear()} CantosJSM</span>
 
                 <Link
