@@ -19,6 +19,12 @@ export const formacaoData: FormacaoItem[] = [
         status: "coming-soon",
     },
     {
+        title: "Dia de Reis (Epifania do Senhor)",
+        description:
+            "Entenda o significado litúrgico da Epifania, os símbolos dos Reis Magos, a estrela, os dons e os cantos próprios desta celebração.",
+        status: "coming-soon",
+    },
+    {
         title: "Histórias dos Santos",
         description:
             "A vida, o testemunho e a espiritualidade dos santos que marcaram a história da Igreja.",
