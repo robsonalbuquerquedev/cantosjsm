@@ -1,30 +1,31 @@
 "use client";
 
+import { useState } from "react";
 import { motion } from "framer-motion";
-import {
-    Music,
-    Calendar,
-    BookOpen,
-    Sparkles,
-    Hand,
-} from "lucide-react";
-
+import { Music, Calendar, BookOpen, Sparkles, Hand, Star } from "lucide-react";
 import { formacaoData } from "@/data/formacaoData";
 
-const cardVariants = {
-    hidden: { opacity: 0, y: 24 },
-    visible: { opacity: 1, y: 0 },
-};
+const ITEMS_PER_PAGE = 6;
 
 const iconMap: Record<string, React.ElementType> = {
     "Canto Litúrgico × Canto Religioso": Music,
     Solenidades: Calendar,
+    "Dia de Reis (Epifania do Senhor)": Star,
     "Histórias dos Santos": BookOpen,
     "Símbolos da Liturgia": Sparkles,
     "Gestos da Missa": Hand,
 };
 
 export default function FormacaoLiturgica() {
+    const [currentPage, setCurrentPage] = useState(0);
+
+    const totalPages = Math.ceil(formacaoData.length / ITEMS_PER_PAGE);
+
+    const paginatedData = formacaoData.slice(
+        currentPage * ITEMS_PER_PAGE,
+        currentPage * ITEMS_PER_PAGE + ITEMS_PER_PAGE
+    );
+
     return (
         <>
             {/* Cabeçalho */}
@@ -32,7 +33,7 @@ export default function FormacaoLiturgica() {
                 className="col-span-full mb-8"
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, ease: "easeOut" }}
+                transition={{ duration: 0.6 }}
             >
                 <h1 className="text-3xl font-bold text-amber-300">
                     Formação Litúrgica
@@ -43,38 +44,22 @@ export default function FormacaoLiturgica() {
                 </p>
             </motion.header>
 
-            {formacaoData.map((item, index) => {
+            {/* Cards */}
+            {paginatedData.map((item, index) => {
                 const Icon = iconMap[item.title];
 
                 return (
                     <motion.article
                         key={item.title}
-                        className="
-                            relative
-                            bg-white/95
-                            rounded-2xl
-                            shadow-md
-                            p-6
-                            opacity-90
-                            cursor-not-allowed
-                            hover:shadow-lg
-                            transition-shadow
-                        "
-                        variants={cardVariants}
-                        initial="hidden"
-                        animate="visible"
-                        transition={{
-                            duration: 0.5,
-                            ease: "easeOut",
-                            delay: index * 0.1,
-                        }}
+                        className="bg-white/95 rounded-2xl shadow-md p-6 opacity-90 cursor-not-allowed"
+                        initial={{ opacity: 0, y: 24 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: index * 0.1 }}
                     >
-                        {/* Badge */}
                         <span className="absolute top-4 right-4 text-xs font-semibold text-amber-700 bg-amber-100 px-3 py-1 rounded-full">
                             Em breve
                         </span>
 
-                        {/* Ícone */}
                         {Icon && (
                             <div className="mb-4 text-amber-500">
                                 <Icon size={28} strokeWidth={1.5} />
@@ -91,6 +76,29 @@ export default function FormacaoLiturgica() {
                     </motion.article>
                 );
             })}
+
+            {/* Navegação */}
+            <div className="col-span-full flex justify-between mt-8">
+                <button
+                    onClick={() => setCurrentPage((p) => Math.max(p - 1, 0))}
+                    disabled={currentPage === 0}
+                    className="px-4 py-2 rounded-lg bg-amber-200 text-amber-900 disabled:opacity-40 cursor-pointer"
+                >
+                    Anterior
+                </button>
+
+                <button
+                    onClick={() =>
+                        setCurrentPage((p) =>
+                            Math.min(p + 1, totalPages - 1)
+                        )
+                    }
+                    disabled={currentPage === totalPages - 1}
+                    className="px-4 py-2 rounded-lg bg-amber-200 text-amber-900 disabled:opacity-40 cursor-pointer"
+                >
+                    Próximo
+                </button>
+            </div>
         </>
     );
 }
