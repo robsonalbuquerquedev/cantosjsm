@@ -4,6 +4,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { Music, Calendar, BookOpen, Sparkles, Hand, Star } from "lucide-react";
 import { formacaoData } from "@/data/formacaoData";
+import Link from "next/link";
 
 const ITEMS_PER_PAGE = 6;
 
@@ -29,12 +30,7 @@ export default function FormacaoLiturgica() {
     return (
         <>
             {/* Cabeçalho */}
-            <motion.header
-                className="col-span-full mb-8"
-                initial={{ opacity: 0, y: -20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6 }}
-            >
+            <motion.header className="col-span-full mb-8" initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
                 <h1 className="text-3xl font-bold text-amber-300">
                     Formação Litúrgica
                 </h1>
@@ -47,18 +43,30 @@ export default function FormacaoLiturgica() {
             {/* Cards */}
             {paginatedData.map((item, index) => {
                 const Icon = iconMap[item.title];
+                const isActive = item.status === "active";
 
-                return (
+                const CardContent = (
                     <motion.article
-                        key={item.title}
-                        className="bg-white/95 rounded-2xl shadow-md p-6 opacity-90 cursor-not-allowed"
+                        className={`
+                relative
+                bg-white/95
+                rounded-2xl
+                shadow-md
+                p-6
+                transition-all
+                ${isActive
+                                ? "cursor-pointer hover:shadow-xl hover:-translate-y-1"
+                                : "opacity-90 cursor-not-allowed"}
+            `}
                         initial={{ opacity: 0, y: 24 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: index * 0.1 }}
                     >
-                        <span className="absolute top-4 right-4 text-xs font-semibold text-amber-700 bg-amber-100 px-3 py-1 rounded-full">
-                            Em breve
-                        </span>
+                        {!isActive && (
+                            <span className="absolute top-4 right-4 text-xs font-semibold text-amber-700 bg-amber-100 px-3 py-1 rounded-full">
+                                Em breve
+                            </span>
+                        )}
 
                         {Icon && (
                             <div className="mb-4 text-amber-500">
@@ -75,15 +83,21 @@ export default function FormacaoLiturgica() {
                         </p>
                     </motion.article>
                 );
-            })}
 
+                return isActive && item.href ? (
+                    <Link key={item.title} href={item.href}>
+                        {CardContent}
+                    </Link>
+                ) : (
+                    <div key={item.title}>
+                        {CardContent}
+                    </div>
+                );
+            })}
+            
             {/* Navegação */}
             <div className="col-span-full flex justify-between mt-8">
-                <button
-                    onClick={() => setCurrentPage((p) => Math.max(p - 1, 0))}
-                    disabled={currentPage === 0}
-                    className="px-4 py-2 rounded-lg bg-amber-200 text-amber-900 disabled:opacity-40 cursor-pointer"
-                >
+                <button onClick={() => setCurrentPage((p) => Math.max(p - 1, 0))} disabled={currentPage === 0} className="px-4 py-2 rounded-lg bg-amber-200 text-amber-900 disabled:opacity-40 cursor-pointer">
                     Anterior
                 </button>
 
