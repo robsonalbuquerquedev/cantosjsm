@@ -22,7 +22,8 @@ export const formacaoData: FormacaoItem[] = [
         title: "Dia de Reis (Epifania do Senhor)",
         description:
             "Entenda o significado litúrgico da Epifania, os símbolos dos Reis Magos, a estrela, os dons e os cantos próprios desta celebração.",
-        status: "coming-soon",
+        status: "active",
+        href: "/formacao-liturgica/dia-de-reis",
     },
     {
         title: "Histórias dos Santos",
