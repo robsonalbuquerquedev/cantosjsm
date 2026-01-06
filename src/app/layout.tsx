@@ -104,6 +104,25 @@ export default function RootLayout({
           content="ca-pub-9360124149047745"
         />
 
+        {/* 📊 Google Analytics 4 — CantosJSM */}
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-CXDPWPXL2E"
+          strategy="afterInteractive"
+        />
+
+        <Script id="ga4-init-cantosjsm" strategy="afterInteractive">
+          {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-CXDPWPXL2E', {
+      anonymize_ip: true,
+      allow_ad_personalization_signals: false
+    });
+  `}
+        </Script>
+        
         {/* JSON-LD — Organização + Website */}
         <Script id="jsonld-org" type="application/ld+json">
           {JSON.stringify({
