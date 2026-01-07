@@ -1,9 +1,16 @@
+"use client";
+
+import { motion } from "framer-motion";
 import { Star, Gift, Music } from "lucide-react";
 
 export default function DiaDeReis() {
     return (
         <section className="min-h-screen flex items-center justify-center px-6 py-20">
-            <article className="max-w-3xl w-full bg-white text-black rounded-2xl p-10 shadow-xl border-l-4 border-amber-400 space-y-6 relative fade-in-up-30d">
+            <motion.article initial={{ opacity: 0, y: 40 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6 }}
+                className="max-w-3xl w-full bg-white text-black rounded-2xl p-10 shadow-xl border-l-4 border-amber-400 space-y-6 relative fade-in-up-30d">
+                
                 {/* Faixa decorativa */}
                 <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-300 rounded-t-2xl" />
 
@@ -20,7 +27,11 @@ export default function DiaDeReis() {
                 </header>
 
                 {/* Introdução */}
-                <section className="mb-8">
+                <motion.section initial={{ opacity: 0, x: -30 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.5 }}
+                    className="space-y-3">
                     <p>
                         O Dia de Reis, celebrado em <strong>6 de janeiro</strong>,
                         encerra o Tempo do Natal e celebra um momento muito especial:
@@ -32,11 +43,11 @@ export default function DiaDeReis() {
                         &ldquo;manifestação&ldquo;. Deus se mostra não apenas a um povo, mas a
                         todos.
                     </p>
-                </section>
+                </motion.section>
 
                 {/* Epifania */}
                 <section className="mb-8">
-                    <h2 className="text-xl font-semibold text-amber-800 mb-2">
+                    <h2 className="text-2xl font-semibold text-amber-800 mb-2">
                         O que é a Epifania?
                     </h2>
                     <p>
@@ -48,7 +59,7 @@ export default function DiaDeReis() {
 
                 {/* Reis Magos */}
                 <section className="mb-8">
-                    <h2 className="text-xl font-semibold text-amber-800 mb-2">
+                    <h2 className="text-2xl font-semibold text-amber-800 mb-2">
                         Os Reis Magos
                     </h2>
                     <p>
@@ -61,7 +72,7 @@ export default function DiaDeReis() {
 
                 {/* Estrela */}
                 <section className="mb-8">
-                    <h2 className="text-xl font-semibold text-amber-800 mb-2 flex items-center gap-2">
+                    <h2 className="text-2xl font-semibold text-amber-800 mb-2 flex items-center gap-2">
                         <Star size={20} /> A Estrela
                     </h2>
                     <p>
@@ -72,7 +83,7 @@ export default function DiaDeReis() {
 
                 {/* Dons */}
                 <section className="mb-8">
-                    <h2 className="text-xl font-semibold text-amber-800 mb-2 flex items-center gap-2">
+                    <h2 className="text-2xl font-semibold text-amber-800 mb-2 flex items-center gap-2">
                         <Gift size={20} /> Os Dons Oferecidos
                     </h2>
                     <ul className="list-disc list-inside space-y-2">
@@ -91,7 +102,7 @@ export default function DiaDeReis() {
 
                 {/* Cantos */}
                 <section>
-                    <h2 className="text-xl font-semibold text-amber-800 mb-2 flex items-center gap-2">
+                    <h2 className="text-2xl font-semibold text-amber-800 mb-2 flex items-center gap-2">
                         <Music size={20} /> Cantos Próprios da Celebração
                     </h2>
                     <p>
@@ -104,7 +115,7 @@ export default function DiaDeReis() {
                         <li>Adoração e reconhecimento de Cristo</li>
                     </ul>
                 </section>
-            </article>
+            </motion.article>
         </section>
     );
 }
