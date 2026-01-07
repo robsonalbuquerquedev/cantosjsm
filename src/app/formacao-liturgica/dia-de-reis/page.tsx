@@ -1,4 +1,4 @@
-import DiaDeReis from "@/components/DiaDeReis";
+import DiaDeReis from "@/components/formacaoliturgica/DiaDeReis";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
