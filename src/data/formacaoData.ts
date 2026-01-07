@@ -10,7 +10,8 @@ export const formacaoData: FormacaoItem[] = [
         title: "Canto Litúrgico × Canto Religioso",
         description:
             "Entenda as diferenças entre o canto que serve à ação litúrgica da Igreja e o canto de devoção religiosa.",
-        status: "coming-soon",
+        status: "active",
+        href: "/formacao-liturgica/canto-liturgico-vs-canto-religioso",
     },
     {
         title: "Solenidades",
