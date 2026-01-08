@@ -42,6 +42,7 @@ export const formacaoData: FormacaoItem[] = [
         title: "Gestos da Missa",
         description:
             "Entenda os gestos, posturas e atitudes corporais que expressam a fé durante a Missa.",
-        status: "coming-soon",
+        status: "active",
+        href: "/formacao-liturgica/gestos-da-missa",
     },
 ];
