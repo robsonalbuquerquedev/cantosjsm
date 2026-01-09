@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { Hand, Palette, Church, } from "lucide-react";
 
@@ -77,9 +78,11 @@ export default function SimbolosDaLiturgia() {
                     <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
 
                         <figure className="text-center">
-                            <img
+                            <Image
                                 src="/images/altar.png"
                                 alt="Altar litúrgico, centro da celebração e símbolo de Cristo"
+                                width={300}
+                                height={300}
                                 className="rounded-xl shadow-sm mb-3 mx-auto"
                             />
                             <figcaption className="text-sm text-gray-600">
@@ -88,9 +91,11 @@ export default function SimbolosDaLiturgia() {
                         </figure>
 
                         <figure className="text-center">
-                            <img
+                            <Image
                                 src="/images/calice.png"
                                 alt="Cálice litúrgico utilizado na Eucaristia"
+                                width={300}
+                                height={300}
                                 className="rounded-xl shadow-sm mb-3 mx-auto"
                             />
                             <figcaption className="text-sm text-gray-600">
@@ -99,9 +104,11 @@ export default function SimbolosDaLiturgia() {
                         </figure>
 
                         <figure className="text-center">
-                            <img
+                            <Image
                                 src="/images/velas.png"
                                 alt="Velas acesas na celebração litúrgica"
+                                width={300}
+                                height={300}
                                 className="rounded-xl shadow-sm mb-3 mx-auto"
                             />
                             <figcaption className="text-sm text-gray-600">
