@@ -36,7 +36,8 @@ export const formacaoData: FormacaoItem[] = [
         title: "Símbolos da Liturgia",
         description:
             "Descubra o significado dos objetos, cores e sinais usados nas celebrações litúrgicas.",
-        status: "coming-soon",
+        status: "active",
+        href: "/formacao-liturgica/simbolos-da-liturgia",
     },
     {
         title: "Gestos da Missa",
